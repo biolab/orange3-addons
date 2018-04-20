@@ -1,0 +1,11 @@
+Orange3-Associate
+Orange3-Bioinformatics
+Orange3-Educational
+Orange3-Geo
+Orange3-ImageAnalytics
+Orange3-Network
+Orange3-Prototypes
+Orange-Spectroscopy
+Orange3-Text
+Orange3-Textable
+Orange3-Timeseries
