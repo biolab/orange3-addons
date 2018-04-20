@@ -1,4 +1,4 @@
-import requests
+from urllib.request import urlopen
 import json
 import os
 
@@ -15,7 +15,8 @@ OFFICIAL_ADDONS = [a for a in OFFICIAL_ADDONS if a]
 
 package_list = []
 for package in OFFICIAL_ADDONS:
-    p = requests.get(URL.format(package=package)).json()
+    r = urlopen(URL.format(package=package)).read().decode("utf-8")
+    p = json.loads(r)
     package_list.append(p)
     
 with open('list.tmp', 'wt') as f:
