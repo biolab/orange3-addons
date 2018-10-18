@@ -9,3 +9,4 @@ Orange-Spectroscopy
 Orange3-Text
 Orange3-Textable
 Orange3-Timeseries
+Orange3-SingleCell
