@@ -1,6 +1,7 @@
 Orange3-Associate
 Orange3-Bioinformatics
 Orange3-Educational
+Orange3-Explain
 Orange3-Geo
 Orange3-ImageAnalytics
 Orange3-Network
