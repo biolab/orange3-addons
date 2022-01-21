@@ -1,0 +1,42 @@
+name: Push to GitHub Pages on push to main
+on:
+  schedule:
+    # every day at midnight: https://crontab.guru/every-midnight
+    - cron:  '0 0 * * *'
+
+  # Trigger the workflow on push or pull request for master branch
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  
+  # Manually trigger workflow
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Build hugo page
+        run: |
+          rm -rf public 2> /dev/null
+          mkdir public
+          python3 generate.py
+          mv list public/
+          touch public/.nojekyll
+
+      # Deploy to local repo
+      - name: Deploy
+        if: github.ref == 'refs/heads/master'
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: public
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
