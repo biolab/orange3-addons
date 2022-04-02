@@ -13737,16 +13737,16 @@
             "maintainer_email": "",
             "name": "Orange3-Survival-Analysis",
             "package_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
-            "platform": "",
+            "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
             "project_urls": {
                 "Bug Tracker": "https://github.com/biolab/orange3-survival-analysis/issues",
                 "Homepage": "https://github.com/biolab/orange3-survival-analysis",
                 "Source Code": "https://github.com/biolab/orange3-survival-analysis/"
             },
-            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.3.0/",
+            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.4.0/",
             "requires_dist": [
-                "Orange3",
+                "Orange3 (>=3.32.0)",
                 "lifelines",
                 "statsmodels",
                 "sphinx ; extra == 'doc'",
@@ -13757,13 +13757,13 @@
                 "flake8-bugbear ; extra == 'test'",
                 "black ; extra == 'test'"
             ],
-            "requires_python": ">=3.6",
+            "requires_python": ">=3.7",
             "summary": "Survival Analysis add-on for Orange data mining software package.",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 11856260,
+        "last_serial": 13385295,
         "releases": {
             "0.1.0": [
                 {
@@ -13974,46 +13974,88 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.4.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "14daa41c739a4ca40e9a142e2fd657fb",
+                        "sha256": "59d1ec79361d575701fd2f197068e15235d051852071e9f535435f630cc89229"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "14daa41c739a4ca40e9a142e2fd657fb",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.7",
+                    "size": 47212,
+                    "upload_time": "2022-04-02T17:37:10",
+                    "upload_time_iso_8601": "2022-04-02T17:37:10.262283Z",
+                    "url": "https://files.pythonhosted.org/packages/8a/b8/761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2/Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "b3b00b5abee66eef318be66142672376",
+                        "sha256": "1c0ddb4054c61e09bd48fbf20320099ee2bc02e78c43b9d47b320c1b32a4da41"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.4.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b3b00b5abee66eef318be66142672376",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.7",
+                    "size": 43016,
+                    "upload_time": "2022-04-02T17:37:11",
+                    "upload_time_iso_8601": "2022-04-02T17:37:11.334491Z",
+                    "url": "https://files.pythonhosted.org/packages/1a/56/bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea/Orange3-Survival-Analysis-0.4.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "50882bfed5c014971f0b0ef3d7203092",
-                    "sha256": "22f556b96d4b40c6e6d19001f88d11dd78833c4a82db28bd6e3e5b1721a65484"
+                    "md5": "14daa41c739a4ca40e9a142e2fd657fb",
+                    "sha256": "59d1ec79361d575701fd2f197068e15235d051852071e9f535435f630cc89229"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
+                "filename": "Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "50882bfed5c014971f0b0ef3d7203092",
+                "md5_digest": "14daa41c739a4ca40e9a142e2fd657fb",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
-                "requires_python": ">=3.6",
-                "size": 35503,
-                "upload_time": "2021-10-28T10:34:18",
-                "upload_time_iso_8601": "2021-10-28T10:34:18.127906Z",
-                "url": "https://files.pythonhosted.org/packages/6c/e2/d33632d629832d61c38e2d01e75b872097a1391940ff56da60bfe93e0258/Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
+                "requires_python": ">=3.7",
+                "size": 47212,
+                "upload_time": "2022-04-02T17:37:10",
+                "upload_time_iso_8601": "2022-04-02T17:37:10.262283Z",
+                "url": "https://files.pythonhosted.org/packages/8a/b8/761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2/Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "4ea4860b09ba7536c7b0a7654095ce59",
-                    "sha256": "e0459e90c8e9687ebb497d36df194f8476ea4d36dc1bbbd1201bf43fba41cf7b"
+                    "md5": "b3b00b5abee66eef318be66142672376",
+                    "sha256": "1c0ddb4054c61e09bd48fbf20320099ee2bc02e78c43b9d47b320c1b32a4da41"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Survival-Analysis-0.3.0.tar.gz",
+                "filename": "Orange3-Survival-Analysis-0.4.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "4ea4860b09ba7536c7b0a7654095ce59",
+                "md5_digest": "b3b00b5abee66eef318be66142672376",
                 "packagetype": "sdist",
                 "python_version": "source",
-                "requires_python": ">=3.6",
-                "size": 36607,
-                "upload_time": "2021-10-28T10:34:18",
-                "upload_time_iso_8601": "2021-10-28T10:34:18.941880Z",
-                "url": "https://files.pythonhosted.org/packages/bd/91/f65f9f286d0a9a6745a97c1ba854c8e36e89e80623d5aec0cc239d898b07/Orange3-Survival-Analysis-0.3.0.tar.gz",
+                "requires_python": ">=3.7",
+                "size": 43016,
+                "upload_time": "2022-04-02T17:37:11",
+                "upload_time_iso_8601": "2022-04-02T17:37:11.334491Z",
+                "url": "https://files.pythonhosted.org/packages/1a/56/bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea/Orange3-Survival-Analysis-0.4.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
