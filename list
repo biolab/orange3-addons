@@ -3469,12 +3469,12 @@
             "maintainer_email": "",
             "name": "Orange3-Explain",
             "package_url": "https://pypi.org/project/Orange3-Explain/",
-            "platform": "",
+            "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Explain/",
             "project_urls": {
                 "Homepage": "http://orange.biolab.si/download"
             },
-            "release_url": "https://pypi.org/project/Orange3-Explain/0.5.2/",
+            "release_url": "https://pypi.org/project/Orange3-Explain/0.5.3/",
             "requires_dist": [
                 "Orange3 (>=3.28.0)",
                 "orange-widget-base",
@@ -3491,11 +3491,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 add-on for explanatory AI",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 12678242,
+        "last_serial": 13564526,
         "releases": {
             "0.1.0": [
                 {
@@ -3874,46 +3874,88 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.5.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "719c78a9ac33ca542e8d54b74bfee4af",
+                        "sha256": "7cb482f7b5db23dc254becc18fd0e296c2c9c61816bb860a17a566c4cba968ed"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Explain-0.5.3-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "719c78a9ac33ca542e8d54b74bfee4af",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3780356,
+                    "upload_time": "2022-04-20T06:06:46",
+                    "upload_time_iso_8601": "2022-04-20T06:06:46.156964Z",
+                    "url": "https://files.pythonhosted.org/packages/2d/25/0efde4ebdc922c39c1db84c6ec11672e1280fe2613bccb9baf903206d780/Orange3_Explain-0.5.3-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "ea42edba2443e81864fa30fa18ee1cf6",
+                        "sha256": "639338fb9eb45bbb0545bbe23c639d4fc45737b5da5ca71eb2fc1abbc57826b2"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Explain-0.5.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "ea42edba2443e81864fa30fa18ee1cf6",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5299256,
+                    "upload_time": "2022-04-20T06:06:48",
+                    "upload_time_iso_8601": "2022-04-20T06:06:48.711527Z",
+                    "url": "https://files.pythonhosted.org/packages/9b/19/435e492ef9ddd2cb74c1f9b4c3eb74238b7d0f198332550fe0f864083751/Orange3-Explain-0.5.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "27ac576c84fd98d0e90a65ea25b54dfd",
-                    "sha256": "80d3be71c64c4a14c751559a23fd9a08c8b53940699b1415d90f2335e33e65be"
+                    "md5": "719c78a9ac33ca542e8d54b74bfee4af",
+                    "sha256": "7cb482f7b5db23dc254becc18fd0e296c2c9c61816bb860a17a566c4cba968ed"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Explain-0.5.2-py3-none-any.whl",
+                "filename": "Orange3_Explain-0.5.3-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "27ac576c84fd98d0e90a65ea25b54dfd",
+                "md5_digest": "719c78a9ac33ca542e8d54b74bfee4af",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 83952,
-                "upload_time": "2022-01-24T17:33:02",
-                "upload_time_iso_8601": "2022-01-24T17:33:02.809855Z",
-                "url": "https://files.pythonhosted.org/packages/7e/b2/aed4626a5437accaffb573160892656cddad9c13e3b549ea9016c9850833/Orange3_Explain-0.5.2-py3-none-any.whl",
+                "size": 3780356,
+                "upload_time": "2022-04-20T06:06:46",
+                "upload_time_iso_8601": "2022-04-20T06:06:46.156964Z",
+                "url": "https://files.pythonhosted.org/packages/2d/25/0efde4ebdc922c39c1db84c6ec11672e1280fe2613bccb9baf903206d780/Orange3_Explain-0.5.3-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "d57ce77ad451598740217b56f742a314",
-                    "sha256": "c80d96bb52ff0a7f81eae218838144300b6c3e318b4bd839246d6bcdfe36ba76"
+                    "md5": "ea42edba2443e81864fa30fa18ee1cf6",
+                    "sha256": "639338fb9eb45bbb0545bbe23c639d4fc45737b5da5ca71eb2fc1abbc57826b2"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Explain-0.5.2.tar.gz",
+                "filename": "Orange3-Explain-0.5.3.tar.gz",
                 "has_sig": false,
-                "md5_digest": "d57ce77ad451598740217b56f742a314",
+                "md5_digest": "ea42edba2443e81864fa30fa18ee1cf6",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 1624854,
-                "upload_time": "2022-01-24T17:33:05",
-                "upload_time_iso_8601": "2022-01-24T17:33:05.588671Z",
-                "url": "https://files.pythonhosted.org/packages/4a/8a/25073c58647394391fd2275273835e79b87083008684124611e2aa63e731/Orange3-Explain-0.5.2.tar.gz",
+                "size": 5299256,
+                "upload_time": "2022-04-20T06:06:48",
+                "upload_time_iso_8601": "2022-04-20T06:06:48.711527Z",
+                "url": "https://files.pythonhosted.org/packages/9b/19/435e492ef9ddd2cb74c1f9b4c3eb74238b7d0f198332550fe0f864083751/Orange3-Explain-0.5.3.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
