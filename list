@@ -8066,7 +8066,7 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-prototypes"
             },
-            "release_url": "https://pypi.org/project/Orange3-Prototypes/0.17.0/",
+            "release_url": "https://pypi.org/project/Orange3-Prototypes/0.18.0/",
             "requires_dist": [
                 "Orange3 (>=3.28)",
                 "numpy",
@@ -8082,11 +8082,11 @@
             ],
             "requires_python": "",
             "summary": "Prototype Orange widgets \u2014 only for the brave.",
-            "version": "0.17.0",
+            "version": "0.18.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 13731584,
+        "last_serial": 14185742,
         "releases": {
             "0.1.0": [
                 {
@@ -8598,6 +8598,48 @@
                     "yanked_reason": null
                 }
             ],
+            "0.18.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "747619f839684d12e8871583cd3d638f",
+                        "sha256": "c9df2209e84cd6c25072a9177c4ac01f847f2d9232476ccfa489688a6b538857"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Prototypes-0.18.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "747619f839684d12e8871583cd3d638f",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2960857,
+                    "upload_time": "2022-06-20T10:08:54",
+                    "upload_time_iso_8601": "2022-06-20T10:08:54.405398Z",
+                    "url": "https://files.pythonhosted.org/packages/5e/7f/ef595e88497fe28ccd707e297e55b3a77ced5ebbc56b52acf770d813a1c0/Orange3_Prototypes-0.18.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c6cec4008eef7e4c52c2b9d52fdbcffb",
+                        "sha256": "0c25b2027ddd005f8f48514cc6d9e6096adfa7fd38a1210ca1d4876fead4fb69"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Prototypes-0.18.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "c6cec4008eef7e4c52c2b9d52fdbcffb",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 2947611,
+                    "upload_time": "2022-06-20T10:08:57",
+                    "upload_time_iso_8601": "2022-06-20T10:08:57.093291Z",
+                    "url": "https://files.pythonhosted.org/packages/78/08/95672f6c6541338440d982ae965516dea14c0b13783b35f326c8016d5af3/Orange3-Prototypes-0.18.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
             "0.2.0": [
                 {
                     "comment_text": "",
@@ -9043,40 +9085,40 @@
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "c810185e92eac58e7178a82d21521f21",
-                    "sha256": "9d518eb744b20308543fd48745eb21083f0e30c74c9366d28f6ac2835c30dc42"
+                    "md5": "747619f839684d12e8871583cd3d638f",
+                    "sha256": "c9df2209e84cd6c25072a9177c4ac01f847f2d9232476ccfa489688a6b538857"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Prototypes-0.17.0-py3-none-any.whl",
+                "filename": "Orange3_Prototypes-0.18.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "c810185e92eac58e7178a82d21521f21",
+                "md5_digest": "747619f839684d12e8871583cd3d638f",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 2953378,
-                "upload_time": "2022-05-06T08:47:55",
-                "upload_time_iso_8601": "2022-05-06T08:47:55.598739Z",
-                "url": "https://files.pythonhosted.org/packages/6a/5d/de2e260b768d876d33bb2084a61de2f2d48387b072f5fec00978f728ae60/Orange3_Prototypes-0.17.0-py3-none-any.whl",
+                "size": 2960857,
+                "upload_time": "2022-06-20T10:08:54",
+                "upload_time_iso_8601": "2022-06-20T10:08:54.405398Z",
+                "url": "https://files.pythonhosted.org/packages/5e/7f/ef595e88497fe28ccd707e297e55b3a77ced5ebbc56b52acf770d813a1c0/Orange3_Prototypes-0.18.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "20d404f9f22084e5ba8d4d3908a42b66",
-                    "sha256": "5597a1b49306afe15fdfb28bee63c2657d97332066224abac75be9f0575ae5b3"
+                    "md5": "c6cec4008eef7e4c52c2b9d52fdbcffb",
+                    "sha256": "0c25b2027ddd005f8f48514cc6d9e6096adfa7fd38a1210ca1d4876fead4fb69"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Prototypes-0.17.0.tar.gz",
+                "filename": "Orange3-Prototypes-0.18.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "20d404f9f22084e5ba8d4d3908a42b66",
+                "md5_digest": "c6cec4008eef7e4c52c2b9d52fdbcffb",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 2940460,
-                "upload_time": "2022-05-06T08:47:58",
-                "upload_time_iso_8601": "2022-05-06T08:47:58.064889Z",
-                "url": "https://files.pythonhosted.org/packages/70/08/81301d6e79625f00087ac586ea0d6fbdd7e4730ae122558aa9d92e87fabd/Orange3-Prototypes-0.17.0.tar.gz",
+                "size": 2947611,
+                "upload_time": "2022-06-20T10:08:57",
+                "upload_time_iso_8601": "2022-06-20T10:08:57.093291Z",
+                "url": "https://files.pythonhosted.org/packages/78/08/95672f6c6541338440d982ae965516dea14c0b13783b35f326c8016d5af3/Orange3-Prototypes-0.18.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
