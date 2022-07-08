@@ -11131,10 +11131,10 @@
             "author_email": "info@biolab.si",
             "bugtrack_url": null,
             "classifiers": [],
-            "description": "Orange3 Text\n============\n\nOrange add-on for text mining. It provides access to publicly available data,\nlike NY Times, Twitter and PubMed. Further, it provides tools for preprocessing,\nconstructing vector spaces (like bag-of-words, topic modeling and word2vec) and\nvisualizations like word cloud end geo map. All features can be combined with\npowerful data mining techniques from the Orange data mining framework.\n\nSee [documentation](http://orange3-text.readthedocs.org/).\n\nFeatures\n--------\n#### Access to data\n* Load a corpus of text documents\n* Access publicly available data (The Guardian, NY Times, Twitter, Wikipedia, PubMed)\n\n#### Text analysis\n* Preprocess corpus\n* Generate bag of words\n* Embed documents into vector space\n* Perform sentiment analysis\n* Detect emotions in tweets\n* Discover topics in the text\n* Compute document statistics\n* Visualize frequent words in the word cloud\n* Find words that enrich selected documents\n",
+            "description": "Orange3 Text\n============\n\nOrange add-on for text mining. It provides access to publicly available data,\nlike NY Times, Twitter and PubMed. Further, it provides tools for preprocessing,\nconstructing vector spaces (like bag-of-words, topic modeling and word2vec) and\nvisualizations like word cloud end geo map. All features can be combined with\npowerful data mining techniques from the Orange data mining framework.\n\nSee [documentation](http://orange3-text.readthedocs.org/).\n\nFeatures\n--------\n#### Access to data\n* Load a corpus of text documents\n* Access publicly available data (The Guardian, NY Times, Twitter, Wikipedia, PubMed)\n\n#### Text analysis\n* Preprocess corpus\n* Generate bag of words\n* Embed documents into vector space\n* Perform sentiment analysis\n* Detect emotions in tweets\n* Discover topics in the text\n* Compute document statistics\n* Visualize frequent words in the word cloud\n* Find words that enrich selected documents\n\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
-            "download_url": "https://github.com/biolab/orange3-text/tarball/1.9.0",
+            "download_url": "https://github.com/biolab/orange3-text/tarball/1.10.0",
             "downloads": {
                 "last_day": -1,
                 "last_month": -1,
@@ -11150,10 +11150,10 @@
             "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Text/",
             "project_urls": {
-                "Download": "https://github.com/biolab/orange3-text/tarball/1.9.0",
+                "Download": "https://github.com/biolab/orange3-text/tarball/1.10.0",
                 "Homepage": "https://github.com/biolab/orange3-text"
             },
-            "release_url": "https://pypi.org/project/Orange3-Text/1.9.0/",
+            "release_url": "https://pypi.org/project/Orange3-Text/1.10.0/",
             "requires_dist": [
                 "Orange3 (>=3.32.0)",
                 "anyqt",
@@ -11194,11 +11194,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 TextMining add-on.",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 14200872,
+        "last_serial": 14373837,
         "releases": {
             "0.1.1": [],
             "0.1.10": [
@@ -12127,6 +12127,48 @@
                     "yanked_reason": null
                 }
             ],
+            "1.10.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "f720858eaa1f7cc77deb29498b09c49a",
+                        "sha256": "29df5a41ef8a6613cbc6d65d3de45a8f6daafa372e989f773c95c5dfa8d07f46"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Text-1.10.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "f720858eaa1f7cc77deb29498b09c49a",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 28977884,
+                    "upload_time": "2022-07-08T09:32:23",
+                    "upload_time_iso_8601": "2022-07-08T09:32:23.698742Z",
+                    "url": "https://files.pythonhosted.org/packages/1d/86/8ca9eb559f1d2975f9fd2dfb46f4552519d008b9c961a59b0eed14bb9be8/Orange3_Text-1.10.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "650d761fb4fad23158a37eaf123c8c96",
+                        "sha256": "9394d00a29aafb44ad64c31fa30d00a354944356fd65c7bf7726d8ec17e4c881"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Text-1.10.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "650d761fb4fad23158a37eaf123c8c96",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 37084142,
+                    "upload_time": "2022-07-08T09:32:59",
+                    "upload_time_iso_8601": "2022-07-08T09:32:59.520735Z",
+                    "url": "https://files.pythonhosted.org/packages/38/2e/91f71851b2379c9d0dc1571bb1047734108bed170a42c5a9c9d582c4c208/Orange3-Text-1.10.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
             "1.2.0": [
                 {
                     "comment_text": "",
@@ -12746,40 +12788,40 @@
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "9397f13459aec258e8391e0dfea4d661",
-                    "sha256": "60be73f2d7312d7f87e3205ed0c8d09dfc1bccd46461eb0a94419fe7e5cdea6c"
+                    "md5": "f720858eaa1f7cc77deb29498b09c49a",
+                    "sha256": "29df5a41ef8a6613cbc6d65d3de45a8f6daafa372e989f773c95c5dfa8d07f46"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Text-1.9.0-py3-none-any.whl",
+                "filename": "Orange3_Text-1.10.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "9397f13459aec258e8391e0dfea4d661",
+                "md5_digest": "f720858eaa1f7cc77deb29498b09c49a",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 28975436,
-                "upload_time": "2022-06-21T16:08:56",
-                "upload_time_iso_8601": "2022-06-21T16:08:56.141363Z",
-                "url": "https://files.pythonhosted.org/packages/d0/77/bfb780c89a3e0b0e74922236d2c8b4024e86253b13087edf2744e7a7f14f/Orange3_Text-1.9.0-py3-none-any.whl",
+                "size": 28977884,
+                "upload_time": "2022-07-08T09:32:23",
+                "upload_time_iso_8601": "2022-07-08T09:32:23.698742Z",
+                "url": "https://files.pythonhosted.org/packages/1d/86/8ca9eb559f1d2975f9fd2dfb46f4552519d008b9c961a59b0eed14bb9be8/Orange3_Text-1.10.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "4a7d545d691497f16c941a063b6135db",
-                    "sha256": "3a129b50bfb20d81300f5d077488eeb7d1e21a307a35a2a4dd541bc4a54a0a8b"
+                    "md5": "650d761fb4fad23158a37eaf123c8c96",
+                    "sha256": "9394d00a29aafb44ad64c31fa30d00a354944356fd65c7bf7726d8ec17e4c881"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Text-1.9.0.tar.gz",
+                "filename": "Orange3-Text-1.10.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "4a7d545d691497f16c941a063b6135db",
+                "md5_digest": "650d761fb4fad23158a37eaf123c8c96",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 37079279,
-                "upload_time": "2022-06-21T16:10:01",
-                "upload_time_iso_8601": "2022-06-21T16:10:01.572527Z",
-                "url": "https://files.pythonhosted.org/packages/1e/bf/16790e6c7cf999a614f8a6933b644ff845c80754bc3d97ab342b00d2f326/Orange3-Text-1.9.0.tar.gz",
+                "size": 37084142,
+                "upload_time": "2022-07-08T09:32:59",
+                "upload_time_iso_8601": "2022-07-08T09:32:59.520735Z",
+                "url": "https://files.pythonhosted.org/packages/38/2e/91f71851b2379c9d0dc1571bb1047734108bed170a42c5a9c9d582c4c208/Orange3-Text-1.10.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
