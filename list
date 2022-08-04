@@ -14173,9 +14173,9 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-timeseries"
             },
-            "release_url": "https://pypi.org/project/Orange3-Timeseries/0.4.1/",
+            "release_url": "https://pypi.org/project/Orange3-Timeseries/0.5.0/",
             "requires_dist": [
-                "Orange3 (>=3.31.0)",
+                "Orange3 (>=3.32.0)",
                 "statsmodels (>=0.13.0)",
                 "pandas",
                 "pandas-datareader",
@@ -14190,11 +14190,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 add-on for exploring time series and sequential data.",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 14159912,
+        "last_serial": 14650312,
         "releases": {
             "0.1.0": [
                 {
@@ -14863,46 +14863,88 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.5.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "72e8f5753d12b5a4abc6b3b3113c2f0a",
+                        "sha256": "404fd286865f4aa05e8038f68996294f8183874fda4e935881976b380cc88f1a"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Timeseries-0.5.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "72e8f5753d12b5a4abc6b3b3113c2f0a",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 518366,
+                    "upload_time": "2022-08-04T08:46:48",
+                    "upload_time_iso_8601": "2022-08-04T08:46:48.951354Z",
+                    "url": "https://files.pythonhosted.org/packages/ea/0e/de8dae9f1d1745363140d074f9f6aee6db0a236a611a425e08941b73df52/Orange3_Timeseries-0.5.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "e1bfbbeff02e3f24078396722fb26a02",
+                        "sha256": "950a08e8cc92107031fc93234b0aeab1401e18cee92c7cf9b0ceedcf5172fef7"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Timeseries-0.5.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e1bfbbeff02e3f24078396722fb26a02",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 2493616,
+                    "upload_time": "2022-08-04T08:46:56",
+                    "upload_time_iso_8601": "2022-08-04T08:46:56.674753Z",
+                    "url": "https://files.pythonhosted.org/packages/76/a0/86a117b76bba8a2c969e3172793d14265cdab4b3c1d32cb73170d29bd6e3/Orange3-Timeseries-0.5.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "91d2f6bf97794f65818549c7bc14f02c",
-                    "sha256": "1fcb613647c94ed4e1c644ee6b9933749b598b96ed3d13290b9dea740a1456e4"
+                    "md5": "72e8f5753d12b5a4abc6b3b3113c2f0a",
+                    "sha256": "404fd286865f4aa05e8038f68996294f8183874fda4e935881976b380cc88f1a"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Timeseries-0.4.1-py3-none-any.whl",
+                "filename": "Orange3_Timeseries-0.5.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "91d2f6bf97794f65818549c7bc14f02c",
+                "md5_digest": "72e8f5753d12b5a4abc6b3b3113c2f0a",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 506249,
-                "upload_time": "2022-06-17T07:49:16",
-                "upload_time_iso_8601": "2022-06-17T07:49:16.965792Z",
-                "url": "https://files.pythonhosted.org/packages/4f/f8/757314907e3d384fdfda203ace5e2784de8f107287a00ec7a6781a06ca5c/Orange3_Timeseries-0.4.1-py3-none-any.whl",
+                "size": 518366,
+                "upload_time": "2022-08-04T08:46:48",
+                "upload_time_iso_8601": "2022-08-04T08:46:48.951354Z",
+                "url": "https://files.pythonhosted.org/packages/ea/0e/de8dae9f1d1745363140d074f9f6aee6db0a236a611a425e08941b73df52/Orange3_Timeseries-0.5.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "628fbda0404a036df25f888bc989eacd",
-                    "sha256": "5b51ca7c471bbd5e83bed6c16fb9281ceb9891fe2b2ac63d56a10cf032904978"
+                    "md5": "e1bfbbeff02e3f24078396722fb26a02",
+                    "sha256": "950a08e8cc92107031fc93234b0aeab1401e18cee92c7cf9b0ceedcf5172fef7"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Timeseries-0.4.1.tar.gz",
+                "filename": "Orange3-Timeseries-0.5.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "628fbda0404a036df25f888bc989eacd",
+                "md5_digest": "e1bfbbeff02e3f24078396722fb26a02",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 2334856,
-                "upload_time": "2022-06-17T07:49:19",
-                "upload_time_iso_8601": "2022-06-17T07:49:19.549333Z",
-                "url": "https://files.pythonhosted.org/packages/c8/2b/5736ebd28ade513950d6db699c1835b30e0982119ed0f092b7965626e135/Orange3-Timeseries-0.4.1.tar.gz",
+                "size": 2493616,
+                "upload_time": "2022-08-04T08:46:56",
+                "upload_time_iso_8601": "2022-08-04T08:46:56.674753Z",
+                "url": "https://files.pythonhosted.org/packages/76/a0/86a117b76bba8a2c969e3172793d14265cdab4b3c1d32cb73170d29bd6e3/Orange3-Timeseries-0.5.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
