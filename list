@@ -11177,7 +11177,7 @@
             "description": "Orange3 Text\n============\n\nOrange add-on for text mining. It provides access to publicly available data,\nlike NY Times, Twitter and PubMed. Further, it provides tools for preprocessing,\nconstructing vector spaces (like bag-of-words, topic modeling and word2vec) and\nvisualizations like word cloud end geo map. All features can be combined with\npowerful data mining techniques from the Orange data mining framework.\n\nSee [documentation](http://orange3-text.readthedocs.org/).\n\nFeatures\n--------\n#### Access to data\n* Load a corpus of text documents\n* Access publicly available data (The Guardian, NY Times, Twitter, Wikipedia, PubMed)\n\n#### Text analysis\n* Preprocess corpus\n* Generate bag of words\n* Embed documents into vector space\n* Perform sentiment analysis\n* Detect emotions in tweets\n* Discover topics in the text\n* Compute document statistics\n* Visualize frequent words in the word cloud\n* Find words that enrich selected documents\n\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
-            "download_url": "https://github.com/biolab/orange3-text/tarball/1.11.0",
+            "download_url": "https://github.com/biolab/orange3-text/tarball/1.12.0",
             "downloads": {
                 "last_day": -1,
                 "last_month": -1,
@@ -11193,12 +11193,12 @@
             "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Text/",
             "project_urls": {
-                "Download": "https://github.com/biolab/orange3-text/tarball/1.11.0",
+                "Download": "https://github.com/biolab/orange3-text/tarball/1.12.0",
                 "Homepage": "https://github.com/biolab/orange3-text"
             },
-            "release_url": "https://pypi.org/project/Orange3-Text/1.11.0/",
+            "release_url": "https://pypi.org/project/Orange3-Text/1.12.0/",
             "requires_dist": [
-                "Orange3 (>=3.32.0)",
+                "Orange3 (>=3.33.0)",
                 "anyqt",
                 "beautifulsoup4",
                 "biopython",
@@ -11237,11 +11237,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 TextMining add-on.",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 14862089,
+        "last_serial": 15321853,
         "releases": {
             "0.1.1": [],
             "0.1.10": [
@@ -12254,6 +12254,48 @@
                     "yanked_reason": null
                 }
             ],
+            "1.12.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "ea0250cd478ab5f182807fe92bae14bc",
+                        "sha256": "d4d3c79dd227e88bb4f2100e18e0aaeab7852e3b8e41d48040036b47f506d673"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Text-1.12.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "ea0250cd478ab5f182807fe92bae14bc",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 29350659,
+                    "upload_time": "2022-10-06T10:48:52",
+                    "upload_time_iso_8601": "2022-10-06T10:48:52.617152Z",
+                    "url": "https://files.pythonhosted.org/packages/39/f6/eaa9b0127211da41057a71fc09e81a19f81c58b86b30240e8502f92637c4/Orange3_Text-1.12.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "e8fc56a6b952b0f9b8d10c62a0c0e2cc",
+                        "sha256": "ddd4524985f0596d06b5d7aa72e4c16032bb5171d8cd3090df47da35fe942e3f"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Text-1.12.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e8fc56a6b952b0f9b8d10c62a0c0e2cc",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 37763106,
+                    "upload_time": "2022-10-06T10:48:59",
+                    "upload_time_iso_8601": "2022-10-06T10:48:59.362609Z",
+                    "url": "https://files.pythonhosted.org/packages/c4/0d/64b4e40fbd26f374f7fc90e8c8e6a91c83f05fe4452c7c0a3dc9bc7c91bf/Orange3-Text-1.12.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
             "1.2.0": [
                 {
                     "comment_text": "",
@@ -12873,40 +12915,40 @@
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "67022e34a6c7433759d69a905b17f102",
-                    "sha256": "c0117aadde9efddb1f25c354826ab487a7a765324f20fdd72422b77e78ce56ba"
+                    "md5": "ea0250cd478ab5f182807fe92bae14bc",
+                    "sha256": "d4d3c79dd227e88bb4f2100e18e0aaeab7852e3b8e41d48040036b47f506d673"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Text-1.11.0-py3-none-any.whl",
+                "filename": "Orange3_Text-1.12.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "67022e34a6c7433759d69a905b17f102",
+                "md5_digest": "ea0250cd478ab5f182807fe92bae14bc",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 29312092,
-                "upload_time": "2022-08-24T08:46:26",
-                "upload_time_iso_8601": "2022-08-24T08:46:26.823767Z",
-                "url": "https://files.pythonhosted.org/packages/f9/8e/efe4c723fdbc3a307c71ad4f04c561aba0b5f4bb0206766c2e4cb6569eee/Orange3_Text-1.11.0-py3-none-any.whl",
+                "size": 29350659,
+                "upload_time": "2022-10-06T10:48:52",
+                "upload_time_iso_8601": "2022-10-06T10:48:52.617152Z",
+                "url": "https://files.pythonhosted.org/packages/39/f6/eaa9b0127211da41057a71fc09e81a19f81c58b86b30240e8502f92637c4/Orange3_Text-1.12.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "13152276056671f427069c1d411b10af",
-                    "sha256": "105d2a4a8bfc1938ad4e56922d5b60d9b0100ebc12d5f1008dd71c000f559971"
+                    "md5": "e8fc56a6b952b0f9b8d10c62a0c0e2cc",
+                    "sha256": "ddd4524985f0596d06b5d7aa72e4c16032bb5171d8cd3090df47da35fe942e3f"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Text-1.11.0.tar.gz",
+                "filename": "Orange3-Text-1.12.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "13152276056671f427069c1d411b10af",
+                "md5_digest": "e8fc56a6b952b0f9b8d10c62a0c0e2cc",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 37726561,
-                "upload_time": "2022-08-24T08:46:35",
-                "upload_time_iso_8601": "2022-08-24T08:46:35.223988Z",
-                "url": "https://files.pythonhosted.org/packages/34/31/6e16fba25502499bf298c7b1ed50f05eb7345173ed6f8baf61251f6d3e01/Orange3-Text-1.11.0.tar.gz",
+                "size": 37763106,
+                "upload_time": "2022-10-06T10:48:59",
+                "upload_time_iso_8601": "2022-10-06T10:48:59.362609Z",
+                "url": "https://files.pythonhosted.org/packages/c4/0d/64b4e40fbd26f374f7fc90e8c8e6a91c83f05fe4452c7c0a3dc9bc7c91bf/Orange3-Text-1.12.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
