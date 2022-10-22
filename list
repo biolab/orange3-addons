@@ -4086,15 +4086,15 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-geo"
             },
-            "release_url": "https://pypi.org/project/Orange3-Geo/0.3.1/",
+            "release_url": "https://pypi.org/project/Orange3-Geo/0.3.2/",
             "requires_dist": null,
             "requires_python": "",
             "summary": "Orange add-on for dealing with geography and geo-location.",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 15486028,
+        "last_serial": 15494368,
         "releases": {
             "0.1.3": [
                 {
@@ -4511,26 +4511,48 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.3.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "bf69672beb392d496b8783df55306d9b",
+                        "sha256": "52cd05e3951ce56139ae7518629ab2b6b14d4c1e59881c4ff53ae6f434ec2312"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Geo-0.3.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "bf69672beb392d496b8783df55306d9b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 17187754,
+                    "upload_time": "2022-10-22T09:05:53",
+                    "upload_time_iso_8601": "2022-10-22T09:05:53.864944Z",
+                    "url": "https://files.pythonhosted.org/packages/1f/dc/f9473abdb726788f50479beeacff72a0bb2866a37dd793ff81c19c1b6979/Orange3-Geo-0.3.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "55fc81cb1dcd4bf0f928e6c09cb78627",
-                    "sha256": "0b1c70c6d2a17d48498c2146c571935e1fb8df1f05b2c15ce47865d3e4d5ca1a"
+                    "md5": "bf69672beb392d496b8783df55306d9b",
+                    "sha256": "52cd05e3951ce56139ae7518629ab2b6b14d4c1e59881c4ff53ae6f434ec2312"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Geo-0.3.1.tar.gz",
+                "filename": "Orange3-Geo-0.3.2.tar.gz",
                 "has_sig": false,
-                "md5_digest": "55fc81cb1dcd4bf0f928e6c09cb78627",
+                "md5_digest": "bf69672beb392d496b8783df55306d9b",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 17189543,
-                "upload_time": "2022-10-21T12:15:28",
-                "upload_time_iso_8601": "2022-10-21T12:15:28.619333Z",
-                "url": "https://files.pythonhosted.org/packages/3b/6c/416c41da6b29ee7e028b6f0ce997beab1c8a1ccdda8d46c2bf224ff85609/Orange3-Geo-0.3.1.tar.gz",
+                "size": 17187754,
+                "upload_time": "2022-10-22T09:05:53",
+                "upload_time_iso_8601": "2022-10-22T09:05:53.864944Z",
+                "url": "https://files.pythonhosted.org/packages/1f/dc/f9473abdb726788f50479beeacff72a0bb2866a37dd793ff81c19c1b6979/Orange3-Geo-0.3.2.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
