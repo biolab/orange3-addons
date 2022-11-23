@@ -15582,7 +15582,7 @@
                 "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
                 "Programming Language :: Python :: 3 :: Only"
             ],
-            "description": "Orange3 World Happiness\n=======================\n\nEnables downloading of socioeconomic data in Orange3 from\na remote mongo database filled with indicators from various\neconomic databases.\n\nFeatures\n--------\n#### World Happiness data\n* download and use socioeconomic data\n* filter based on region, year, country, organization\n",
+            "description": "Orange3 World Happiness\r\n=======================\r\n\r\nEnables downloading of socioeconomic data in Orange3 from\r\na remote mongo database filled with indicators from various\r\neconomic databases.\r\n\r\nFeatures\r\n--------\r\n#### World Happiness data\r\n* download and use socioeconomic data\r\n* filter based on region, year, country, organization\r\n\r\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
             "download_url": "",
@@ -15603,7 +15603,7 @@
             "project_urls": {
                 "Homepage": "http://orange.biolab.si/download"
             },
-            "release_url": "https://pypi.org/project/Orange3-WorldHappiness/0.1.8/",
+            "release_url": "https://pypi.org/project/Orange3-WorldHappiness/0.1.9/",
             "requires_dist": [
                 "Orange3 (>=3.31)",
                 "pandas",
@@ -15613,11 +15613,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 add-on for retrieving socioeconomic data",
-            "version": "0.1.8",
+            "version": "0.1.9",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 14900887,
+        "last_serial": 15864707,
         "releases": {
             "0.1.1": [
                 {
@@ -15954,46 +15954,88 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.1.9": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d8c797f44e7abaa1622edc3c692f066d",
+                        "sha256": "881101cb332b8512f8be13a94f452c232621f600e60528e56564195947310a29"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_WorldHappiness-0.1.9-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "d8c797f44e7abaa1622edc3c692f066d",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3032964,
+                    "upload_time": "2022-11-23T08:57:25",
+                    "upload_time_iso_8601": "2022-11-23T08:57:25.123132Z",
+                    "url": "https://files.pythonhosted.org/packages/74/26/5273ceb5023fedd7756b5eed1acbc078a7598d27893c3bc16d75d7020e98/Orange3_WorldHappiness-0.1.9-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "fb7dee9515b7472d73daca27988b2e09",
+                        "sha256": "48875833d855cf5eaf21526d03b913437173e7910a9d872567da65c346a2d8bd"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-WorldHappiness-0.1.9.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "fb7dee9515b7472d73daca27988b2e09",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 3109489,
+                    "upload_time": "2022-11-23T08:57:27",
+                    "upload_time_iso_8601": "2022-11-23T08:57:27.050850Z",
+                    "url": "https://files.pythonhosted.org/packages/7b/db/1119af868329a5d12a4bddce483999e542cf4492bf5080747bc12589359a/Orange3-WorldHappiness-0.1.9.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "b0f0c07c050f5d180c201110ce2e2418",
-                    "sha256": "79cb7dfc69f768f887b179f45079d9dbd1b55ec78423dca91c25d73bcd827f3d"
+                    "md5": "d8c797f44e7abaa1622edc3c692f066d",
+                    "sha256": "881101cb332b8512f8be13a94f452c232621f600e60528e56564195947310a29"
                 },
                 "downloads": -1,
-                "filename": "Orange3_WorldHappiness-0.1.8-py3-none-any.whl",
+                "filename": "Orange3_WorldHappiness-0.1.9-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "b0f0c07c050f5d180c201110ce2e2418",
+                "md5_digest": "d8c797f44e7abaa1622edc3c692f066d",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 3029236,
-                "upload_time": "2022-08-26T14:11:32",
-                "upload_time_iso_8601": "2022-08-26T14:11:32.525053Z",
-                "url": "https://files.pythonhosted.org/packages/25/38/82a7512e96ce3cfc2264fc066b69b2e653314781980fa399cd045b0924e2/Orange3_WorldHappiness-0.1.8-py3-none-any.whl",
+                "size": 3032964,
+                "upload_time": "2022-11-23T08:57:25",
+                "upload_time_iso_8601": "2022-11-23T08:57:25.123132Z",
+                "url": "https://files.pythonhosted.org/packages/74/26/5273ceb5023fedd7756b5eed1acbc078a7598d27893c3bc16d75d7020e98/Orange3_WorldHappiness-0.1.9-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "md5": "7d6c881b5de6da2bc49c0957717cf2ee",
-                    "sha256": "91619820dcb22e606e6a9caf5b3d66843eb2cc7697f670853d9c381bc465ff6b"
+                    "md5": "fb7dee9515b7472d73daca27988b2e09",
+                    "sha256": "48875833d855cf5eaf21526d03b913437173e7910a9d872567da65c346a2d8bd"
                 },
                 "downloads": -1,
-                "filename": "Orange3-WorldHappiness-0.1.8.tar.gz",
+                "filename": "Orange3-WorldHappiness-0.1.9.tar.gz",
                 "has_sig": false,
-                "md5_digest": "7d6c881b5de6da2bc49c0957717cf2ee",
+                "md5_digest": "fb7dee9515b7472d73daca27988b2e09",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 3106301,
-                "upload_time": "2022-08-26T14:11:40",
-                "upload_time_iso_8601": "2022-08-26T14:11:40.166877Z",
-                "url": "https://files.pythonhosted.org/packages/57/e6/06a0c4db584977ffa81ea8f815b6951ad5df0b68b23823ea11a7740c08db/Orange3-WorldHappiness-0.1.8.tar.gz",
+                "size": 3109489,
+                "upload_time": "2022-11-23T08:57:27",
+                "upload_time_iso_8601": "2022-11-23T08:57:27.050850Z",
+                "url": "https://files.pythonhosted.org/packages/7b/db/1119af868329a5d12a4bddce483999e542cf4492bf5080747bc12589359a/Orange3-WorldHappiness-0.1.9.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
