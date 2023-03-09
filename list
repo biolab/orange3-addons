@@ -5462,7 +5462,7 @@
                 "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
                 "Programming Language :: Python :: 3 :: Only"
             ],
-            "description": "Orange3 Image Analytics\n=======================\n\nSimplifies loading of images and through deep network-based embeddings\nenables their analysis. Embedding represents images with feature vectors,\nallowing the use of Orange's standard arsenal of widgets for\nclustering, classification or any other kind of\nfeature-based analysis. Image Analytics also provides visualization\nwidgets for images and allows saving them.\nSee [documentation](http://orange3-imageanalytics.readthedocs.org/).\n\nFeatures\n--------\n#### Image analysis\n* load and save images\n* represent images with a vector of numbers\n* displays images in a similarity grid\n\n\n",
+            "description": "Orange3 Image Analytics\n=======================\n\nSimplifies loading of images and through deep network-based embeddings\nenables their analysis. Embedding represents images with feature vectors,\nallowing the use of Orange's standard arsenal of widgets for\nclustering, classification or any other kind of\nfeature-based analysis. Image Analytics also provides visualization\nwidgets for images and allows saving them.\nSee [documentation](http://orange3-imageanalytics.readthedocs.org/).\n\nFeatures\n--------\n#### Image analysis\n* load and save images\n* represent images with a vector of numbers\n* displays images in a similarity grid\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
             "download_url": "",
@@ -5483,14 +5483,15 @@
             "project_urls": {
                 "Homepage": "http://orange.biolab.si/download"
             },
-            "release_url": "https://pypi.org/project/Orange3-ImageAnalytics/0.9.0/",
+            "release_url": "https://pypi.org/project/Orange3-ImageAnalytics/0.10.0/",
             "requires_dist": [
                 "lockfile",
                 "cachecontrol",
                 "ndf (>=0.1.4)",
                 "numpy (>=1.16)",
-                "orange-widget-base",
-                "Orange3 (>=3.32)",
+                "orange-canvas-core (>=0.1.28)",
+                "orange-widget-base (>=4.19.0)",
+                "Orange3 (>=3.34.0)",
                 "pillow (>=6.2.0)",
                 "requests",
                 "scipy",
@@ -5501,11 +5502,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 add-on for image data mining.",
-            "version": "0.9.0",
+            "version": "0.10.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 15410221,
+        "last_serial": 17225081,
         "releases": {
             "0.0.1": [],
             "0.0.2": [
@@ -6163,6 +6164,50 @@
                     "yanked_reason": null
                 }
             ],
+            "0.10.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "4950787bd9080f1a40c016a0ca97b7ca13d6a26d0f25a002e1de3f03ffce6ba6",
+                        "md5": "09c13eaaa08b680c84972a505a89745f",
+                        "sha256": "c3a7290b222ad47f54408b7816321e9dc426bf5cb0e02f26468dfd14eff91dd2"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_ImageAnalytics-0.10.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "09c13eaaa08b680c84972a505a89745f",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 5356727,
+                    "upload_time": "2023-03-09T14:33:19",
+                    "upload_time_iso_8601": "2023-03-09T14:33:19.991941Z",
+                    "url": "https://files.pythonhosted.org/packages/49/50/787bd9080f1a40c016a0ca97b7ca13d6a26d0f25a002e1de3f03ffce6ba6/Orange3_ImageAnalytics-0.10.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "6502e9bd8e2579496a930a5689a5af5273a13aa1b1390632719fd811bb548119",
+                        "md5": "fe1408654fdffe19f0875c6fe658bb2d",
+                        "sha256": "bfdc705e494e299ab01badecb55fc245463d1ff7652ba04bedbdc1ec9508cc0c"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-ImageAnalytics-0.10.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "fe1408654fdffe19f0875c6fe658bb2d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 6675856,
+                    "upload_time": "2023-03-09T14:33:23",
+                    "upload_time_iso_8601": "2023-03-09T14:33:23.111809Z",
+                    "url": "https://files.pythonhosted.org/packages/65/02/e9bd8e2579496a930a5689a5af5273a13aa1b1390632719fd811bb548119/Orange3-ImageAnalytics-0.10.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
             "0.2.0": [
                 {
                     "comment_text": "",
@@ -6742,42 +6787,42 @@
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "de396381d05a3b046bc3b59ca4f6ac311afa061be780e66f53bac2fb3368c8ff",
-                    "md5": "0cdad233c78053adfc8c60bae4f714d5",
-                    "sha256": "d00bee9745c8859d32918ab386569f9d4a7759a7c375c648f46da2f4beff32d9"
+                    "blake2b_256": "4950787bd9080f1a40c016a0ca97b7ca13d6a26d0f25a002e1de3f03ffce6ba6",
+                    "md5": "09c13eaaa08b680c84972a505a89745f",
+                    "sha256": "c3a7290b222ad47f54408b7816321e9dc426bf5cb0e02f26468dfd14eff91dd2"
                 },
                 "downloads": -1,
-                "filename": "Orange3_ImageAnalytics-0.9.0-py3-none-any.whl",
+                "filename": "Orange3_ImageAnalytics-0.10.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "0cdad233c78053adfc8c60bae4f714d5",
+                "md5_digest": "09c13eaaa08b680c84972a505a89745f",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 5353920,
-                "upload_time": "2022-10-14T11:57:27",
-                "upload_time_iso_8601": "2022-10-14T11:57:27.221076Z",
-                "url": "https://files.pythonhosted.org/packages/de/39/6381d05a3b046bc3b59ca4f6ac311afa061be780e66f53bac2fb3368c8ff/Orange3_ImageAnalytics-0.9.0-py3-none-any.whl",
+                "size": 5356727,
+                "upload_time": "2023-03-09T14:33:19",
+                "upload_time_iso_8601": "2023-03-09T14:33:19.991941Z",
+                "url": "https://files.pythonhosted.org/packages/49/50/787bd9080f1a40c016a0ca97b7ca13d6a26d0f25a002e1de3f03ffce6ba6/Orange3_ImageAnalytics-0.10.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "db17b7a37fde81b1bfdffe2ae5c0a1a17b4cdcf0c97aab85fa9d42032caccc9d",
-                    "md5": "cede95a88d34f1c3877e502eaae605b3",
-                    "sha256": "2550278e9b2125c2ce4f3e53817a2ac0923e118d5fcf3bb3fe3c0757040fd878"
+                    "blake2b_256": "6502e9bd8e2579496a930a5689a5af5273a13aa1b1390632719fd811bb548119",
+                    "md5": "fe1408654fdffe19f0875c6fe658bb2d",
+                    "sha256": "bfdc705e494e299ab01badecb55fc245463d1ff7652ba04bedbdc1ec9508cc0c"
                 },
                 "downloads": -1,
-                "filename": "Orange3-ImageAnalytics-0.9.0.tar.gz",
+                "filename": "Orange3-ImageAnalytics-0.10.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "cede95a88d34f1c3877e502eaae605b3",
+                "md5_digest": "fe1408654fdffe19f0875c6fe658bb2d",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 6673231,
-                "upload_time": "2022-10-14T11:57:29",
-                "upload_time_iso_8601": "2022-10-14T11:57:29.971298Z",
-                "url": "https://files.pythonhosted.org/packages/db/17/b7a37fde81b1bfdffe2ae5c0a1a17b4cdcf0c97aab85fa9d42032caccc9d/Orange3-ImageAnalytics-0.9.0.tar.gz",
+                "size": 6675856,
+                "upload_time": "2023-03-09T14:33:23",
+                "upload_time_iso_8601": "2023-03-09T14:33:23.111809Z",
+                "url": "https://files.pythonhosted.org/packages/65/02/e9bd8e2579496a930a5689a5af5273a13aa1b1390632719fd811bb548119/Orange3-ImageAnalytics-0.10.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
