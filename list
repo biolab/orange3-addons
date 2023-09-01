@@ -2193,24 +2193,24 @@
                 "Homepage": "https://github.com/biolab/orange3-bioinformatics",
                 "Source Code": "https://github.com/biolab/orange3-bioinformatics/"
             },
-            "release_url": "https://pypi.org/project/Orange3-Bioinformatics/4.7.2/",
+            "release_url": "https://pypi.org/project/Orange3-Bioinformatics/4.8.0/",
             "requires_dist": [
-                "Orange3 (>=3.31.0)",
-                "orange-widget-base (>=4.14.1)",
-                "scipy (>=1.5.0)",
-                "pyclipper (>=1.2.0)",
-                "point-annotator (~=2.0)",
+                "Orange3 >=3.34.0",
+                "orange-widget-base >=4.19.0",
+                "pyclipper >=1.2.0",
+                "point-annotator ~=2.0",
                 "requests",
-                "requests-cache (>=0.8.0)",
-                "serverfiles",
-                "resdk (>=13.8.0)",
+                "requests-cache >=0.8.0",
+                "resdk >=13.8.0",
                 "genesis-pyapi",
-                "single-sample-gsea (>=0.2.0)",
+                "single-sample-gsea >=0.2.0",
                 "numpy",
+                "scipy",
+                "serverfiles",
                 "sphinx ; extra == 'doc'",
                 "recommonmark ; extra == 'doc'",
                 "sphinx-rtd-theme ; extra == 'doc'",
-                "docutils (<0.17) ; extra == 'doc'",
+                "docutils <0.17 ; extra == 'doc'",
                 "flake8 ; extra == 'test'",
                 "flake8-comprehensions ; extra == 'test'",
                 "flake8-black ; extra == 'test'",
@@ -2223,11 +2223,11 @@
             ],
             "requires_python": ">=3.6",
             "summary": "Orange Bioinformatics add-on for Orange data mining software package.",
-            "version": "4.7.2",
+            "version": "4.8.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 18789286,
+        "last_serial": 19550265,
         "releases": {
             "3.0.2": [
                 {
@@ -3283,48 +3283,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "4.8.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "d7402015bca75b6a96ba4fd2f426c0cc964d55cbdb847493bad5f97f9a76fe27",
+                        "md5": "12f2594057982fa5cd5ef677eab0f8fa",
+                        "sha256": "fba365ed1b6fa27bc13c9170024b35392b7e5547e2976ba6fa9ce76e44fba53d"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Bioinformatics-4.8.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "12f2594057982fa5cd5ef677eab0f8fa",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 339124,
+                    "upload_time": "2023-09-01T11:39:36",
+                    "upload_time_iso_8601": "2023-09-01T11:39:36.320256Z",
+                    "url": "https://files.pythonhosted.org/packages/d7/40/2015bca75b6a96ba4fd2f426c0cc964d55cbdb847493bad5f97f9a76fe27/Orange3_Bioinformatics-4.8.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "297eb45e6c5a44f388ea4fc32dc5a70892d7ee861306191d4dcac3a7d8248cdd",
+                        "md5": "d90f43856adf79a334cf3a82d625b69a",
+                        "sha256": "b1cd188e304303f79afa1a22e92ee5aac22c8e0c1186b11a0b78860c83647949"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Bioinformatics-4.8.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d90f43856adf79a334cf3a82d625b69a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 3735790,
+                    "upload_time": "2023-09-01T11:39:38",
+                    "upload_time_iso_8601": "2023-09-01T11:39:38.932555Z",
+                    "url": "https://files.pythonhosted.org/packages/29/7e/b45e6c5a44f388ea4fc32dc5a70892d7ee861306191d4dcac3a7d8248cdd/Orange3-Bioinformatics-4.8.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "c3640a2087594dbcb01539bcac05f7275820a0776f4c16e4f48b40cfadea47e2",
-                    "md5": "eb509b4aa11939aa6c4f60f6200b4397",
-                    "sha256": "a6ce719cd72fea11c675fb0d62ba7e1f91b86870818b567eef56e379ecba5ca3"
+                    "blake2b_256": "d7402015bca75b6a96ba4fd2f426c0cc964d55cbdb847493bad5f97f9a76fe27",
+                    "md5": "12f2594057982fa5cd5ef677eab0f8fa",
+                    "sha256": "fba365ed1b6fa27bc13c9170024b35392b7e5547e2976ba6fa9ce76e44fba53d"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Bioinformatics-4.7.2-py3-none-any.whl",
+                "filename": "Orange3_Bioinformatics-4.8.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "eb509b4aa11939aa6c4f60f6200b4397",
+                "md5_digest": "12f2594057982fa5cd5ef677eab0f8fa",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.6",
-                "size": 337719,
-                "upload_time": "2023-07-06T19:43:44",
-                "upload_time_iso_8601": "2023-07-06T19:43:44.376430Z",
-                "url": "https://files.pythonhosted.org/packages/c3/64/0a2087594dbcb01539bcac05f7275820a0776f4c16e4f48b40cfadea47e2/Orange3_Bioinformatics-4.7.2-py3-none-any.whl",
+                "size": 339124,
+                "upload_time": "2023-09-01T11:39:36",
+                "upload_time_iso_8601": "2023-09-01T11:39:36.320256Z",
+                "url": "https://files.pythonhosted.org/packages/d7/40/2015bca75b6a96ba4fd2f426c0cc964d55cbdb847493bad5f97f9a76fe27/Orange3_Bioinformatics-4.8.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "27f0214985ec3690cb13cc414c252cb62c5c17b32bc8e98d3ccb9a87659ffa85",
-                    "md5": "f51032f9eb6536832febf0bfec21ad62",
-                    "sha256": "c1239cb96bb352ec5ebd223b6c98c8b86df1ca39bb7bd06f5cabe32b64a414f5"
+                    "blake2b_256": "297eb45e6c5a44f388ea4fc32dc5a70892d7ee861306191d4dcac3a7d8248cdd",
+                    "md5": "d90f43856adf79a334cf3a82d625b69a",
+                    "sha256": "b1cd188e304303f79afa1a22e92ee5aac22c8e0c1186b11a0b78860c83647949"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Bioinformatics-4.7.2.tar.gz",
+                "filename": "Orange3-Bioinformatics-4.8.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "f51032f9eb6536832febf0bfec21ad62",
+                "md5_digest": "d90f43856adf79a334cf3a82d625b69a",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.6",
-                "size": 2946126,
-                "upload_time": "2023-07-06T19:43:45",
-                "upload_time_iso_8601": "2023-07-06T19:43:45.832816Z",
-                "url": "https://files.pythonhosted.org/packages/27/f0/214985ec3690cb13cc414c252cb62c5c17b32bc8e98d3ccb9a87659ffa85/Orange3-Bioinformatics-4.7.2.tar.gz",
+                "size": 3735790,
+                "upload_time": "2023-09-01T11:39:38",
+                "upload_time_iso_8601": "2023-09-01T11:39:38.932555Z",
+                "url": "https://files.pythonhosted.org/packages/29/7e/b45e6c5a44f388ea4fc32dc5a70892d7ee861306191d4dcac3a7d8248cdd/Orange3-Bioinformatics-4.8.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
