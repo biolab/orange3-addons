@@ -13,3 +13,4 @@ Orange3-Textable
 Orange3-Timeseries
 Orange3-Survival-Analysis
 Orange3-WorldHappiness
+Orange3-Fairness
