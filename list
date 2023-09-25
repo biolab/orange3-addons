@@ -18832,7 +18832,7 @@
                 "Programming Language :: Python :: 3 :: Only"
             ],
             "description": "Orange3 Fairness\r\n================\r\n\r\nOrange3 Fairness is an add-on for the [Orange3](http://orange.biolab.si) data mining suite. It provides extensions for fairness-aware AI.\r\n\r\n.. image:: https://raw.githubusercontent.com/ZanMervic/orange3-fairness/main/doc/readme-screenshot.png\r\n   :alt: Screenshot of Orange3 Fairness add-on\r\n",
-            "description_content_type": "text/x-rst",
+            "description_content_type": "text/markdown",
             "docs_url": null,
             "download_url": "",
             "downloads": {
@@ -18850,7 +18850,7 @@
             "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Fairness/",
             "project_urls": null,
-            "release_url": "https://pypi.org/project/Orange3-Fairness/0.1.4/",
+            "release_url": "https://pypi.org/project/Orange3-Fairness/0.1.5/",
             "requires_dist": [
                 "Orange3",
                 "tensorflow (>=2.12.0)",
@@ -18862,11 +18862,11 @@
             ],
             "requires_python": "",
             "summary": "Orange3 add-on for fairness-aware machine learning.",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 19697307,
+        "last_serial": 19886100,
         "releases": {
             "0.1.0": [
                 {
@@ -19087,48 +19087,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.1.5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
+                        "md5": "f0fc557e72b57421e33034b5186c74aa",
+                        "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 55842,
+                    "upload_time": "2023-09-25T07:56:46",
+                    "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
+                    "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
+                        "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
+                        "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 43873,
+                    "upload_time": "2023-09-25T07:56:48",
+                    "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
+                    "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "3bca810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d",
-                    "md5": "171b0a038498633169b79d9025d89b9b",
-                    "sha256": "5eabf1a6efcb7e992ee640d0b5bdcf9388305808f1961b48d745184d5674653a"
+                    "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
+                    "md5": "f0fc557e72b57421e33034b5186c74aa",
+                    "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Fairness-0.1.4-py3-none-any.whl",
+                "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "171b0a038498633169b79d9025d89b9b",
+                "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 53384,
-                "upload_time": "2023-09-11T11:40:14",
-                "upload_time_iso_8601": "2023-09-11T11:40:14.302058Z",
-                "url": "https://files.pythonhosted.org/packages/3b/ca/810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d/Orange3_Fairness-0.1.4-py3-none-any.whl",
+                "size": 55842,
+                "upload_time": "2023-09-25T07:56:46",
+                "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
+                "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "eb6fda6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf",
-                    "md5": "e49e691b7e9e165a784e92180e64be76",
-                    "sha256": "ae50d9a85446d09870e5127abc2982f54908c1a1e7ffc6c90062b0ac10d0b8c6"
+                    "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
+                    "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
+                    "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Fairness-0.1.4.tar.gz",
+                "filename": "Orange3-Fairness-0.1.5.tar.gz",
                 "has_sig": false,
-                "md5_digest": "e49e691b7e9e165a784e92180e64be76",
+                "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 41223,
-                "upload_time": "2023-09-11T11:40:16",
-                "upload_time_iso_8601": "2023-09-11T11:40:16.351463Z",
-                "url": "https://files.pythonhosted.org/packages/eb/6f/da6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf/Orange3-Fairness-0.1.4.tar.gz",
+                "size": 43873,
+                "upload_time": "2023-09-25T07:56:48",
+                "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
+                "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
