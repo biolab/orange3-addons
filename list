@@ -5169,6 +5169,367 @@
     },
     {
         "info": {
+            "author": "Bioinformatics Laboratory, FRI UL",
+            "author_email": "contact@orange.biolab.si",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 3 - Alpha",
+                "Intended Audience :: Science/Research",
+                "Operating System :: MacOS",
+                "Operating System :: Microsoft :: Windows",
+                "Operating System :: Unix",
+                "Programming Language :: Python :: 3 :: Only"
+            ],
+            "description": "Orange3 Fairness\r\n================\r\n\r\nOrange3 Fairness is an add-on for the [Orange3](http://orange.biolab.si) data mining suite. It provides extensions for fairness-aware AI.\r\n\r\n.. image:: https://raw.githubusercontent.com/ZanMervic/orange3-fairness/main/doc/readme-screenshot.png\r\n   :alt: Screenshot of Orange3 Fairness add-on\r\n",
+            "description_content_type": "text/markdown",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "",
+            "keywords": "orange3 add-on,orange3 fairness",
+            "license": "GPL3+",
+            "maintainer": "Zan Mervic",
+            "maintainer_email": "",
+            "name": "Orange3-Fairness",
+            "package_url": "https://pypi.org/project/Orange3-Fairness/",
+            "platform": null,
+            "project_url": "https://pypi.org/project/Orange3-Fairness/",
+            "project_urls": null,
+            "release_url": "https://pypi.org/project/Orange3-Fairness/0.1.5/",
+            "requires_dist": [
+                "Orange3",
+                "tensorflow (>=2.12.0)",
+                "aif360 (==0.5.0)",
+                "numpy (~=1.23.0)",
+                "sphinx ; extra == 'doc'",
+                "sphinx-rtd-theme ; extra == 'doc'",
+                "recommonmark ; extra == 'doc'"
+            ],
+            "requires_python": "",
+            "summary": "Orange3 add-on for fairness-aware machine learning.",
+            "version": "0.1.5",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 19886100,
+        "releases": {
+            "0.1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "371f8efe4bc3082f8ef9d67576eef512d4e0279d589e5939f1b767e01477d601",
+                        "md5": "2d769a12686706ecb47d79ea8fd4a624",
+                        "sha256": "4d4a3ac7797937e54c687a320056076868441c2cb6621542cf03ba5d2cd0518d"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "2d769a12686706ecb47d79ea8fd4a624",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 52910,
+                    "upload_time": "2023-07-31T15:52:16",
+                    "upload_time_iso_8601": "2023-07-31T15:52:16.631952Z",
+                    "url": "https://files.pythonhosted.org/packages/37/1f/8efe4bc3082f8ef9d67576eef512d4e0279d589e5939f1b767e01477d601/Orange3_Fairness-0.1.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "bbf1d9cfe6adf8de8cbfd7099cff021cffe739cf704d7f6733c74c19ae293013",
+                        "md5": "051c3891b991d0a176521b38a9fae1bf",
+                        "sha256": "0712f51bdbb46a315d33735b2fcae8b67312f2596811417bb6e110b9245f691a"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "051c3891b991d0a176521b38a9fae1bf",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 41563,
+                    "upload_time": "2023-07-31T15:52:20",
+                    "upload_time_iso_8601": "2023-07-31T15:52:20.356167Z",
+                    "url": "https://files.pythonhosted.org/packages/bb/f1/d9cfe6adf8de8cbfd7099cff021cffe739cf704d7f6733c74c19ae293013/Orange3-Fairness-0.1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "3b6f732a5088c8f5ae9f4bbed544e64cbd76573d79a4d1d93110ca595baa8e4d",
+                        "md5": "0782d8e4543da4cf728055868c9850fc",
+                        "sha256": "1ad90a21ac63bf5f3ee9878ffa3e5427e9466c45804befd737e3b905bf541ae7"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "0782d8e4543da4cf728055868c9850fc",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 51723,
+                    "upload_time": "2023-08-07T08:24:25",
+                    "upload_time_iso_8601": "2023-08-07T08:24:25.438726Z",
+                    "url": "https://files.pythonhosted.org/packages/3b/6f/732a5088c8f5ae9f4bbed544e64cbd76573d79a4d1d93110ca595baa8e4d/Orange3_Fairness-0.1.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "ead7c6b1aa145af6d5982b227e015a61d0e54c95426c480ebcec0bac9448a7b0",
+                        "md5": "ac0def2ab152bf96f0ac8153aae7743f",
+                        "sha256": "5977c1ecbcad47351751a55a55d8d30088407b5e6d8083880256331347191de6"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "ac0def2ab152bf96f0ac8153aae7743f",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 39918,
+                    "upload_time": "2023-08-07T08:24:27",
+                    "upload_time_iso_8601": "2023-08-07T08:24:27.205345Z",
+                    "url": "https://files.pythonhosted.org/packages/ea/d7/c6b1aa145af6d5982b227e015a61d0e54c95426c480ebcec0bac9448a7b0/Orange3-Fairness-0.1.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "34e78aae98383d0990b8391af79e11dd8cdb42e9bcbeb71aa910251df67b01c5",
+                        "md5": "d457778eb1c535c61572eb1e5e1b30cd",
+                        "sha256": "148c3ea986f057cdd8c7c624ce8ad845f6ab71c6548396e8c847c255cb5f9b13"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "d457778eb1c535c61572eb1e5e1b30cd",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 51588,
+                    "upload_time": "2023-08-10T12:35:10",
+                    "upload_time_iso_8601": "2023-08-10T12:35:10.683713Z",
+                    "url": "https://files.pythonhosted.org/packages/34/e7/8aae98383d0990b8391af79e11dd8cdb42e9bcbeb71aa910251df67b01c5/Orange3_Fairness-0.1.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "d9d581eac21ef743166d7e8c1a36284f2519b065b6ea0e24f957e01e9e2ff773",
+                        "md5": "38b4ebd6e12e2d6f309d8fed64702e50",
+                        "sha256": "8d06edff19dd067ed162d6f099a984b91a36db47fe296c7e7378fe6c5b5649dc"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "38b4ebd6e12e2d6f309d8fed64702e50",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 39955,
+                    "upload_time": "2023-08-10T12:35:12",
+                    "upload_time_iso_8601": "2023-08-10T12:35:12.773456Z",
+                    "url": "https://files.pythonhosted.org/packages/d9/d5/81eac21ef743166d7e8c1a36284f2519b065b6ea0e24f957e01e9e2ff773/Orange3-Fairness-0.1.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "65613330f966f74ad86321aacdcef0c1127d38979a8f40a98424d875e3a3f5c9",
+                        "md5": "8171bb6e05ec7a2d61de945ee7791347",
+                        "sha256": "2c865084719bfdf847e3c0125076ba0cfc1e0fc2ea1754ef9885c614765a9520"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.3-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "8171bb6e05ec7a2d61de945ee7791347",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 52199,
+                    "upload_time": "2023-08-24T15:47:53",
+                    "upload_time_iso_8601": "2023-08-24T15:47:53.984288Z",
+                    "url": "https://files.pythonhosted.org/packages/65/61/3330f966f74ad86321aacdcef0c1127d38979a8f40a98424d875e3a3f5c9/Orange3_Fairness-0.1.3-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "2b2c89a786fdd7507dad4c9cef4ca067a60d53b0387521f2104f9fb2ce9551b1",
+                        "md5": "5013e5ca5d069fff618644f6ab1f8c2a",
+                        "sha256": "8a1fc1214ece485935d71bf7e80ce1992b24317d7d17e905fd4db1aa24c37ba4"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "5013e5ca5d069fff618644f6ab1f8c2a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 41050,
+                    "upload_time": "2023-08-24T15:47:56",
+                    "upload_time_iso_8601": "2023-08-24T15:47:56.615609Z",
+                    "url": "https://files.pythonhosted.org/packages/2b/2c/89a786fdd7507dad4c9cef4ca067a60d53b0387521f2104f9fb2ce9551b1/Orange3-Fairness-0.1.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "3bca810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d",
+                        "md5": "171b0a038498633169b79d9025d89b9b",
+                        "sha256": "5eabf1a6efcb7e992ee640d0b5bdcf9388305808f1961b48d745184d5674653a"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.4-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "171b0a038498633169b79d9025d89b9b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 53384,
+                    "upload_time": "2023-09-11T11:40:14",
+                    "upload_time_iso_8601": "2023-09-11T11:40:14.302058Z",
+                    "url": "https://files.pythonhosted.org/packages/3b/ca/810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d/Orange3_Fairness-0.1.4-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "eb6fda6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf",
+                        "md5": "e49e691b7e9e165a784e92180e64be76",
+                        "sha256": "ae50d9a85446d09870e5127abc2982f54908c1a1e7ffc6c90062b0ac10d0b8c6"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e49e691b7e9e165a784e92180e64be76",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 41223,
+                    "upload_time": "2023-09-11T11:40:16",
+                    "upload_time_iso_8601": "2023-09-11T11:40:16.351463Z",
+                    "url": "https://files.pythonhosted.org/packages/eb/6f/da6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf/Orange3-Fairness-0.1.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
+                        "md5": "f0fc557e72b57421e33034b5186c74aa",
+                        "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 55842,
+                    "upload_time": "2023-09-25T07:56:46",
+                    "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
+                    "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
+                        "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
+                        "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Fairness-0.1.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 43873,
+                    "upload_time": "2023-09-25T07:56:48",
+                    "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
+                    "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
+                    "md5": "f0fc557e72b57421e33034b5186c74aa",
+                    "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
+                },
+                "downloads": -1,
+                "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 55842,
+                "upload_time": "2023-09-25T07:56:46",
+                "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
+                "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
+                    "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
+                    "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
+                },
+                "downloads": -1,
+                "filename": "Orange3-Fairness-0.1.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 43873,
+                "upload_time": "2023-09-25T07:56:48",
+                "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
+                "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "vulnerabilities": []
+    },
+    {
+        "info": {
             "author": "Biolab, UL FRI",
             "author_email": "info@biolab.si",
             "bugtrack_url": null,
@@ -13466,6 +13827,455 @@
             "author_email": "info@biolab.si",
             "bugtrack_url": null,
             "classifiers": [],
+            "description": "Orange3-Survival-Analysis\n=========================\n",
+            "description_content_type": "text/markdown",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/biolab/orange3-survival-analysis",
+            "keywords": "'orange3 add-on'",
+            "license": "GPL3+",
+            "maintainer": "Jaka Kokosar",
+            "maintainer_email": "",
+            "name": "Orange3-Survival-Analysis",
+            "package_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
+            "platform": null,
+            "project_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
+            "project_urls": {
+                "Bug Tracker": "https://github.com/biolab/orange3-survival-analysis/issues",
+                "Homepage": "https://github.com/biolab/orange3-survival-analysis",
+                "Source Code": "https://github.com/biolab/orange3-survival-analysis/"
+            },
+            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.5.1/",
+            "requires_dist": [
+                "Orange3 (>=3.32.0)",
+                "lifelines",
+                "statsmodels",
+                "sphinx ; extra == 'doc'",
+                "recommonmark ; extra == 'doc'",
+                "pytest ; extra == 'test'",
+                "coverage ; extra == 'test'",
+                "flake8 ; extra == 'test'",
+                "flake8-bugbear ; extra == 'test'",
+                "black ; extra == 'test'"
+            ],
+            "requires_python": ">=3.7",
+            "summary": "Survival Analysis add-on for Orange data mining software package.",
+            "version": "0.5.1",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 16501891,
+        "releases": {
+            "0.1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "e962a3a56fee7b2e835745663ae8f6dd4cf73f01097e592f18d4e9912277d61d",
+                        "md5": "0c1a1a4e14a76b106f114336f20e9318",
+                        "sha256": "95e14caf7ed8e9de05ba61617115cbc8d6f8200091fe21bb7167d238fc63efbe"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.1.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "0c1a1a4e14a76b106f114336f20e9318",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 23793,
+                    "upload_time": "2021-01-12T10:03:10",
+                    "upload_time_iso_8601": "2021-01-12T10:03:10.875063Z",
+                    "url": "https://files.pythonhosted.org/packages/e9/62/a3a56fee7b2e835745663ae8f6dd4cf73f01097e592f18d4e9912277d61d/Orange3_Survival_Analysis-0.1.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "29e20084474600f68f070e994e4c3081b14628416a658417fb90173d707a70f5",
+                        "md5": "b1e4d4155b37c01a642946acf1eb6026",
+                        "sha256": "532c91b303fd72929b5963a4975e817303bb7a4279acca2769e694bc40f36507"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b1e4d4155b37c01a642946acf1eb6026",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 27544,
+                    "upload_time": "2021-01-12T10:02:58",
+                    "upload_time_iso_8601": "2021-01-12T10:02:58.592277Z",
+                    "url": "https://files.pythonhosted.org/packages/29/e2/0084474600f68f070e994e4c3081b14628416a658417fb90173d707a70f5/Orange3-Survival-Analysis-0.1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.0a1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "c14dabe7ca6b224715950ff68763814525ca953118e2a7e2823d4fc507368c38",
+                        "md5": "580acd29ec963d2a64554770987d6881",
+                        "sha256": "79892fe7e5d8af03e893292db497da22f086be6450e27dea46549e6693b20016"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.1.0a1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "580acd29ec963d2a64554770987d6881",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 22209,
+                    "upload_time": "2020-12-07T21:51:39",
+                    "upload_time_iso_8601": "2020-12-07T21:51:39.901313Z",
+                    "url": "https://files.pythonhosted.org/packages/c1/4d/abe7ca6b224715950ff68763814525ca953118e2a7e2823d4fc507368c38/Orange3_Survival_Analysis-0.1.0a1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "5768934e5d8e544fc6a76e630746e31b481d4216b3530e7a5789247acc7a11b3",
+                        "md5": "d870f3c5a65eeb24fe2eb993288b5a38",
+                        "sha256": "795a40f5fadf295a17e3d095f1c8ffaa647a543a67b71a8c2c7047b3dd240085"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.1.0a1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d870f3c5a65eeb24fe2eb993288b5a38",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 25295,
+                    "upload_time": "2020-12-07T21:51:40",
+                    "upload_time_iso_8601": "2020-12-07T21:51:40.945339Z",
+                    "url": "https://files.pythonhosted.org/packages/57/68/934e5d8e544fc6a76e630746e31b481d4216b3530e7a5789247acc7a11b3/Orange3-Survival-Analysis-0.1.0a1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.0a2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "d7115536298abf79470d080e6712f0d40e79eb63a204e6201bc65f24901582e5",
+                        "md5": "02345e68a4f511e6bf752d4ca8f3d616",
+                        "sha256": "a033d10d07990bbd9e83812cd486a51053cc4f2f7ccb76933cc3b35310fc9d57"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.1.0a2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "02345e68a4f511e6bf752d4ca8f3d616",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 22213,
+                    "upload_time": "2020-12-08T09:29:07",
+                    "upload_time_iso_8601": "2020-12-08T09:29:07.630299Z",
+                    "url": "https://files.pythonhosted.org/packages/d7/11/5536298abf79470d080e6712f0d40e79eb63a204e6201bc65f24901582e5/Orange3_Survival_Analysis-0.1.0a2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "a77e872578bd54739391911a70caabccad82e903c3ec5cf3e74138ba88c6e102",
+                        "md5": "d0e8a7943d91caa196ad4e195902ee86",
+                        "sha256": "cf41c96fa0e2cb84f240b791712e8d9e4c1c677dda17c374e8f697060750d3fc"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.1.0a2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d0e8a7943d91caa196ad4e195902ee86",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 25301,
+                    "upload_time": "2020-12-08T09:29:08",
+                    "upload_time_iso_8601": "2020-12-08T09:29:08.682109Z",
+                    "url": "https://files.pythonhosted.org/packages/a7/7e/872578bd54739391911a70caabccad82e903c3ec5cf3e74138ba88c6e102/Orange3-Survival-Analysis-0.1.0a2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.2.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "ddb429b4a164a686ec0c8abb1b779046aff371343e5d6bbab8b37d1ec12e445d",
+                        "md5": "dcb4d9297c1cc381b1c544c9de1c35ba",
+                        "sha256": "79d44fdc02997ecf3b05d81110c5927eae04f3396032ad847b211570d486dd35"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.2.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "dcb4d9297c1cc381b1c544c9de1c35ba",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 24948,
+                    "upload_time": "2021-03-29T06:12:26",
+                    "upload_time_iso_8601": "2021-03-29T06:12:26.059489Z",
+                    "url": "https://files.pythonhosted.org/packages/dd/b4/29b4a164a686ec0c8abb1b779046aff371343e5d6bbab8b37d1ec12e445d/Orange3_Survival_Analysis-0.2.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "1dace3c8dff3044787a88a2820fd33850f5eba77dfe3f2c866377189cfa3b06f",
+                        "md5": "e426b9dee3a05b65dbebd5e13297071b",
+                        "sha256": "849040aec224eece7ee4c76fc4a9a0866469488903a7e0dbbc5f7e8263a1b51b"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.2.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e426b9dee3a05b65dbebd5e13297071b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 29153,
+                    "upload_time": "2021-03-29T06:12:27",
+                    "upload_time_iso_8601": "2021-03-29T06:12:27.236549Z",
+                    "url": "https://files.pythonhosted.org/packages/1d/ac/e3c8dff3044787a88a2820fd33850f5eba77dfe3f2c866377189cfa3b06f/Orange3-Survival-Analysis-0.2.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.3.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "6ce2d33632d629832d61c38e2d01e75b872097a1391940ff56da60bfe93e0258",
+                        "md5": "50882bfed5c014971f0b0ef3d7203092",
+                        "sha256": "22f556b96d4b40c6e6d19001f88d11dd78833c4a82db28bd6e3e5b1721a65484"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "50882bfed5c014971f0b0ef3d7203092",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 35503,
+                    "upload_time": "2021-10-28T10:34:18",
+                    "upload_time_iso_8601": "2021-10-28T10:34:18.127906Z",
+                    "url": "https://files.pythonhosted.org/packages/6c/e2/d33632d629832d61c38e2d01e75b872097a1391940ff56da60bfe93e0258/Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "bd91f65f9f286d0a9a6745a97c1ba854c8e36e89e80623d5aec0cc239d898b07",
+                        "md5": "4ea4860b09ba7536c7b0a7654095ce59",
+                        "sha256": "e0459e90c8e9687ebb497d36df194f8476ea4d36dc1bbbd1201bf43fba41cf7b"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.3.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "4ea4860b09ba7536c7b0a7654095ce59",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 36607,
+                    "upload_time": "2021-10-28T10:34:18",
+                    "upload_time_iso_8601": "2021-10-28T10:34:18.941880Z",
+                    "url": "https://files.pythonhosted.org/packages/bd/91/f65f9f286d0a9a6745a97c1ba854c8e36e89e80623d5aec0cc239d898b07/Orange3-Survival-Analysis-0.3.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.4.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "8ab8761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2",
+                        "md5": "14daa41c739a4ca40e9a142e2fd657fb",
+                        "sha256": "59d1ec79361d575701fd2f197068e15235d051852071e9f535435f630cc89229"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "14daa41c739a4ca40e9a142e2fd657fb",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.7",
+                    "size": 47212,
+                    "upload_time": "2022-04-02T17:37:10",
+                    "upload_time_iso_8601": "2022-04-02T17:37:10.262283Z",
+                    "url": "https://files.pythonhosted.org/packages/8a/b8/761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2/Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "1a56bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea",
+                        "md5": "b3b00b5abee66eef318be66142672376",
+                        "sha256": "1c0ddb4054c61e09bd48fbf20320099ee2bc02e78c43b9d47b320c1b32a4da41"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.4.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b3b00b5abee66eef318be66142672376",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.7",
+                    "size": 43016,
+                    "upload_time": "2022-04-02T17:37:11",
+                    "upload_time_iso_8601": "2022-04-02T17:37:11.334491Z",
+                    "url": "https://files.pythonhosted.org/packages/1a/56/bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea/Orange3-Survival-Analysis-0.4.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.5.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "10730566887dd54469d8977340d0a1148efcaa177d3e47ad3d04683aa451eea7",
+                        "md5": "0c5ac044045077022213fda24cfb9d8c",
+                        "sha256": "9cefbc29927c8d2f20f9bd2ec1ca3906a5f18920ba4adb975f317d5b42920798"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.5.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "0c5ac044045077022213fda24cfb9d8c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.7",
+                    "size": 48195,
+                    "upload_time": "2022-12-06T13:31:59",
+                    "upload_time_iso_8601": "2022-12-06T13:31:59.439496Z",
+                    "url": "https://files.pythonhosted.org/packages/10/73/0566887dd54469d8977340d0a1148efcaa177d3e47ad3d04683aa451eea7/Orange3_Survival_Analysis-0.5.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "a3d3df4f66ebf60945e51cc3cacfcf5717a41c19c0583321e6b0aa309cee5c44",
+                        "md5": "ffd979c2448831a690b3dfb269a037f3",
+                        "sha256": "3914b496efc8abb839595d652e2549ab92d7f5e679a39499161480b85c9986db"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.5.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "ffd979c2448831a690b3dfb269a037f3",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.7",
+                    "size": 2960007,
+                    "upload_time": "2022-12-06T13:32:00",
+                    "upload_time_iso_8601": "2022-12-06T13:32:00.831149Z",
+                    "url": "https://files.pythonhosted.org/packages/a3/d3/df4f66ebf60945e51cc3cacfcf5717a41c19c0583321e6b0aa309cee5c44/Orange3-Survival-Analysis-0.5.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.5.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "3f6c1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601",
+                        "md5": "5c8730f27145dc6a0698e40ea6faf94c",
+                        "sha256": "0b349b93fdce0d3c35cd8c725c9632a11fc4e50a88cd274338ece4cbfa157aaa"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "5c8730f27145dc6a0698e40ea6faf94c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.7",
+                    "size": 48212,
+                    "upload_time": "2023-01-20T14:45:59",
+                    "upload_time_iso_8601": "2023-01-20T14:45:59.961384Z",
+                    "url": "https://files.pythonhosted.org/packages/3f/6c/1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601/Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "d7e603d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7",
+                        "md5": "17211777e88b88f8e152b84f9f666100",
+                        "sha256": "a3edad8c4629b44982d5d9e6ae718f22a41e42d242da80e387e74fed5aa66ab4"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.5.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "17211777e88b88f8e152b84f9f666100",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.7",
+                    "size": 2960179,
+                    "upload_time": "2023-01-20T14:46:02",
+                    "upload_time_iso_8601": "2023-01-20T14:46:02.105399Z",
+                    "url": "https://files.pythonhosted.org/packages/d7/e6/03d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7/Orange3-Survival-Analysis-0.5.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "3f6c1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601",
+                    "md5": "5c8730f27145dc6a0698e40ea6faf94c",
+                    "sha256": "0b349b93fdce0d3c35cd8c725c9632a11fc4e50a88cd274338ece4cbfa157aaa"
+                },
+                "downloads": -1,
+                "filename": "Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5c8730f27145dc6a0698e40ea6faf94c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 48212,
+                "upload_time": "2023-01-20T14:45:59",
+                "upload_time_iso_8601": "2023-01-20T14:45:59.961384Z",
+                "url": "https://files.pythonhosted.org/packages/3f/6c/1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601/Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "d7e603d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7",
+                    "md5": "17211777e88b88f8e152b84f9f666100",
+                    "sha256": "a3edad8c4629b44982d5d9e6ae718f22a41e42d242da80e387e74fed5aa66ab4"
+                },
+                "downloads": -1,
+                "filename": "Orange3-Survival-Analysis-0.5.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "17211777e88b88f8e152b84f9f666100",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.7",
+                "size": 2960179,
+                "upload_time": "2023-01-20T14:46:02",
+                "upload_time_iso_8601": "2023-01-20T14:46:02.105399Z",
+                "url": "https://files.pythonhosted.org/packages/d7/e6/03d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7/Orange3-Survival-Analysis-0.5.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "vulnerabilities": []
+    },
+    {
+        "info": {
+            "author": "Bioinformatics Laboratory, FRI UL",
+            "author_email": "info@biolab.si",
+            "bugtrack_url": null,
+            "classifiers": [],
             "description": "Orange3 Text\n============\n\nOrange add-on for text mining. It provides access to publicly available data,\nlike NY Times, Twitter and PubMed. Further, it provides tools for preprocessing,\nconstructing vector spaces (like bag-of-words, topic modeling and word2vec) and\nvisualizations like word cloud end geo map. All features can be combined with\npowerful data mining techniques from the Orange data mining framework.\n\nSee [documentation](http://orange3-text.readthedocs.org/).\n\nFeatures\n--------\n#### Access to data\n* Load a corpus of text documents\n* Access publicly available data (The Guardian, NY Times, Twitter, Wikipedia, PubMed)\n\n#### Text analysis\n* Preprocess corpus\n* Generate bag of words\n* Embed documents into vector space\n* Perform sentiment analysis\n* Detect emotions in tweets\n* Discover topics in the text\n* Compute document statistics\n* Visualize frequent words in the word cloud\n* Find words that enrich selected documents\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
@@ -17880,455 +18690,6 @@
     {
         "info": {
             "author": "Bioinformatics Laboratory, FRI UL",
-            "author_email": "info@biolab.si",
-            "bugtrack_url": null,
-            "classifiers": [],
-            "description": "Orange3-Survival-Analysis\n=========================\n",
-            "description_content_type": "text/markdown",
-            "docs_url": null,
-            "download_url": "",
-            "downloads": {
-                "last_day": -1,
-                "last_month": -1,
-                "last_week": -1
-            },
-            "home_page": "https://github.com/biolab/orange3-survival-analysis",
-            "keywords": "'orange3 add-on'",
-            "license": "GPL3+",
-            "maintainer": "Jaka Kokosar",
-            "maintainer_email": "",
-            "name": "Orange3-Survival-Analysis",
-            "package_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
-            "platform": null,
-            "project_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
-            "project_urls": {
-                "Bug Tracker": "https://github.com/biolab/orange3-survival-analysis/issues",
-                "Homepage": "https://github.com/biolab/orange3-survival-analysis",
-                "Source Code": "https://github.com/biolab/orange3-survival-analysis/"
-            },
-            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.5.1/",
-            "requires_dist": [
-                "Orange3 (>=3.32.0)",
-                "lifelines",
-                "statsmodels",
-                "sphinx ; extra == 'doc'",
-                "recommonmark ; extra == 'doc'",
-                "pytest ; extra == 'test'",
-                "coverage ; extra == 'test'",
-                "flake8 ; extra == 'test'",
-                "flake8-bugbear ; extra == 'test'",
-                "black ; extra == 'test'"
-            ],
-            "requires_python": ">=3.7",
-            "summary": "Survival Analysis add-on for Orange data mining software package.",
-            "version": "0.5.1",
-            "yanked": false,
-            "yanked_reason": null
-        },
-        "last_serial": 16501891,
-        "releases": {
-            "0.1.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "e962a3a56fee7b2e835745663ae8f6dd4cf73f01097e592f18d4e9912277d61d",
-                        "md5": "0c1a1a4e14a76b106f114336f20e9318",
-                        "sha256": "95e14caf7ed8e9de05ba61617115cbc8d6f8200091fe21bb7167d238fc63efbe"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.1.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "0c1a1a4e14a76b106f114336f20e9318",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.6",
-                    "size": 23793,
-                    "upload_time": "2021-01-12T10:03:10",
-                    "upload_time_iso_8601": "2021-01-12T10:03:10.875063Z",
-                    "url": "https://files.pythonhosted.org/packages/e9/62/a3a56fee7b2e835745663ae8f6dd4cf73f01097e592f18d4e9912277d61d/Orange3_Survival_Analysis-0.1.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "29e20084474600f68f070e994e4c3081b14628416a658417fb90173d707a70f5",
-                        "md5": "b1e4d4155b37c01a642946acf1eb6026",
-                        "sha256": "532c91b303fd72929b5963a4975e817303bb7a4279acca2769e694bc40f36507"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.1.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "b1e4d4155b37c01a642946acf1eb6026",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.6",
-                    "size": 27544,
-                    "upload_time": "2021-01-12T10:02:58",
-                    "upload_time_iso_8601": "2021-01-12T10:02:58.592277Z",
-                    "url": "https://files.pythonhosted.org/packages/29/e2/0084474600f68f070e994e4c3081b14628416a658417fb90173d707a70f5/Orange3-Survival-Analysis-0.1.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.0a1": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "c14dabe7ca6b224715950ff68763814525ca953118e2a7e2823d4fc507368c38",
-                        "md5": "580acd29ec963d2a64554770987d6881",
-                        "sha256": "79892fe7e5d8af03e893292db497da22f086be6450e27dea46549e6693b20016"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.1.0a1-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "580acd29ec963d2a64554770987d6881",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.6",
-                    "size": 22209,
-                    "upload_time": "2020-12-07T21:51:39",
-                    "upload_time_iso_8601": "2020-12-07T21:51:39.901313Z",
-                    "url": "https://files.pythonhosted.org/packages/c1/4d/abe7ca6b224715950ff68763814525ca953118e2a7e2823d4fc507368c38/Orange3_Survival_Analysis-0.1.0a1-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "5768934e5d8e544fc6a76e630746e31b481d4216b3530e7a5789247acc7a11b3",
-                        "md5": "d870f3c5a65eeb24fe2eb993288b5a38",
-                        "sha256": "795a40f5fadf295a17e3d095f1c8ffaa647a543a67b71a8c2c7047b3dd240085"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.1.0a1.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "d870f3c5a65eeb24fe2eb993288b5a38",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.6",
-                    "size": 25295,
-                    "upload_time": "2020-12-07T21:51:40",
-                    "upload_time_iso_8601": "2020-12-07T21:51:40.945339Z",
-                    "url": "https://files.pythonhosted.org/packages/57/68/934e5d8e544fc6a76e630746e31b481d4216b3530e7a5789247acc7a11b3/Orange3-Survival-Analysis-0.1.0a1.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.0a2": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "d7115536298abf79470d080e6712f0d40e79eb63a204e6201bc65f24901582e5",
-                        "md5": "02345e68a4f511e6bf752d4ca8f3d616",
-                        "sha256": "a033d10d07990bbd9e83812cd486a51053cc4f2f7ccb76933cc3b35310fc9d57"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.1.0a2-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "02345e68a4f511e6bf752d4ca8f3d616",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.6",
-                    "size": 22213,
-                    "upload_time": "2020-12-08T09:29:07",
-                    "upload_time_iso_8601": "2020-12-08T09:29:07.630299Z",
-                    "url": "https://files.pythonhosted.org/packages/d7/11/5536298abf79470d080e6712f0d40e79eb63a204e6201bc65f24901582e5/Orange3_Survival_Analysis-0.1.0a2-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "a77e872578bd54739391911a70caabccad82e903c3ec5cf3e74138ba88c6e102",
-                        "md5": "d0e8a7943d91caa196ad4e195902ee86",
-                        "sha256": "cf41c96fa0e2cb84f240b791712e8d9e4c1c677dda17c374e8f697060750d3fc"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.1.0a2.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "d0e8a7943d91caa196ad4e195902ee86",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.6",
-                    "size": 25301,
-                    "upload_time": "2020-12-08T09:29:08",
-                    "upload_time_iso_8601": "2020-12-08T09:29:08.682109Z",
-                    "url": "https://files.pythonhosted.org/packages/a7/7e/872578bd54739391911a70caabccad82e903c3ec5cf3e74138ba88c6e102/Orange3-Survival-Analysis-0.1.0a2.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.2.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "ddb429b4a164a686ec0c8abb1b779046aff371343e5d6bbab8b37d1ec12e445d",
-                        "md5": "dcb4d9297c1cc381b1c544c9de1c35ba",
-                        "sha256": "79d44fdc02997ecf3b05d81110c5927eae04f3396032ad847b211570d486dd35"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.2.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "dcb4d9297c1cc381b1c544c9de1c35ba",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.6",
-                    "size": 24948,
-                    "upload_time": "2021-03-29T06:12:26",
-                    "upload_time_iso_8601": "2021-03-29T06:12:26.059489Z",
-                    "url": "https://files.pythonhosted.org/packages/dd/b4/29b4a164a686ec0c8abb1b779046aff371343e5d6bbab8b37d1ec12e445d/Orange3_Survival_Analysis-0.2.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "1dace3c8dff3044787a88a2820fd33850f5eba77dfe3f2c866377189cfa3b06f",
-                        "md5": "e426b9dee3a05b65dbebd5e13297071b",
-                        "sha256": "849040aec224eece7ee4c76fc4a9a0866469488903a7e0dbbc5f7e8263a1b51b"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.2.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "e426b9dee3a05b65dbebd5e13297071b",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.6",
-                    "size": 29153,
-                    "upload_time": "2021-03-29T06:12:27",
-                    "upload_time_iso_8601": "2021-03-29T06:12:27.236549Z",
-                    "url": "https://files.pythonhosted.org/packages/1d/ac/e3c8dff3044787a88a2820fd33850f5eba77dfe3f2c866377189cfa3b06f/Orange3-Survival-Analysis-0.2.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.3.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "6ce2d33632d629832d61c38e2d01e75b872097a1391940ff56da60bfe93e0258",
-                        "md5": "50882bfed5c014971f0b0ef3d7203092",
-                        "sha256": "22f556b96d4b40c6e6d19001f88d11dd78833c4a82db28bd6e3e5b1721a65484"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "50882bfed5c014971f0b0ef3d7203092",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.6",
-                    "size": 35503,
-                    "upload_time": "2021-10-28T10:34:18",
-                    "upload_time_iso_8601": "2021-10-28T10:34:18.127906Z",
-                    "url": "https://files.pythonhosted.org/packages/6c/e2/d33632d629832d61c38e2d01e75b872097a1391940ff56da60bfe93e0258/Orange3_Survival_Analysis-0.3.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "bd91f65f9f286d0a9a6745a97c1ba854c8e36e89e80623d5aec0cc239d898b07",
-                        "md5": "4ea4860b09ba7536c7b0a7654095ce59",
-                        "sha256": "e0459e90c8e9687ebb497d36df194f8476ea4d36dc1bbbd1201bf43fba41cf7b"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.3.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "4ea4860b09ba7536c7b0a7654095ce59",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.6",
-                    "size": 36607,
-                    "upload_time": "2021-10-28T10:34:18",
-                    "upload_time_iso_8601": "2021-10-28T10:34:18.941880Z",
-                    "url": "https://files.pythonhosted.org/packages/bd/91/f65f9f286d0a9a6745a97c1ba854c8e36e89e80623d5aec0cc239d898b07/Orange3-Survival-Analysis-0.3.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.4.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "8ab8761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2",
-                        "md5": "14daa41c739a4ca40e9a142e2fd657fb",
-                        "sha256": "59d1ec79361d575701fd2f197068e15235d051852071e9f535435f630cc89229"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "14daa41c739a4ca40e9a142e2fd657fb",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.7",
-                    "size": 47212,
-                    "upload_time": "2022-04-02T17:37:10",
-                    "upload_time_iso_8601": "2022-04-02T17:37:10.262283Z",
-                    "url": "https://files.pythonhosted.org/packages/8a/b8/761dc1f10b8529b432fce510f1375733e31c526f93583400048edf2f68c2/Orange3_Survival_Analysis-0.4.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "1a56bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea",
-                        "md5": "b3b00b5abee66eef318be66142672376",
-                        "sha256": "1c0ddb4054c61e09bd48fbf20320099ee2bc02e78c43b9d47b320c1b32a4da41"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.4.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "b3b00b5abee66eef318be66142672376",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.7",
-                    "size": 43016,
-                    "upload_time": "2022-04-02T17:37:11",
-                    "upload_time_iso_8601": "2022-04-02T17:37:11.334491Z",
-                    "url": "https://files.pythonhosted.org/packages/1a/56/bef47b3e40c7500e6b6d1b99aaf1a67bea899f5c4effa98533faf9969fea/Orange3-Survival-Analysis-0.4.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.5.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "10730566887dd54469d8977340d0a1148efcaa177d3e47ad3d04683aa451eea7",
-                        "md5": "0c5ac044045077022213fda24cfb9d8c",
-                        "sha256": "9cefbc29927c8d2f20f9bd2ec1ca3906a5f18920ba4adb975f317d5b42920798"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.5.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "0c5ac044045077022213fda24cfb9d8c",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.7",
-                    "size": 48195,
-                    "upload_time": "2022-12-06T13:31:59",
-                    "upload_time_iso_8601": "2022-12-06T13:31:59.439496Z",
-                    "url": "https://files.pythonhosted.org/packages/10/73/0566887dd54469d8977340d0a1148efcaa177d3e47ad3d04683aa451eea7/Orange3_Survival_Analysis-0.5.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "a3d3df4f66ebf60945e51cc3cacfcf5717a41c19c0583321e6b0aa309cee5c44",
-                        "md5": "ffd979c2448831a690b3dfb269a037f3",
-                        "sha256": "3914b496efc8abb839595d652e2549ab92d7f5e679a39499161480b85c9986db"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.5.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "ffd979c2448831a690b3dfb269a037f3",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.7",
-                    "size": 2960007,
-                    "upload_time": "2022-12-06T13:32:00",
-                    "upload_time_iso_8601": "2022-12-06T13:32:00.831149Z",
-                    "url": "https://files.pythonhosted.org/packages/a3/d3/df4f66ebf60945e51cc3cacfcf5717a41c19c0583321e6b0aa309cee5c44/Orange3-Survival-Analysis-0.5.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.5.1": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "3f6c1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601",
-                        "md5": "5c8730f27145dc6a0698e40ea6faf94c",
-                        "sha256": "0b349b93fdce0d3c35cd8c725c9632a11fc4e50a88cd274338ece4cbfa157aaa"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "5c8730f27145dc6a0698e40ea6faf94c",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": ">=3.7",
-                    "size": 48212,
-                    "upload_time": "2023-01-20T14:45:59",
-                    "upload_time_iso_8601": "2023-01-20T14:45:59.961384Z",
-                    "url": "https://files.pythonhosted.org/packages/3f/6c/1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601/Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "d7e603d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7",
-                        "md5": "17211777e88b88f8e152b84f9f666100",
-                        "sha256": "a3edad8c4629b44982d5d9e6ae718f22a41e42d242da80e387e74fed5aa66ab4"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Survival-Analysis-0.5.1.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "17211777e88b88f8e152b84f9f666100",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": ">=3.7",
-                    "size": 2960179,
-                    "upload_time": "2023-01-20T14:46:02",
-                    "upload_time_iso_8601": "2023-01-20T14:46:02.105399Z",
-                    "url": "https://files.pythonhosted.org/packages/d7/e6/03d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7/Orange3-Survival-Analysis-0.5.1.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ]
-        },
-        "urls": [
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "3f6c1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601",
-                    "md5": "5c8730f27145dc6a0698e40ea6faf94c",
-                    "sha256": "0b349b93fdce0d3c35cd8c725c9632a11fc4e50a88cd274338ece4cbfa157aaa"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
-                "has_sig": false,
-                "md5_digest": "5c8730f27145dc6a0698e40ea6faf94c",
-                "packagetype": "bdist_wheel",
-                "python_version": "py3",
-                "requires_python": ">=3.7",
-                "size": 48212,
-                "upload_time": "2023-01-20T14:45:59",
-                "upload_time_iso_8601": "2023-01-20T14:45:59.961384Z",
-                "url": "https://files.pythonhosted.org/packages/3f/6c/1bdcc689453fc2c3a76859c7bec44742acc7c3b8167fce62a54dc0903601/Orange3_Survival_Analysis-0.5.1-py3-none-any.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "d7e603d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7",
-                    "md5": "17211777e88b88f8e152b84f9f666100",
-                    "sha256": "a3edad8c4629b44982d5d9e6ae718f22a41e42d242da80e387e74fed5aa66ab4"
-                },
-                "downloads": -1,
-                "filename": "Orange3-Survival-Analysis-0.5.1.tar.gz",
-                "has_sig": false,
-                "md5_digest": "17211777e88b88f8e152b84f9f666100",
-                "packagetype": "sdist",
-                "python_version": "source",
-                "requires_python": ">=3.7",
-                "size": 2960179,
-                "upload_time": "2023-01-20T14:46:02",
-                "upload_time_iso_8601": "2023-01-20T14:46:02.105399Z",
-                "url": "https://files.pythonhosted.org/packages/d7/e6/03d4f651d6a254f1bc98f6962d8852d19b23663fdba083815e0c094f8ac7/Orange3-Survival-Analysis-0.5.1.tar.gz",
-                "yanked": false,
-                "yanked_reason": null
-            }
-        ],
-        "vulnerabilities": []
-    },
-    {
-        "info": {
-            "author": "Bioinformatics Laboratory, FRI UL",
             "author_email": "contact@orange.biolab.si",
             "bugtrack_url": null,
             "classifiers": [
@@ -18812,367 +19173,6 @@
                 "upload_time": "2022-11-23T08:57:27",
                 "upload_time_iso_8601": "2022-11-23T08:57:27.050850Z",
                 "url": "https://files.pythonhosted.org/packages/7b/db/1119af868329a5d12a4bddce483999e542cf4492bf5080747bc12589359a/Orange3-WorldHappiness-0.1.9.tar.gz",
-                "yanked": false,
-                "yanked_reason": null
-            }
-        ],
-        "vulnerabilities": []
-    },
-    {
-        "info": {
-            "author": "Bioinformatics Laboratory, FRI UL",
-            "author_email": "contact@orange.biolab.si",
-            "bugtrack_url": null,
-            "classifiers": [
-                "Development Status :: 3 - Alpha",
-                "Intended Audience :: Science/Research",
-                "Operating System :: MacOS",
-                "Operating System :: Microsoft :: Windows",
-                "Operating System :: Unix",
-                "Programming Language :: Python :: 3 :: Only"
-            ],
-            "description": "Orange3 Fairness\r\n================\r\n\r\nOrange3 Fairness is an add-on for the [Orange3](http://orange.biolab.si) data mining suite. It provides extensions for fairness-aware AI.\r\n\r\n.. image:: https://raw.githubusercontent.com/ZanMervic/orange3-fairness/main/doc/readme-screenshot.png\r\n   :alt: Screenshot of Orange3 Fairness add-on\r\n",
-            "description_content_type": "text/markdown",
-            "docs_url": null,
-            "download_url": "",
-            "downloads": {
-                "last_day": -1,
-                "last_month": -1,
-                "last_week": -1
-            },
-            "home_page": "",
-            "keywords": "orange3 add-on,orange3 fairness",
-            "license": "GPL3+",
-            "maintainer": "Zan Mervic",
-            "maintainer_email": "",
-            "name": "Orange3-Fairness",
-            "package_url": "https://pypi.org/project/Orange3-Fairness/",
-            "platform": null,
-            "project_url": "https://pypi.org/project/Orange3-Fairness/",
-            "project_urls": null,
-            "release_url": "https://pypi.org/project/Orange3-Fairness/0.1.5/",
-            "requires_dist": [
-                "Orange3",
-                "tensorflow (>=2.12.0)",
-                "aif360 (==0.5.0)",
-                "numpy (~=1.23.0)",
-                "sphinx ; extra == 'doc'",
-                "sphinx-rtd-theme ; extra == 'doc'",
-                "recommonmark ; extra == 'doc'"
-            ],
-            "requires_python": "",
-            "summary": "Orange3 add-on for fairness-aware machine learning.",
-            "version": "0.1.5",
-            "yanked": false,
-            "yanked_reason": null
-        },
-        "last_serial": 19886100,
-        "releases": {
-            "0.1.0": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "371f8efe4bc3082f8ef9d67576eef512d4e0279d589e5939f1b767e01477d601",
-                        "md5": "2d769a12686706ecb47d79ea8fd4a624",
-                        "sha256": "4d4a3ac7797937e54c687a320056076868441c2cb6621542cf03ba5d2cd0518d"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.0-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "2d769a12686706ecb47d79ea8fd4a624",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 52910,
-                    "upload_time": "2023-07-31T15:52:16",
-                    "upload_time_iso_8601": "2023-07-31T15:52:16.631952Z",
-                    "url": "https://files.pythonhosted.org/packages/37/1f/8efe4bc3082f8ef9d67576eef512d4e0279d589e5939f1b767e01477d601/Orange3_Fairness-0.1.0-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "bbf1d9cfe6adf8de8cbfd7099cff021cffe739cf704d7f6733c74c19ae293013",
-                        "md5": "051c3891b991d0a176521b38a9fae1bf",
-                        "sha256": "0712f51bdbb46a315d33735b2fcae8b67312f2596811417bb6e110b9245f691a"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.0.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "051c3891b991d0a176521b38a9fae1bf",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 41563,
-                    "upload_time": "2023-07-31T15:52:20",
-                    "upload_time_iso_8601": "2023-07-31T15:52:20.356167Z",
-                    "url": "https://files.pythonhosted.org/packages/bb/f1/d9cfe6adf8de8cbfd7099cff021cffe739cf704d7f6733c74c19ae293013/Orange3-Fairness-0.1.0.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.1": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "3b6f732a5088c8f5ae9f4bbed544e64cbd76573d79a4d1d93110ca595baa8e4d",
-                        "md5": "0782d8e4543da4cf728055868c9850fc",
-                        "sha256": "1ad90a21ac63bf5f3ee9878ffa3e5427e9466c45804befd737e3b905bf541ae7"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.1-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "0782d8e4543da4cf728055868c9850fc",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 51723,
-                    "upload_time": "2023-08-07T08:24:25",
-                    "upload_time_iso_8601": "2023-08-07T08:24:25.438726Z",
-                    "url": "https://files.pythonhosted.org/packages/3b/6f/732a5088c8f5ae9f4bbed544e64cbd76573d79a4d1d93110ca595baa8e4d/Orange3_Fairness-0.1.1-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "ead7c6b1aa145af6d5982b227e015a61d0e54c95426c480ebcec0bac9448a7b0",
-                        "md5": "ac0def2ab152bf96f0ac8153aae7743f",
-                        "sha256": "5977c1ecbcad47351751a55a55d8d30088407b5e6d8083880256331347191de6"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.1.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "ac0def2ab152bf96f0ac8153aae7743f",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 39918,
-                    "upload_time": "2023-08-07T08:24:27",
-                    "upload_time_iso_8601": "2023-08-07T08:24:27.205345Z",
-                    "url": "https://files.pythonhosted.org/packages/ea/d7/c6b1aa145af6d5982b227e015a61d0e54c95426c480ebcec0bac9448a7b0/Orange3-Fairness-0.1.1.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.2": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "34e78aae98383d0990b8391af79e11dd8cdb42e9bcbeb71aa910251df67b01c5",
-                        "md5": "d457778eb1c535c61572eb1e5e1b30cd",
-                        "sha256": "148c3ea986f057cdd8c7c624ce8ad845f6ab71c6548396e8c847c255cb5f9b13"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.2-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "d457778eb1c535c61572eb1e5e1b30cd",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 51588,
-                    "upload_time": "2023-08-10T12:35:10",
-                    "upload_time_iso_8601": "2023-08-10T12:35:10.683713Z",
-                    "url": "https://files.pythonhosted.org/packages/34/e7/8aae98383d0990b8391af79e11dd8cdb42e9bcbeb71aa910251df67b01c5/Orange3_Fairness-0.1.2-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "d9d581eac21ef743166d7e8c1a36284f2519b065b6ea0e24f957e01e9e2ff773",
-                        "md5": "38b4ebd6e12e2d6f309d8fed64702e50",
-                        "sha256": "8d06edff19dd067ed162d6f099a984b91a36db47fe296c7e7378fe6c5b5649dc"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.2.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "38b4ebd6e12e2d6f309d8fed64702e50",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 39955,
-                    "upload_time": "2023-08-10T12:35:12",
-                    "upload_time_iso_8601": "2023-08-10T12:35:12.773456Z",
-                    "url": "https://files.pythonhosted.org/packages/d9/d5/81eac21ef743166d7e8c1a36284f2519b065b6ea0e24f957e01e9e2ff773/Orange3-Fairness-0.1.2.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.3": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "65613330f966f74ad86321aacdcef0c1127d38979a8f40a98424d875e3a3f5c9",
-                        "md5": "8171bb6e05ec7a2d61de945ee7791347",
-                        "sha256": "2c865084719bfdf847e3c0125076ba0cfc1e0fc2ea1754ef9885c614765a9520"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.3-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "8171bb6e05ec7a2d61de945ee7791347",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 52199,
-                    "upload_time": "2023-08-24T15:47:53",
-                    "upload_time_iso_8601": "2023-08-24T15:47:53.984288Z",
-                    "url": "https://files.pythonhosted.org/packages/65/61/3330f966f74ad86321aacdcef0c1127d38979a8f40a98424d875e3a3f5c9/Orange3_Fairness-0.1.3-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "2b2c89a786fdd7507dad4c9cef4ca067a60d53b0387521f2104f9fb2ce9551b1",
-                        "md5": "5013e5ca5d069fff618644f6ab1f8c2a",
-                        "sha256": "8a1fc1214ece485935d71bf7e80ce1992b24317d7d17e905fd4db1aa24c37ba4"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.3.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "5013e5ca5d069fff618644f6ab1f8c2a",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 41050,
-                    "upload_time": "2023-08-24T15:47:56",
-                    "upload_time_iso_8601": "2023-08-24T15:47:56.615609Z",
-                    "url": "https://files.pythonhosted.org/packages/2b/2c/89a786fdd7507dad4c9cef4ca067a60d53b0387521f2104f9fb2ce9551b1/Orange3-Fairness-0.1.3.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.4": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "3bca810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d",
-                        "md5": "171b0a038498633169b79d9025d89b9b",
-                        "sha256": "5eabf1a6efcb7e992ee640d0b5bdcf9388305808f1961b48d745184d5674653a"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.4-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "171b0a038498633169b79d9025d89b9b",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 53384,
-                    "upload_time": "2023-09-11T11:40:14",
-                    "upload_time_iso_8601": "2023-09-11T11:40:14.302058Z",
-                    "url": "https://files.pythonhosted.org/packages/3b/ca/810cb4f4062a915dda9de3c14ce85d328c290d39dca72460f952dbc2032d/Orange3_Fairness-0.1.4-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "eb6fda6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf",
-                        "md5": "e49e691b7e9e165a784e92180e64be76",
-                        "sha256": "ae50d9a85446d09870e5127abc2982f54908c1a1e7ffc6c90062b0ac10d0b8c6"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.4.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "e49e691b7e9e165a784e92180e64be76",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 41223,
-                    "upload_time": "2023-09-11T11:40:16",
-                    "upload_time_iso_8601": "2023-09-11T11:40:16.351463Z",
-                    "url": "https://files.pythonhosted.org/packages/eb/6f/da6a6c415b9b1e8c9e70b9b9e99a1876e361ac6f8e91d399dfea372e76bf/Orange3-Fairness-0.1.4.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ],
-            "0.1.5": [
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
-                        "md5": "f0fc557e72b57421e33034b5186c74aa",
-                        "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
-                    "has_sig": false,
-                    "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
-                    "packagetype": "bdist_wheel",
-                    "python_version": "py3",
-                    "requires_python": null,
-                    "size": 55842,
-                    "upload_time": "2023-09-25T07:56:46",
-                    "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
-                    "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
-                    "yanked": false,
-                    "yanked_reason": null
-                },
-                {
-                    "comment_text": "",
-                    "digests": {
-                        "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
-                        "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
-                        "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
-                    },
-                    "downloads": -1,
-                    "filename": "Orange3-Fairness-0.1.5.tar.gz",
-                    "has_sig": false,
-                    "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
-                    "packagetype": "sdist",
-                    "python_version": "source",
-                    "requires_python": null,
-                    "size": 43873,
-                    "upload_time": "2023-09-25T07:56:48",
-                    "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
-                    "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
-                    "yanked": false,
-                    "yanked_reason": null
-                }
-            ]
-        },
-        "urls": [
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "ab9f7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1",
-                    "md5": "f0fc557e72b57421e33034b5186c74aa",
-                    "sha256": "89839054f3db5479f50798630946d53524de612333afba517ed591a3a0472426"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Fairness-0.1.5-py3-none-any.whl",
-                "has_sig": false,
-                "md5_digest": "f0fc557e72b57421e33034b5186c74aa",
-                "packagetype": "bdist_wheel",
-                "python_version": "py3",
-                "requires_python": null,
-                "size": 55842,
-                "upload_time": "2023-09-25T07:56:46",
-                "upload_time_iso_8601": "2023-09-25T07:56:46.616695Z",
-                "url": "https://files.pythonhosted.org/packages/ab/9f/7ca77041148cdbbbe7b6c6a6de81c001f03260596039a1e7d64c4146fbb1/Orange3_Fairness-0.1.5-py3-none-any.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "5ffdb001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06",
-                    "md5": "e22ec28b84fffc8e878c6c6f14830cb1",
-                    "sha256": "0717811850a9f5830458c26b84d618e7a2ae2308c59b19d03da82057a0ae3fb6"
-                },
-                "downloads": -1,
-                "filename": "Orange3-Fairness-0.1.5.tar.gz",
-                "has_sig": false,
-                "md5_digest": "e22ec28b84fffc8e878c6c6f14830cb1",
-                "packagetype": "sdist",
-                "python_version": "source",
-                "requires_python": null,
-                "size": 43873,
-                "upload_time": "2023-09-25T07:56:48",
-                "upload_time_iso_8601": "2023-09-25T07:56:48.272701Z",
-                "url": "https://files.pythonhosted.org/packages/5f/fd/b001b31a04bc4ab8da80cd91e3b3b9282eb2a7581c3b2cf9c9731e5e4a06/Orange3-Fairness-0.1.5.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
