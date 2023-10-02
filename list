@@ -3426,7 +3426,7 @@
                 "Download": "https://github.com/biolab/orange3-educational/releases",
                 "Homepage": "https://github.com/biolab/orange3-educational"
             },
-            "release_url": "https://pypi.org/project/Orange3-Educational/0.7.0/",
+            "release_url": "https://pypi.org/project/Orange3-Educational/0.7.1/",
             "requires_dist": [
                 "anyqt",
                 "BeautifulSoup4",
@@ -3434,6 +3434,7 @@
                 "Orange3 (>=3.31.1)",
                 "orange-widget-base",
                 "scikit-learn",
+                "scipy",
                 "pyqtgraph",
                 "sphinx ; extra == 'doc'",
                 "recommonmark ; extra == 'doc'",
@@ -3442,11 +3443,11 @@
             ],
             "requires_python": "",
             "summary": "Orange Educational add-on for Orange data mining software package.",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 19951147,
+        "last_serial": 19981759,
         "releases": {
             "0.0.1": [
                 {
@@ -4331,48 +4332,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.7.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "fa08b56c6d1a5230347bc2a75e50b2a15f12deb1a386ffc49aa066eac2a63b9a",
+                        "md5": "588413d61f66b85d9072d74a1075fc7c",
+                        "sha256": "1ebb6366f2171b299753afe7141778cedbe827d045d8d411a638358a302c7ba8"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Educational-0.7.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "588413d61f66b85d9072d74a1075fc7c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 6333909,
+                    "upload_time": "2023-10-02T14:11:58",
+                    "upload_time_iso_8601": "2023-10-02T14:11:58.780046Z",
+                    "url": "https://files.pythonhosted.org/packages/fa/08/b56c6d1a5230347bc2a75e50b2a15f12deb1a386ffc49aa066eac2a63b9a/Orange3_Educational-0.7.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "c004c010cc70127b065022b670f40cd91494d323ff7fed9ab204f39496166299",
+                        "md5": "55250e31a6043264709500487f72232a",
+                        "sha256": "8cbec6f4e868631c9c260c5b8b0acc142cf5dd7cb04b3e474bce1b640b811ff7"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Educational-0.7.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "55250e31a6043264709500487f72232a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 9892637,
+                    "upload_time": "2023-10-02T14:12:01",
+                    "upload_time_iso_8601": "2023-10-02T14:12:01.803715Z",
+                    "url": "https://files.pythonhosted.org/packages/c0/04/c010cc70127b065022b670f40cd91494d323ff7fed9ab204f39496166299/Orange3-Educational-0.7.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "3a0e0292456e6ac260dab61022e1f9713b131e439eef2f30e9f9fb59dbda68df",
-                    "md5": "9dccd33077e2a5683a5858e08e234ca7",
-                    "sha256": "3b88b90bbef0c4913b206645cef3bb8a3036206c39c00c311b52c65744195d07"
+                    "blake2b_256": "fa08b56c6d1a5230347bc2a75e50b2a15f12deb1a386ffc49aa066eac2a63b9a",
+                    "md5": "588413d61f66b85d9072d74a1075fc7c",
+                    "sha256": "1ebb6366f2171b299753afe7141778cedbe827d045d8d411a638358a302c7ba8"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Educational-0.7.0-py3-none-any.whl",
+                "filename": "Orange3_Educational-0.7.1-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "9dccd33077e2a5683a5858e08e234ca7",
+                "md5_digest": "588413d61f66b85d9072d74a1075fc7c",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
                 "size": 6333909,
-                "upload_time": "2023-09-29T12:29:52",
-                "upload_time_iso_8601": "2023-09-29T12:29:52.910583Z",
-                "url": "https://files.pythonhosted.org/packages/3a/0e/0292456e6ac260dab61022e1f9713b131e439eef2f30e9f9fb59dbda68df/Orange3_Educational-0.7.0-py3-none-any.whl",
+                "upload_time": "2023-10-02T14:11:58",
+                "upload_time_iso_8601": "2023-10-02T14:11:58.780046Z",
+                "url": "https://files.pythonhosted.org/packages/fa/08/b56c6d1a5230347bc2a75e50b2a15f12deb1a386ffc49aa066eac2a63b9a/Orange3_Educational-0.7.1-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "8c9222c396c72c3c73602f02d92992aadc7acbadb6d7e61ffe073b2e3a6b2e08",
-                    "md5": "be6d4ef75df69471f6e6905f3b2c7a52",
-                    "sha256": "90bb4fc720ced1eba1a3bde88aa52cbdb410b65a3397c13515981bf853fa11fa"
+                    "blake2b_256": "c004c010cc70127b065022b670f40cd91494d323ff7fed9ab204f39496166299",
+                    "md5": "55250e31a6043264709500487f72232a",
+                    "sha256": "8cbec6f4e868631c9c260c5b8b0acc142cf5dd7cb04b3e474bce1b640b811ff7"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Educational-0.7.0.tar.gz",
+                "filename": "Orange3-Educational-0.7.1.tar.gz",
                 "has_sig": false,
-                "md5_digest": "be6d4ef75df69471f6e6905f3b2c7a52",
+                "md5_digest": "55250e31a6043264709500487f72232a",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 9892584,
-                "upload_time": "2023-09-29T12:29:56",
-                "upload_time_iso_8601": "2023-09-29T12:29:56.225990Z",
-                "url": "https://files.pythonhosted.org/packages/8c/92/22c396c72c3c73602f02d92992aadc7acbadb6d7e61ffe073b2e3a6b2e08/Orange3-Educational-0.7.0.tar.gz",
+                "size": 9892637,
+                "upload_time": "2023-10-02T14:12:01",
+                "upload_time_iso_8601": "2023-10-02T14:12:01.803715Z",
+                "url": "https://files.pythonhosted.org/packages/c0/04/c010cc70127b065022b670f40cd91494d323ff7fed9ab204f39496166299/Orange3-Educational-0.7.1.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
