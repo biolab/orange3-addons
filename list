@@ -18786,6 +18786,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-timeseries",
             "keywords": "time series,sequence analysis,orange3 add-on,ARIMA,VAR model,forecast",
             "license": "GPLv3+",
@@ -18798,6 +18799,7 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-timeseries"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Timeseries/0.6.2/",
             "requires_dist": [
                 "Orange3 >=3.33.0",
