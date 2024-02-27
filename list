@@ -12877,6 +12877,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/Quasars/orange-spectroscopy",
             "keywords": "orange3 add-on,spectroscopy,infrared",
             "license": "GPLv3+",
@@ -12889,6 +12890,7 @@
             "project_urls": {
                 "Homepage": "https://github.com/Quasars/orange-spectroscopy"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange-Spectroscopy/0.6.12/",
             "requires_dist": [
                 "setuptools (>=36.3)",
