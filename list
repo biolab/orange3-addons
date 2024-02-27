@@ -3692,6 +3692,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-educational",
             "keywords": "orange3 add-on",
             "license": "BSD",
@@ -3705,6 +3706,7 @@
                 "Download": "https://github.com/biolab/orange3-educational/releases",
                 "Homepage": "https://github.com/biolab/orange3-educational"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Educational/0.7.2/",
             "requires_dist": [
                 "anyqt",
@@ -4766,6 +4768,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://orangedatamining.com/download",
             "keywords": "orange3 add-on,orange3-explain",
             "license": "GPL3+",
@@ -4778,6 +4781,7 @@
             "project_urls": {
                 "Homepage": "https://orangedatamining.com/download"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Explain/0.6.8/",
             "requires_dist": [
                 "AnyQt",
@@ -14835,6 +14839,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-survival-analysis",
             "keywords": "'orange3 add-on'",
             "license": "GPL3+",
@@ -14849,6 +14854,7 @@
                 "Homepage": "https://github.com/biolab/orange3-survival-analysis",
                 "Source Code": "https://github.com/biolab/orange3-survival-analysis/"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.6.0/",
             "requires_dist": [
                 "Orange3 >=3.32.0",
