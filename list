@@ -23,6 +23,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-associate",
             "keywords": "frequent itemset mining,frequent pattern mining,association rules,apriori,fp-growth,frequent patterns,FIM,FPM,orange3 add-on",
             "license": "",
@@ -35,6 +36,7 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-associate"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Associate/1.3.0/",
             "requires_dist": [
                 "numpy",
