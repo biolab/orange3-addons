@@ -12432,6 +12432,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-single-cell",
             "keywords": "orange3 add-on",
             "license": "GPLv3+",
@@ -12447,6 +12448,7 @@
                 "Homepage": "https://github.com/biolab/orange3-single-cell",
                 "Source Code": "https://github.com/biolab/orange3-single-cell"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-SingleCell/1.5.0/",
             "requires_dist": [
                 "Orange3 (>=3.23.0)",
