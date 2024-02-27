@@ -2434,6 +2434,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-bioinformatics",
             "keywords": "'orange3 add-on'",
             "license": "GPL3+",
@@ -2449,6 +2450,7 @@
                 "Homepage": "https://github.com/biolab/orange3-bioinformatics",
                 "Source Code": "https://github.com/biolab/orange3-bioinformatics/"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Bioinformatics/4.8.1/",
             "requires_dist": [
                 "Orange3 >=3.34.0",
@@ -11116,6 +11118,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-prototypes",
             "keywords": "orange3 add-on",
             "license": "",
@@ -11128,6 +11131,7 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-prototypes"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Prototypes/0.21.1/",
             "requires_dist": [
                 "Orange3 (>=3.34)",
