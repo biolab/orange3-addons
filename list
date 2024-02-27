@@ -15334,6 +15334,7 @@
                 "last_month": -1,
                 "last_week": -1
             },
+            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-text",
             "keywords": "orange3-text,data mining,orange3 add-on",
             "license": "",
@@ -15347,6 +15348,7 @@
                 "Download": "https://github.com/biolab/orange3-text/tarball/1.15.0",
                 "Homepage": "https://github.com/biolab/orange3-text"
             },
+            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Text/1.15.0/",
             "requires_dist": [
                 "Orange3 (>=3.34.0)",
