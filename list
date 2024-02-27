@@ -19897,7 +19897,6 @@
                 "last_month": -1,
                 "last_week": -1
             },
-            "dynamic": null,
             "home_page": "http://orange.biolab.si/download",
             "keywords": "orange3 add-on,orange3-world-happiness",
             "license": "GPL3+",
@@ -19910,7 +19909,6 @@
             "project_urls": {
                 "Homepage": "http://orange.biolab.si/download"
             },
-            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-WorldHappiness/0.1.9/",
             "requires_dist": [
                 "Orange3 (>=3.31)",
