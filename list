@@ -6216,7 +6216,6 @@
                 "last_month": -1,
                 "last_week": -1
             },
-            "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-geo",
             "keywords": "orange3 add-on,geographic,visualization,choropleth,map,cartography,location,position,geolocation,geoposition,latitude,longitude",
             "license": "GPL-3.0",
@@ -6229,7 +6228,6 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-geo"
             },
-            "provides_extra": null,
             "release_url": "https://pypi.org/project/Orange3-Geo/0.4.1/",
             "requires_dist": [
                 "Orange3 (>=3.31.0)",
