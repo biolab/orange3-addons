@@ -8426,12 +8426,13 @@
                 "Homepage": "https://github.com/biolab/orange3-network"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Network/1.8.0/",
+            "release_url": "https://pypi.org/project/Orange3-Network/1.9.0/",
             "requires_dist": [
                 "anyqt",
                 "gensim",
-                "Orange3 >=3.34",
+                "Orange3 >=3.35",
                 "orange-widget-base",
+                "pyqtgraph",
                 "scipy",
                 "scikit-learn",
                 "AnyQt ; extra == 'gui'",
@@ -8443,11 +8444,11 @@
             ],
             "requires_python": ">=3.8",
             "summary": "Networks add-on for Orange 3 data mining software package.",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 21337471,
+        "last_serial": 22118138,
         "releases": {
             "1.0.0": [
                 {
@@ -10670,447 +10671,134 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "1.9.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "e8324652577b61cae81464196620abf0263e287c44bf1c8f25eb0743dc16dbf6",
+                        "md5": "abc45113465b75c24ddcd901c9e83bdc",
+                        "sha256": "a891e2836a866498810fabd4941568f24e21f34ccc2b9478d17c1173eff94c2f"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Network-1.9.0-cp310-cp310-macosx_10_9_x86_64.whl",
+                    "has_sig": false,
+                    "md5_digest": "abc45113465b75c24ddcd901c9e83bdc",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "cp310",
+                    "requires_python": ">=3.8",
+                    "size": 6167424,
+                    "upload_time": "2024-03-01T16:03:31",
+                    "upload_time_iso_8601": "2024-03-01T16:03:31.323086Z",
+                    "url": "https://files.pythonhosted.org/packages/e8/32/4652577b61cae81464196620abf0263e287c44bf1c8f25eb0743dc16dbf6/Orange3_Network-1.9.0-cp310-cp310-macosx_10_9_x86_64.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "2a1707a95019b9947b523569d4fb4a4d6527d2c282fd1a089141440352b682b6",
+                        "md5": "48eec1a2d4c1745b90b55eb856b2847b",
+                        "sha256": "0ba19a167ffc401f43a534bbb13eb887f786ddef540a066a8f817e7fe053498b"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Network-1.9.0-cp310-cp310-macosx_11_0_arm64.whl",
+                    "has_sig": false,
+                    "md5_digest": "48eec1a2d4c1745b90b55eb856b2847b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "cp310",
+                    "requires_python": ">=3.8",
+                    "size": 6163411,
+                    "upload_time": "2024-03-01T16:03:33",
+                    "upload_time_iso_8601": "2024-03-01T16:03:33.442324Z",
+                    "url": "https://files.pythonhosted.org/packages/2a/17/07a95019b9947b523569d4fb4a4d6527d2c282fd1a089141440352b682b6/Orange3_Network-1.9.0-cp310-cp310-macosx_11_0_arm64.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "1ce194ed7385bf7c22cf1c8b21381ae84b0dfc7ac9369d028f3ef0109a7e6ba1",
+                        "md5": "640d33a03b9888c26783b14a40d659a7",
+                        "sha256": "56ad50a5dd3f6f4f76a0038bcd1e68fb57498674e12ce4bbc8e81e8d614923a1"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Network-1.9.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+                    "has_sig": false,
+                    "md5_digest": "640d33a03b9888c26783b14a40d659a7",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "cp310",
+                    "requires_python": ">=3.8",
+                    "size": 6533291,
+                    "upload_time": "2024-03-01T16:03:35",
+                    "upload_time_iso_8601": "2024-03-01T16:03:35.840972Z",
+                    "url": "https://files.pythonhosted.org/packages/1c/e1/94ed7385bf7c22cf1c8b21381ae84b0dfc7ac9369d028f3ef0109a7e6ba1/Orange3_Network-1.9.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "1198d8c9753ec689eadc241bd581644c159937414289f2dee18f096b0ea95cc7",
-                    "md5": "4fe02a08247d2ec1185ff20ff1177fa6",
-                    "sha256": "b13865d6304b4b99f0f637b8ef484ed986b006e82d8a3ee2679b5ed6e2b45f25"
+                    "blake2b_256": "e8324652577b61cae81464196620abf0263e287c44bf1c8f25eb0743dc16dbf6",
+                    "md5": "abc45113465b75c24ddcd901c9e83bdc",
+                    "sha256": "a891e2836a866498810fabd4941568f24e21f34ccc2b9478d17c1173eff94c2f"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp310-cp310-macosx_10_9_x86_64.whl",
+                "filename": "Orange3_Network-1.9.0-cp310-cp310-macosx_10_9_x86_64.whl",
                 "has_sig": false,
-                "md5_digest": "4fe02a08247d2ec1185ff20ff1177fa6",
+                "md5_digest": "abc45113465b75c24ddcd901c9e83bdc",
                 "packagetype": "bdist_wheel",
                 "python_version": "cp310",
                 "requires_python": ">=3.8",
-                "size": 881158,
-                "upload_time": "2023-08-18T13:44:57",
-                "upload_time_iso_8601": "2023-08-18T13:44:57.577380Z",
-                "url": "https://files.pythonhosted.org/packages/11/98/d8c9753ec689eadc241bd581644c159937414289f2dee18f096b0ea95cc7/Orange3_Network-1.8.0-cp310-cp310-macosx_10_9_x86_64.whl",
+                "size": 6167424,
+                "upload_time": "2024-03-01T16:03:31",
+                "upload_time_iso_8601": "2024-03-01T16:03:31.323086Z",
+                "url": "https://files.pythonhosted.org/packages/e8/32/4652577b61cae81464196620abf0263e287c44bf1c8f25eb0743dc16dbf6/Orange3_Network-1.9.0-cp310-cp310-macosx_10_9_x86_64.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "ffda4eb98ab884dcec8d5729298a60832367cb8fa8a5dd3a71672d1ab8ba443a",
-                    "md5": "05adbcb2694899b30b2c2756d5f10cf1",
-                    "sha256": "7dfb6cd130f21df8c71890a2452a73fb30a8518b5b9546575c98515aedd40a45"
+                    "blake2b_256": "2a1707a95019b9947b523569d4fb4a4d6527d2c282fd1a089141440352b682b6",
+                    "md5": "48eec1a2d4c1745b90b55eb856b2847b",
+                    "sha256": "0ba19a167ffc401f43a534bbb13eb887f786ddef540a066a8f817e7fe053498b"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp310-cp310-macosx_11_0_arm64.whl",
+                "filename": "Orange3_Network-1.9.0-cp310-cp310-macosx_11_0_arm64.whl",
                 "has_sig": false,
-                "md5_digest": "05adbcb2694899b30b2c2756d5f10cf1",
+                "md5_digest": "48eec1a2d4c1745b90b55eb856b2847b",
                 "packagetype": "bdist_wheel",
                 "python_version": "cp310",
                 "requires_python": ">=3.8",
-                "size": 875787,
-                "upload_time": "2023-08-18T13:44:59",
-                "upload_time_iso_8601": "2023-08-18T13:44:59.235891Z",
-                "url": "https://files.pythonhosted.org/packages/ff/da/4eb98ab884dcec8d5729298a60832367cb8fa8a5dd3a71672d1ab8ba443a/Orange3_Network-1.8.0-cp310-cp310-macosx_11_0_arm64.whl",
+                "size": 6163411,
+                "upload_time": "2024-03-01T16:03:33",
+                "upload_time_iso_8601": "2024-03-01T16:03:33.442324Z",
+                "url": "https://files.pythonhosted.org/packages/2a/17/07a95019b9947b523569d4fb4a4d6527d2c282fd1a089141440352b682b6/Orange3_Network-1.9.0-cp310-cp310-macosx_11_0_arm64.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "df9647372b7174bbc94a9c223aa203d870d6bda9a52367ab7be3edd796cf2231",
-                    "md5": "404435bf38a39f6f2bcf30fea7cc21fa",
-                    "sha256": "8544e903fc96bcab368c6561288e375898babe268c66ecb6dfe759756f8d7812"
+                    "blake2b_256": "1ce194ed7385bf7c22cf1c8b21381ae84b0dfc7ac9369d028f3ef0109a7e6ba1",
+                    "md5": "640d33a03b9888c26783b14a40d659a7",
+                    "sha256": "56ad50a5dd3f6f4f76a0038bcd1e68fb57498674e12ce4bbc8e81e8d614923a1"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+                "filename": "Orange3_Network-1.9.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
                 "has_sig": false,
-                "md5_digest": "404435bf38a39f6f2bcf30fea7cc21fa",
+                "md5_digest": "640d33a03b9888c26783b14a40d659a7",
                 "packagetype": "bdist_wheel",
                 "python_version": "cp310",
                 "requires_python": ">=3.8",
-                "size": 1246621,
-                "upload_time": "2023-08-18T13:45:01",
-                "upload_time_iso_8601": "2023-08-18T13:45:01.481739Z",
-                "url": "https://files.pythonhosted.org/packages/df/96/47372b7174bbc94a9c223aa203d870d6bda9a52367ab7be3edd796cf2231/Orange3_Network-1.8.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "6167a6844afe4890f25a5602f382320bee1fd638dea107b6ca15ae73279a4996",
-                    "md5": "748a259c92e4daa64205202a052d4134",
-                    "sha256": "19864755430f3688c66cb3ba8853e18232bb6b45f70f36d5d1a03ba223aea5c1"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "748a259c92e4daa64205202a052d4134",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp310",
-                "requires_python": ">=3.8",
-                "size": 1249248,
-                "upload_time": "2023-08-18T13:45:03",
-                "upload_time_iso_8601": "2023-08-18T13:45:03.805437Z",
-                "url": "https://files.pythonhosted.org/packages/61/67/a6844afe4890f25a5602f382320bee1fd638dea107b6ca15ae73279a4996/Orange3_Network-1.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "7a6411bce457fff53733da6a1867bce10f3ac46b9547d718ff4a0f386a7d029d",
-                    "md5": "b2b70dde707f20867a63539061c9f6de",
-                    "sha256": "9eacaf5dfc8738f2e82f714ee3ffc47a6e2563604b8aeaa7a041b4eee32c8537"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp310-cp310-win_amd64.whl",
-                "has_sig": false,
-                "md5_digest": "b2b70dde707f20867a63539061c9f6de",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp310",
-                "requires_python": ">=3.8",
-                "size": 875970,
-                "upload_time": "2023-08-18T13:45:06",
-                "upload_time_iso_8601": "2023-08-18T13:45:06.237739Z",
-                "url": "https://files.pythonhosted.org/packages/7a/64/11bce457fff53733da6a1867bce10f3ac46b9547d718ff4a0f386a7d029d/Orange3_Network-1.8.0-cp310-cp310-win_amd64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "8f7ff0fd5369a7acfd95f4e82e050d948be8fe70b431278b0671fc72e83e835a",
-                    "md5": "d2c90ff9eb24296034a8c1fd029fedd1",
-                    "sha256": "2ccb6d83496ed712830058031c8c8a5b62ee1e6623c191cc148c8fedb7d9484d"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp311-cp311-macosx_10_9_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "d2c90ff9eb24296034a8c1fd029fedd1",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp311",
-                "requires_python": ">=3.8",
-                "size": 881662,
-                "upload_time": "2023-08-18T13:45:08",
-                "upload_time_iso_8601": "2023-08-18T13:45:08.236679Z",
-                "url": "https://files.pythonhosted.org/packages/8f/7f/f0fd5369a7acfd95f4e82e050d948be8fe70b431278b0671fc72e83e835a/Orange3_Network-1.8.0-cp311-cp311-macosx_10_9_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "e216560c839ee8d9105491fb304bb55483ab7c616baa9fa537938135cb74e94a",
-                    "md5": "4912dadd3528f7d47250a8ca552aca94",
-                    "sha256": "db945619c745b21329e74e97b5f7706ea0097928a685c37a6bb05e7a56194d2e"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp311-cp311-macosx_11_0_arm64.whl",
-                "has_sig": false,
-                "md5_digest": "4912dadd3528f7d47250a8ca552aca94",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp311",
-                "requires_python": ">=3.8",
-                "size": 876129,
-                "upload_time": "2023-08-18T13:45:09",
-                "upload_time_iso_8601": "2023-08-18T13:45:09.740140Z",
-                "url": "https://files.pythonhosted.org/packages/e2/16/560c839ee8d9105491fb304bb55483ab7c616baa9fa537938135cb74e94a/Orange3_Network-1.8.0-cp311-cp311-macosx_11_0_arm64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "27324861e25ddb1bfae83b4d674b6a6f93eeba95b28d15002b09e0ac0dcab3af",
-                    "md5": "bfc464b13014337f2949bee4e1d2981b",
-                    "sha256": "945631393b73446bf724b43cee431e43a2167a0782f07f13b051fdc0d9fa9208"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "has_sig": false,
-                "md5_digest": "bfc464b13014337f2949bee4e1d2981b",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp311",
-                "requires_python": ">=3.8",
-                "size": 1285713,
-                "upload_time": "2023-08-18T13:45:11",
-                "upload_time_iso_8601": "2023-08-18T13:45:11.795854Z",
-                "url": "https://files.pythonhosted.org/packages/27/32/4861e25ddb1bfae83b4d674b6a6f93eeba95b28d15002b09e0ac0dcab3af/Orange3_Network-1.8.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "f10fb9870fb7744c95d585fd0734fffaa1877e28d1f5358101049325c33f4ceb",
-                    "md5": "3e3108d45ff6ca04ec81bad4921762ef",
-                    "sha256": "647d3452d9f3e61695b3b0f49e5f0178ce3cbe385081d755436ae40a01316d82"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "3e3108d45ff6ca04ec81bad4921762ef",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp311",
-                "requires_python": ">=3.8",
-                "size": 1288358,
-                "upload_time": "2023-08-18T13:45:13",
-                "upload_time_iso_8601": "2023-08-18T13:45:13.915190Z",
-                "url": "https://files.pythonhosted.org/packages/f1/0f/b9870fb7744c95d585fd0734fffaa1877e28d1f5358101049325c33f4ceb/Orange3_Network-1.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "1f7be3ac827bf68e3b3a827c2d62125e9d784eab6e0045952180c8cb0d2fb14b",
-                    "md5": "1795533e4c024eadbccf0079bb330994",
-                    "sha256": "d831b75095477939e27a2d974fd500770ff882bda7388025153bc4e3ff633838"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp311-cp311-win_amd64.whl",
-                "has_sig": false,
-                "md5_digest": "1795533e4c024eadbccf0079bb330994",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp311",
-                "requires_python": ">=3.8",
-                "size": 876424,
-                "upload_time": "2023-08-18T13:45:15",
-                "upload_time_iso_8601": "2023-08-18T13:45:15.341339Z",
-                "url": "https://files.pythonhosted.org/packages/1f/7b/e3ac827bf68e3b3a827c2d62125e9d784eab6e0045952180c8cb0d2fb14b/Orange3_Network-1.8.0-cp311-cp311-win_amd64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "c43c86b66e420670e1dc99187936d8c2799696d86113710e2febf254bad3346a",
-                    "md5": "71e99336aec76176aa519c1ba379bfe9",
-                    "sha256": "f8ad766c578204ed8319c5da2bd5ccb3cfe0f239e20e45c1413818f62a3278e7"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp38-cp38-macosx_10_9_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "71e99336aec76176aa519c1ba379bfe9",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp38",
-                "requires_python": ">=3.8",
-                "size": 881537,
-                "upload_time": "2023-08-18T13:45:16",
-                "upload_time_iso_8601": "2023-08-18T13:45:16.817397Z",
-                "url": "https://files.pythonhosted.org/packages/c4/3c/86b66e420670e1dc99187936d8c2799696d86113710e2febf254bad3346a/Orange3_Network-1.8.0-cp38-cp38-macosx_10_9_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "cda12c4f2681c3574415e6e966cd397097390e6ca679e1fe9052aa6e9ab0340a",
-                    "md5": "da61f542bb6ee29e3cb3c9f7efaf53f0",
-                    "sha256": "26ca88bc42a7b1e406a0e635ce7bce3d4c2eba4cefbd3c086aeb667671bb75d3"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp38-cp38-macosx_11_0_arm64.whl",
-                "has_sig": false,
-                "md5_digest": "da61f542bb6ee29e3cb3c9f7efaf53f0",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp38",
-                "requires_python": ">=3.8",
-                "size": 876299,
-                "upload_time": "2023-08-18T13:45:18",
-                "upload_time_iso_8601": "2023-08-18T13:45:18.943043Z",
-                "url": "https://files.pythonhosted.org/packages/cd/a1/2c4f2681c3574415e6e966cd397097390e6ca679e1fe9052aa6e9ab0340a/Orange3_Network-1.8.0-cp38-cp38-macosx_11_0_arm64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "d16854d2350f89a21b04db15f3de78dd29a72046265a9ea108c852cfa5fe0e9e",
-                    "md5": "1e4caee964d6eb7b9ab4984af75dc47f",
-                    "sha256": "78a150b02bfce0453f09012c6e5f3593a8dabb0464bcb33e4d1f7e68ddfffb3b"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "has_sig": false,
-                "md5_digest": "1e4caee964d6eb7b9ab4984af75dc47f",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp38",
-                "requires_python": ">=3.8",
-                "size": 1254357,
-                "upload_time": "2023-08-18T13:45:20",
-                "upload_time_iso_8601": "2023-08-18T13:45:20.507589Z",
-                "url": "https://files.pythonhosted.org/packages/d1/68/54d2350f89a21b04db15f3de78dd29a72046265a9ea108c852cfa5fe0e9e/Orange3_Network-1.8.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "d7618c0351a7287e542993bca2d6b6013af547bd50054c769b0ce134605c5b4b",
-                    "md5": "039836b25f65cb3599bd84ea1b0d41a5",
-                    "sha256": "cc1aa5107841677c7016b1559cc78145fd9574d95517f67038da9dec5e1962d0"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "039836b25f65cb3599bd84ea1b0d41a5",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp38",
-                "requires_python": ">=3.8",
-                "size": 1258514,
-                "upload_time": "2023-08-18T13:45:22",
-                "upload_time_iso_8601": "2023-08-18T13:45:22.596416Z",
-                "url": "https://files.pythonhosted.org/packages/d7/61/8c0351a7287e542993bca2d6b6013af547bd50054c769b0ce134605c5b4b/Orange3_Network-1.8.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "e71912bf198d887871cec0b1eedc2382e3f241a2be5de64afc03340f78d7a468",
-                    "md5": "6e75e3790dfd1fc76dd03ca872406de9",
-                    "sha256": "b9572e0c7a8ddb3f184bee8c7f3c98ca7bf3bdb27b5314dc16903be4ada594bf"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp38-cp38-win_amd64.whl",
-                "has_sig": false,
-                "md5_digest": "6e75e3790dfd1fc76dd03ca872406de9",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp38",
-                "requires_python": ">=3.8",
-                "size": 876510,
-                "upload_time": "2023-08-18T13:45:24",
-                "upload_time_iso_8601": "2023-08-18T13:45:24.198910Z",
-                "url": "https://files.pythonhosted.org/packages/e7/19/12bf198d887871cec0b1eedc2382e3f241a2be5de64afc03340f78d7a468/Orange3_Network-1.8.0-cp38-cp38-win_amd64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "b9d2b1725fe3499364cd24f8a1ddd1191e7bb550e4282e344cd3309751db5075",
-                    "md5": "54a681774bd58cf1586957a4645d8625",
-                    "sha256": "2a93d6d90450ddbe06e21a79f23f3990b0daeaa9344be0074a5f07d692ed080e"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp39-cp39-macosx_10_9_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "54a681774bd58cf1586957a4645d8625",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp39",
-                "requires_python": ">=3.8",
-                "size": 881127,
-                "upload_time": "2023-08-18T13:45:25",
-                "upload_time_iso_8601": "2023-08-18T13:45:25.806408Z",
-                "url": "https://files.pythonhosted.org/packages/b9/d2/b1725fe3499364cd24f8a1ddd1191e7bb550e4282e344cd3309751db5075/Orange3_Network-1.8.0-cp39-cp39-macosx_10_9_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "0af0760259975216a0014bda42838d08c4524db5820512f4e463ee03f4aa4db4",
-                    "md5": "6083c1faf826f1b7987e22c0fb203086",
-                    "sha256": "dbc9da9ee48df162a58507214e12c32cfa731cc923f466217274fe4b285aa542"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp39-cp39-macosx_11_0_arm64.whl",
-                "has_sig": false,
-                "md5_digest": "6083c1faf826f1b7987e22c0fb203086",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp39",
-                "requires_python": ">=3.8",
-                "size": 875528,
-                "upload_time": "2023-08-18T13:45:27",
-                "upload_time_iso_8601": "2023-08-18T13:45:27.951854Z",
-                "url": "https://files.pythonhosted.org/packages/0a/f0/760259975216a0014bda42838d08c4524db5820512f4e463ee03f4aa4db4/Orange3_Network-1.8.0-cp39-cp39-macosx_11_0_arm64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "c3eed756b35238e26813cd76aea63118e70b74cd29703bbdf5ad10c5ddd70366",
-                    "md5": "67ce49cfb9bdbef5639e11b016ccba32",
-                    "sha256": "9237c08b74aea2a12da1ea7c4a10565a2667fb9ecd0a58fe81238ac455841db4"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "has_sig": false,
-                "md5_digest": "67ce49cfb9bdbef5639e11b016ccba32",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp39",
-                "requires_python": ">=3.8",
-                "size": 1248258,
-                "upload_time": "2023-08-18T13:45:29",
-                "upload_time_iso_8601": "2023-08-18T13:45:29.946652Z",
-                "url": "https://files.pythonhosted.org/packages/c3/ee/d756b35238e26813cd76aea63118e70b74cd29703bbdf5ad10c5ddd70366/Orange3_Network-1.8.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "e7dfc097ca9b5aca74fdc164e3e8767c987df2f9734bf0a1879a1d471dc19114",
-                    "md5": "50bf417ffd87a8c5be9cda64aa7697c1",
-                    "sha256": "e8a5ad9f2898cc4de8579913f7d98a95e7f44a94629066bdb3d2956968ea437c"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "has_sig": false,
-                "md5_digest": "50bf417ffd87a8c5be9cda64aa7697c1",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp39",
-                "requires_python": ">=3.8",
-                "size": 1250796,
-                "upload_time": "2023-08-18T13:45:31",
-                "upload_time_iso_8601": "2023-08-18T13:45:31.455239Z",
-                "url": "https://files.pythonhosted.org/packages/e7/df/c097ca9b5aca74fdc164e3e8767c987df2f9734bf0a1879a1d471dc19114/Orange3_Network-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "ca568333fbb1c95f58425764bc6728a0dcdf407a47034f3f0f5571d0d8360fa8",
-                    "md5": "f0d009b0559db02036a7fed33f7f3f88",
-                    "sha256": "d5fc1a0c867fff6224c6a12b8f544e3ae950f72ec2a0bd4f969a43de07168828"
-                },
-                "downloads": -1,
-                "filename": "Orange3_Network-1.8.0-cp39-cp39-win_amd64.whl",
-                "has_sig": false,
-                "md5_digest": "f0d009b0559db02036a7fed33f7f3f88",
-                "packagetype": "bdist_wheel",
-                "python_version": "cp39",
-                "requires_python": ">=3.8",
-                "size": 875755,
-                "upload_time": "2023-08-18T13:45:33",
-                "upload_time_iso_8601": "2023-08-18T13:45:33.095462Z",
-                "url": "https://files.pythonhosted.org/packages/ca/56/8333fbb1c95f58425764bc6728a0dcdf407a47034f3f0f5571d0d8360fa8/Orange3_Network-1.8.0-cp39-cp39-win_amd64.whl",
-                "yanked": false,
-                "yanked_reason": null
-            },
-            {
-                "comment_text": "",
-                "digests": {
-                    "blake2b_256": "3c1b87574141338a1a6ec1b6aa436301bcde93852cf68a3daee972556c528b0a",
-                    "md5": "94efc4578d832782cd4773bbb2d7b57c",
-                    "sha256": "dec14f7f14ec16247416c58cc62765081b5410795ebf51d2c83c89c6937f1e66"
-                },
-                "downloads": -1,
-                "filename": "Orange3-Network-1.8.0.tar.gz",
-                "has_sig": false,
-                "md5_digest": "94efc4578d832782cd4773bbb2d7b57c",
-                "packagetype": "sdist",
-                "python_version": "source",
-                "requires_python": ">=3.8",
-                "size": 3226307,
-                "upload_time": "2023-08-18T13:45:34",
-                "upload_time_iso_8601": "2023-08-18T13:45:34.706786Z",
-                "url": "https://files.pythonhosted.org/packages/3c/1b/87574141338a1a6ec1b6aa436301bcde93852cf68a3daee972556c528b0a/Orange3-Network-1.8.0.tar.gz",
+                "size": 6533291,
+                "upload_time": "2024-03-01T16:03:35",
+                "upload_time_iso_8601": "2024-03-01T16:03:35.840972Z",
+                "url": "https://files.pythonhosted.org/packages/1c/e1/94ed7385bf7c22cf1c8b21381ae84b0dfc7ac9369d028f3ef0109a7e6ba1/Orange3_Network-1.9.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
                 "yanked": false,
                 "yanked_reason": null
             }
