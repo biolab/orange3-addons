@@ -3709,10 +3709,9 @@
                 "Homepage": "https://github.com/biolab/orange3-educational"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Educational/0.7.2/",
+            "release_url": "https://pypi.org/project/Orange3-Educational/0.8.0/",
             "requires_dist": [
                 "anyqt",
-                "BeautifulSoup4",
                 "numpy",
                 "Orange3 >=3.31.1",
                 "orange-widget-base",
@@ -3726,11 +3725,11 @@
             ],
             "requires_python": "",
             "summary": "Orange Educational add-on for Orange data mining software package.",
-            "version": "0.7.2",
+            "version": "0.8.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 21435339,
+        "last_serial": 22338156,
         "releases": {
             "0.0.1": [
                 {
@@ -4703,48 +4702,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.8.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "2190a4229104ca8f464aac4c3230f7815794ba584aae7a0090cb651f81a7b6a5",
+                        "md5": "970dd85defb7819163ce977ef6170170",
+                        "sha256": "7d85cacca8ebb0c703ce1b0779195228465050aa701b180e830ec0a4e7f13ec8"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Educational-0.8.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "970dd85defb7819163ce977ef6170170",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 6314137,
+                    "upload_time": "2024-03-15T14:53:21",
+                    "upload_time_iso_8601": "2024-03-15T14:53:21.532352Z",
+                    "url": "https://files.pythonhosted.org/packages/21/90/a4229104ca8f464aac4c3230f7815794ba584aae7a0090cb651f81a7b6a5/Orange3_Educational-0.8.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "15dfa7822d6b3816312e488413def9848c6a962a312561f171502a2abc086292",
+                        "md5": "abf7b5acc6b3c11ee3dbc61ed1006db4",
+                        "sha256": "bc8e966d7189e556a07ada106d7172637a98d0d0c1475be821c3996c7f28bae3"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Educational-0.8.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "abf7b5acc6b3c11ee3dbc61ed1006db4",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 3697229,
+                    "upload_time": "2024-03-15T14:53:26",
+                    "upload_time_iso_8601": "2024-03-15T14:53:26.623728Z",
+                    "url": "https://files.pythonhosted.org/packages/15/df/a7822d6b3816312e488413def9848c6a962a312561f171502a2abc086292/Orange3-Educational-0.8.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "f2fbdda28e7a5a944221476d639242b3b22ce6b2731ace79a230fb585d9c77a0",
-                    "md5": "ead9c8bf44b77555aeb087cbd88ce111",
-                    "sha256": "d2abe0d6be6e99f65de71e819c44099c541fde481944d09ae7a2eae3b169c33f"
+                    "blake2b_256": "2190a4229104ca8f464aac4c3230f7815794ba584aae7a0090cb651f81a7b6a5",
+                    "md5": "970dd85defb7819163ce977ef6170170",
+                    "sha256": "7d85cacca8ebb0c703ce1b0779195228465050aa701b180e830ec0a4e7f13ec8"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Educational-0.7.2-py3-none-any.whl",
+                "filename": "Orange3_Educational-0.8.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "ead9c8bf44b77555aeb087cbd88ce111",
+                "md5_digest": "970dd85defb7819163ce977ef6170170",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 6334028,
-                "upload_time": "2024-01-15T16:03:27",
-                "upload_time_iso_8601": "2024-01-15T16:03:27.189717Z",
-                "url": "https://files.pythonhosted.org/packages/f2/fb/dda28e7a5a944221476d639242b3b22ce6b2731ace79a230fb585d9c77a0/Orange3_Educational-0.7.2-py3-none-any.whl",
+                "size": 6314137,
+                "upload_time": "2024-03-15T14:53:21",
+                "upload_time_iso_8601": "2024-03-15T14:53:21.532352Z",
+                "url": "https://files.pythonhosted.org/packages/21/90/a4229104ca8f464aac4c3230f7815794ba584aae7a0090cb651f81a7b6a5/Orange3_Educational-0.8.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "292ec5b2f38a683e5e9a1c88b0c16ff22460424c37c169c31216665c4b6f741f",
-                    "md5": "6d49892690db92f7d83f1ca50408db3d",
-                    "sha256": "d9d9e1f41de329f0de082b8af9b8c58d72d433e4d7c962593287c8a746f960d1"
+                    "blake2b_256": "15dfa7822d6b3816312e488413def9848c6a962a312561f171502a2abc086292",
+                    "md5": "abf7b5acc6b3c11ee3dbc61ed1006db4",
+                    "sha256": "bc8e966d7189e556a07ada106d7172637a98d0d0c1475be821c3996c7f28bae3"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Educational-0.7.2.tar.gz",
+                "filename": "Orange3-Educational-0.8.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "6d49892690db92f7d83f1ca50408db3d",
+                "md5_digest": "abf7b5acc6b3c11ee3dbc61ed1006db4",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 9892835,
-                "upload_time": "2024-01-15T16:03:31",
-                "upload_time_iso_8601": "2024-01-15T16:03:31.001725Z",
-                "url": "https://files.pythonhosted.org/packages/29/2e/c5b2f38a683e5e9a1c88b0c16ff22460424c37c169c31216665c4b6f741f/Orange3-Educational-0.7.2.tar.gz",
+                "size": 3697229,
+                "upload_time": "2024-03-15T14:53:26",
+                "upload_time_iso_8601": "2024-03-15T14:53:26.623728Z",
+                "url": "https://files.pythonhosted.org/packages/15/df/a7822d6b3816312e488413def9848c6a962a312561f171502a2abc086292/Orange3-Educational-0.8.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -6274,12 +6317,12 @@
                 "Homepage": "https://github.com/biolab/orange3-geo"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Geo/0.4.1/",
+            "release_url": "https://pypi.org/project/Orange3-Geo/0.4.2/",
             "requires_dist": [
-                "Orange3 (>=3.31.0)",
+                "Orange3 >=3.34.0",
                 "scikit-learn",
                 "pandas",
-                "scipy (>=0.17)",
+                "scipy >=0.17",
                 "shapely",
                 "pyproj",
                 "simplejson",
@@ -6291,11 +6334,11 @@
             ],
             "requires_python": "",
             "summary": "Orange add-on for dealing with geography and geo-location.",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 21337477,
+        "last_serial": 22338263,
         "releases": {
             "0.1.3": [
                 {
@@ -6821,48 +6864,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.4.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "02efc8ea87cf5cc5faed6dc95dfc77838e7e7123cddc07035958f977b9329ad7",
+                        "md5": "4d107635dfbad115dcf3daf6ed7dbfa9",
+                        "sha256": "ef9e27e259212a9075d0f1fb867dcb94666d9c55f2d0bcfea5c6d3af7017ea7f"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Geo-0.4.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "4d107635dfbad115dcf3daf6ed7dbfa9",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 13868182,
+                    "upload_time": "2024-03-15T14:59:06",
+                    "upload_time_iso_8601": "2024-03-15T14:59:06.579102Z",
+                    "url": "https://files.pythonhosted.org/packages/02/ef/c8ea87cf5cc5faed6dc95dfc77838e7e7123cddc07035958f977b9329ad7/Orange3_Geo-0.4.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "558a2311ab508ba4ae1b9d1202605edcd258ac903f3080cc6db9f1b9717c5689",
+                        "md5": "05a98b165cee59a740e5cf91cb644ab1",
+                        "sha256": "0c4578256a5cfa083a1fa875b958ddeb77caf2d0167231364eaa3d839edbd6c8"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Geo-0.4.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "05a98b165cee59a740e5cf91cb644ab1",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 17759388,
+                    "upload_time": "2024-03-15T14:59:09",
+                    "upload_time_iso_8601": "2024-03-15T14:59:09.994106Z",
+                    "url": "https://files.pythonhosted.org/packages/55/8a/2311ab508ba4ae1b9d1202605edcd258ac903f3080cc6db9f1b9717c5689/Orange3-Geo-0.4.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "c6d798b35c6cb83d17bd7c39134d6e894708fbd7865d05a8f329d8a0c0827f25",
-                    "md5": "0f170b285754f59adf52b282b2e72303",
-                    "sha256": "db4cb1eb6b9163794eaee13dead85df2e70955c68c4b584bb0b4c05fac85512c"
+                    "blake2b_256": "02efc8ea87cf5cc5faed6dc95dfc77838e7e7123cddc07035958f977b9329ad7",
+                    "md5": "4d107635dfbad115dcf3daf6ed7dbfa9",
+                    "sha256": "ef9e27e259212a9075d0f1fb867dcb94666d9c55f2d0bcfea5c6d3af7017ea7f"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Geo-0.4.1-py3-none-any.whl",
+                "filename": "Orange3_Geo-0.4.2-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "0f170b285754f59adf52b282b2e72303",
+                "md5_digest": "4d107635dfbad115dcf3daf6ed7dbfa9",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 13868585,
-                "upload_time": "2024-01-08T08:22:41",
-                "upload_time_iso_8601": "2024-01-08T08:22:41.397805Z",
-                "url": "https://files.pythonhosted.org/packages/c6/d7/98b35c6cb83d17bd7c39134d6e894708fbd7865d05a8f329d8a0c0827f25/Orange3_Geo-0.4.1-py3-none-any.whl",
+                "size": 13868182,
+                "upload_time": "2024-03-15T14:59:06",
+                "upload_time_iso_8601": "2024-03-15T14:59:06.579102Z",
+                "url": "https://files.pythonhosted.org/packages/02/ef/c8ea87cf5cc5faed6dc95dfc77838e7e7123cddc07035958f977b9329ad7/Orange3_Geo-0.4.2-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "0756bb9b5180f3e19766e35ceaff86ae529544806e0d83e819fa235736464cdd",
-                    "md5": "4f062daae081bf859bd30ce7083306ea",
-                    "sha256": "dfeeff91d03e59457ff0076c53349cb1c374552427a92e223d1f670a2b47f6ae"
+                    "blake2b_256": "558a2311ab508ba4ae1b9d1202605edcd258ac903f3080cc6db9f1b9717c5689",
+                    "md5": "05a98b165cee59a740e5cf91cb644ab1",
+                    "sha256": "0c4578256a5cfa083a1fa875b958ddeb77caf2d0167231364eaa3d839edbd6c8"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Geo-0.4.1.tar.gz",
+                "filename": "Orange3-Geo-0.4.2.tar.gz",
                 "has_sig": false,
-                "md5_digest": "4f062daae081bf859bd30ce7083306ea",
+                "md5_digest": "05a98b165cee59a740e5cf91cb644ab1",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 21810779,
-                "upload_time": "2024-01-08T08:22:46",
-                "upload_time_iso_8601": "2024-01-08T08:22:46.643948Z",
-                "url": "https://files.pythonhosted.org/packages/07/56/bb9b5180f3e19766e35ceaff86ae529544806e0d83e819fa235736464cdd/Orange3-Geo-0.4.1.tar.gz",
+                "size": 17759388,
+                "upload_time": "2024-03-15T14:59:09",
+                "upload_time_iso_8601": "2024-03-15T14:59:09.994106Z",
+                "url": "https://files.pythonhosted.org/packages/55/8a/2311ab508ba4ae1b9d1202605edcd258ac903f3080cc6db9f1b9717c5689/Orange3-Geo-0.4.2.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -6928,7 +7015,7 @@
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 20395282,
+        "last_serial": 22337474,
         "releases": {
             "0.0.1": [],
             "0.0.2": [
@@ -11446,7 +11533,7 @@
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 21337441,
+        "last_serial": 22337470,
         "releases": {
             "0.1.0": [
                 {
@@ -19129,7 +19216,7 @@
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 21534398,
+        "last_serial": 22337475,
         "releases": {
             "0.1.0": [
                 {
@@ -20213,7 +20300,7 @@
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 15864707,
+        "last_serial": 22337476,
         "releases": {
             "0.1.1": [
                 {
