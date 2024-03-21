@@ -13021,10 +13021,10 @@
             "author_email": "info@biolab.si",
             "bugtrack_url": null,
             "classifiers": [],
-            "description": "Orange3 Single Cell\n======================\n\nThe Single Cell add-on for [Orange3](http://orange.biolab.si) adds functionality\nfor analysis of single cell data. The widgets enable gene filtering,\npreprocessing, batch effect removal, gene and cell scoring and cluster analysis.\nThe widgets can be used seamlessly with other Orange widgets, including those\nfrom [Orange3-Bioinformatics](https://github.com/biolab/orange3-bioinformatics)\nadd-on.\n\nFeatures\n--------\n#### Explore the Diversity of Cells\n* load data from any platform and filter outlier cells\n* normalize expression values across samples and platforms\n* identify and explore sub-populations with a sample and across multiple samples\n\n#### Discover New Marker Genes\n* identify signature genes for each subpopulation using multiple methods\n* use gene ontology enrichment to explore the biological meaning and identify cell types\n\n#### Predict New Cell Types\n* build classifiers to identify the cell type of each subpopulation\n* use classifier on new data samples to predict cell types and focus on interesting cell type populations\n\n\n",
+            "description": "Orange3 Single Cell\n======================\n\nThe Single Cell add-on for [Orange3](http://orange.biolab.si) adds functionality\nfor analysis of single cell data. The widgets enable gene filtering,\npreprocessing, batch effect removal, gene and cell scoring and cluster analysis.\nThe widgets can be used seamlessly with other Orange widgets, including those\nfrom [Orange3-Bioinformatics](https://github.com/biolab/orange3-bioinformatics)\nadd-on.\n\nFeatures\n--------\n#### Explore the Diversity of Cells\n* load data from any platform and filter outlier cells\n* normalize expression values across samples and platforms\n* identify and explore sub-populations with a sample and across multiple samples\n\n#### Discover New Marker Genes\n* identify signature genes for each subpopulation using multiple methods\n* use gene ontology enrichment to explore the biological meaning and identify cell types\n\n#### Predict New Cell Types\n* build classifiers to identify the cell type of each subpopulation\n* use classifier on new data samples to predict cell types and focus on interesting cell type populations\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
-            "download_url": "",
+            "download_url": null,
             "downloads": {
                 "last_day": -1,
                 "last_month": -1,
@@ -13034,11 +13034,11 @@
             "home_page": "https://github.com/biolab/orange3-single-cell",
             "keywords": "orange3 add-on",
             "license": "GPLv3+",
-            "maintainer": "",
-            "maintainer_email": "",
+            "maintainer": null,
+            "maintainer_email": null,
             "name": "Orange3-SingleCell",
             "package_url": "https://pypi.org/project/Orange3-SingleCell/",
-            "platform": "",
+            "platform": null,
             "project_url": "https://pypi.org/project/Orange3-SingleCell/",
             "project_urls": {
                 "Bug Tracker": "https://github.com/biolab/orange3-single-cell/issues",
@@ -13047,30 +13047,33 @@
                 "Source Code": "https://github.com/biolab/orange3-single-cell"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.5.0/",
+            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.6.0/",
             "requires_dist": [
-                "Orange3 (>=3.23.0)",
-                "orange3-bioinformatics (>=4.0.0)",
-                "fastdtw (==0.3.2)",
-                "pandas (>=0.23)",
-                "loompy (>=2.0.10)",
-                "xlrd (~=1.2.0)",
-                "anndata (>=0.6.21)",
+                "Orange3>=3.34.0",
+                "orange3-bioinformatics>=4.0.0",
+                "fastdtw==0.3.2",
+                "pandas>=0.23",
+                "loompy>=2.0.10",
+                "xlrd>=2.0.1",
+                "openpyxl",
+                "anndata>=0.6.21",
                 "numpy",
                 "scikit-learn",
-                "sphinx ; extra == 'doc'",
-                "recommonmark ; extra == 'doc'",
-                "twine ; extra == 'package'",
-                "wheel ; extra == 'package'",
-                "coverage ; extra == 'test'"
+                "sphinx; extra == \"doc\"",
+                "recommonmark; extra == \"doc\"",
+                "sphinx-rtd-theme; extra == \"doc\"",
+                "docutils; extra == \"doc\"",
+                "twine; extra == \"package\"",
+                "wheel; extra == \"package\"",
+                "coverage; extra == \"test\""
             ],
             "requires_python": ">=3.6",
             "summary": "Add-on for bioinformatics analysis of single cell data.",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 22384801,
+        "last_serial": 22425925,
         "releases": {
             "0.8.1": [
                 {
@@ -13408,48 +13411,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "1.6.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "e85bdac38da3d108dbbbf87b4567b331bf444b47d71ef41978ec4f358bfebf5c",
+                        "md5": "94d50f9178b0fa4a7ad1acf384ef3a77",
+                        "sha256": "c8cfcb9533a4655de1f4b04caa2b442c95d6a3ee772f63a381c98b2e1d7a5b50"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_SingleCell-1.6.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "94d50f9178b0fa4a7ad1acf384ef3a77",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 794337,
+                    "upload_time": "2024-03-21T14:20:45",
+                    "upload_time_iso_8601": "2024-03-21T14:20:45.210915Z",
+                    "url": "https://files.pythonhosted.org/packages/e8/5b/dac38da3d108dbbbf87b4567b331bf444b47d71ef41978ec4f358bfebf5c/Orange3_SingleCell-1.6.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "c1ddc7e76c4a3cf5d08aa5ffb5c10472a6a0e6aa3900c2287b9400413a2eaf41",
+                        "md5": "6ee3bb7fdd8f322e46b63932cc0aa39e",
+                        "sha256": "dccce6cb63085fff3dc524e12325e9dfb6c415661dacc57454a27e21bb31341a"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-SingleCell-1.6.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "6ee3bb7fdd8f322e46b63932cc0aa39e",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 2359335,
+                    "upload_time": "2024-03-21T14:20:51",
+                    "upload_time_iso_8601": "2024-03-21T14:20:51.110254Z",
+                    "url": "https://files.pythonhosted.org/packages/c1/dd/c7e76c4a3cf5d08aa5ffb5c10472a6a0e6aa3900c2287b9400413a2eaf41/Orange3-SingleCell-1.6.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "d66c18b1edb84a6765f44c3f50510959ca3638e215dced4597c1a856ea51df38",
-                    "md5": "fd8fce4b47a6a9566305bb836e02f697",
-                    "sha256": "d13d1a4edfa1534fd9b9c8abc67cfb50c3f06ad86a8eb037067ecbef03b9481e"
+                    "blake2b_256": "e85bdac38da3d108dbbbf87b4567b331bf444b47d71ef41978ec4f358bfebf5c",
+                    "md5": "94d50f9178b0fa4a7ad1acf384ef3a77",
+                    "sha256": "c8cfcb9533a4655de1f4b04caa2b442c95d6a3ee772f63a381c98b2e1d7a5b50"
                 },
                 "downloads": -1,
-                "filename": "Orange3_SingleCell-1.5.0-py3-none-any.whl",
+                "filename": "Orange3_SingleCell-1.6.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "fd8fce4b47a6a9566305bb836e02f697",
+                "md5_digest": "94d50f9178b0fa4a7ad1acf384ef3a77",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.6",
-                "size": 786361,
-                "upload_time": "2021-09-16T07:23:02",
-                "upload_time_iso_8601": "2021-09-16T07:23:02.766700Z",
-                "url": "https://files.pythonhosted.org/packages/d6/6c/18b1edb84a6765f44c3f50510959ca3638e215dced4597c1a856ea51df38/Orange3_SingleCell-1.5.0-py3-none-any.whl",
+                "size": 794337,
+                "upload_time": "2024-03-21T14:20:45",
+                "upload_time_iso_8601": "2024-03-21T14:20:45.210915Z",
+                "url": "https://files.pythonhosted.org/packages/e8/5b/dac38da3d108dbbbf87b4567b331bf444b47d71ef41978ec4f358bfebf5c/Orange3_SingleCell-1.6.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "83b0f6d9903bc780be4950342b5b132ae1a62ff1d3ec137ff3d8724cbfb4c9d8",
-                    "md5": "90cb46eca940b03cbb4c2bfc71f755b6",
-                    "sha256": "11c65ef66caa1514838469f0c723bd3bea19643a86049b59dc59d5bb2eb3b396"
+                    "blake2b_256": "c1ddc7e76c4a3cf5d08aa5ffb5c10472a6a0e6aa3900c2287b9400413a2eaf41",
+                    "md5": "6ee3bb7fdd8f322e46b63932cc0aa39e",
+                    "sha256": "dccce6cb63085fff3dc524e12325e9dfb6c415661dacc57454a27e21bb31341a"
                 },
                 "downloads": -1,
-                "filename": "Orange3-SingleCell-1.5.0.tar.gz",
+                "filename": "Orange3-SingleCell-1.6.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "90cb46eca940b03cbb4c2bfc71f755b6",
+                "md5_digest": "6ee3bb7fdd8f322e46b63932cc0aa39e",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.6",
-                "size": 2351341,
-                "upload_time": "2021-09-16T07:23:06",
-                "upload_time_iso_8601": "2021-09-16T07:23:06.583836Z",
-                "url": "https://files.pythonhosted.org/packages/83/b0/f6d9903bc780be4950342b5b132ae1a62ff1d3ec137ff3d8724cbfb4c9d8/Orange3-SingleCell-1.5.0.tar.gz",
+                "size": 2359335,
+                "upload_time": "2024-03-21T14:20:51",
+                "upload_time_iso_8601": "2024-03-21T14:20:51.110254Z",
+                "url": "https://files.pythonhosted.org/packages/c1/dd/c7e76c4a3cf5d08aa5ffb5c10472a6a0e6aa3900c2287b9400413a2eaf41/Orange3-SingleCell-1.6.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
