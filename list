@@ -15476,7 +15476,7 @@
             "description": "Orange3-Survival-Analysis\n=========================\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
-            "download_url": "",
+            "download_url": null,
             "downloads": {
                 "last_day": -1,
                 "last_month": -1,
@@ -15487,7 +15487,7 @@
             "keywords": "'orange3 add-on'",
             "license": "GPL3+",
             "maintainer": "Jaka Kokosar",
-            "maintainer_email": "",
+            "maintainer_email": null,
             "name": "Orange3-Survival-Analysis",
             "package_url": "https://pypi.org/project/Orange3-Survival-Analysis/",
             "platform": null,
@@ -15498,26 +15498,27 @@
                 "Source Code": "https://github.com/biolab/orange3-survival-analysis/"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.6.0/",
+            "release_url": "https://pypi.org/project/Orange3-Survival-Analysis/0.6.1/",
             "requires_dist": [
-                "Orange3 >=3.32.0",
+                "Orange3>=3.34.0",
                 "lifelines",
                 "statsmodels",
-                "sphinx ; extra == 'doc'",
-                "recommonmark ; extra == 'doc'",
-                "pytest ; extra == 'test'",
-                "coverage ; extra == 'test'",
-                "flake8 ; extra == 'test'",
-                "flake8-bugbear ; extra == 'test'",
-                "black ; extra == 'test'"
+                "sphinx; extra == \"doc\"",
+                "recommonmark; extra == \"doc\"",
+                "sphinx-rtd-theme; extra == \"doc\"",
+                "pytest; extra == \"test\"",
+                "coverage; extra == \"test\"",
+                "flake8; extra == \"test\"",
+                "flake8-bugbear; extra == \"test\"",
+                "black; extra == \"test\""
             ],
             "requires_python": ">=3.9",
             "summary": "Survival Analysis add-on for Orange data mining software package.",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 20972132,
+        "last_serial": 22439013,
         "releases": {
             "0.1.0": [
                 {
@@ -15914,48 +15915,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.6.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "50fe0443e92fdb29c0442769257a54f9482c29821c9b64be05952c292562875b",
+                        "md5": "c89914921e322196d9af3d2b7d540cd5",
+                        "sha256": "fd2a6caabfced00ff15b139614b30533ec8d8743137ae8c8735634e4ebba5412"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Survival_Analysis-0.6.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "c89914921e322196d9af3d2b7d540cd5",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.9",
+                    "size": 62380,
+                    "upload_time": "2024-03-22T08:29:09",
+                    "upload_time_iso_8601": "2024-03-22T08:29:09.744115Z",
+                    "url": "https://files.pythonhosted.org/packages/50/fe/0443e92fdb29c0442769257a54f9482c29821c9b64be05952c292562875b/Orange3_Survival_Analysis-0.6.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "360a907a37e8bf306c15671b2d8d9585b2b0fc09dd05ba52083107e9c69b6607",
+                        "md5": "6f17519efcc72e4fa3a412f7e5d248a7",
+                        "sha256": "c4b2df41f40e38204e0fb233fe45baec58e5c73755384a35fe9d83cd97ab512d"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3-Survival-Analysis-0.6.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "6f17519efcc72e4fa3a412f7e5d248a7",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.9",
+                    "size": 4045526,
+                    "upload_time": "2024-03-22T08:29:11",
+                    "upload_time_iso_8601": "2024-03-22T08:29:11.002045Z",
+                    "url": "https://files.pythonhosted.org/packages/36/0a/907a37e8bf306c15671b2d8d9585b2b0fc09dd05ba52083107e9c69b6607/Orange3-Survival-Analysis-0.6.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "73756efa51434a8008b1b221f05eb9f749e84403fa328bcb7c75a067179a9793",
-                    "md5": "cd8fa4efcb6dcb61d0cd0681c68e1189",
-                    "sha256": "8f29f9e4ff2549efb209f46e8c64dcb28464ebfcd512fa1958e938f882fcfb38"
+                    "blake2b_256": "50fe0443e92fdb29c0442769257a54f9482c29821c9b64be05952c292562875b",
+                    "md5": "c89914921e322196d9af3d2b7d540cd5",
+                    "sha256": "fd2a6caabfced00ff15b139614b30533ec8d8743137ae8c8735634e4ebba5412"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Survival_Analysis-0.6.0-py3-none-any.whl",
+                "filename": "Orange3_Survival_Analysis-0.6.1-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "cd8fa4efcb6dcb61d0cd0681c68e1189",
+                "md5_digest": "c89914921e322196d9af3d2b7d540cd5",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.9",
-                "size": 63123,
-                "upload_time": "2023-12-08T13:01:17",
-                "upload_time_iso_8601": "2023-12-08T13:01:17.946640Z",
-                "url": "https://files.pythonhosted.org/packages/73/75/6efa51434a8008b1b221f05eb9f749e84403fa328bcb7c75a067179a9793/Orange3_Survival_Analysis-0.6.0-py3-none-any.whl",
+                "size": 62380,
+                "upload_time": "2024-03-22T08:29:09",
+                "upload_time_iso_8601": "2024-03-22T08:29:09.744115Z",
+                "url": "https://files.pythonhosted.org/packages/50/fe/0443e92fdb29c0442769257a54f9482c29821c9b64be05952c292562875b/Orange3_Survival_Analysis-0.6.1-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "5fdee941c066dbd10320e686f25d8a5fafdebffd7511fa3ed771bab70625fc36",
-                    "md5": "9157fead893df9da77ca5cecd36e9206",
-                    "sha256": "7eb927e1c65061b2e4ee25bfaa1a059ef20f974522f4ae8b98cfe06906519ee7"
+                    "blake2b_256": "360a907a37e8bf306c15671b2d8d9585b2b0fc09dd05ba52083107e9c69b6607",
+                    "md5": "6f17519efcc72e4fa3a412f7e5d248a7",
+                    "sha256": "c4b2df41f40e38204e0fb233fe45baec58e5c73755384a35fe9d83cd97ab512d"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Survival-Analysis-0.6.0.tar.gz",
+                "filename": "Orange3-Survival-Analysis-0.6.1.tar.gz",
                 "has_sig": false,
-                "md5_digest": "9157fead893df9da77ca5cecd36e9206",
+                "md5_digest": "6f17519efcc72e4fa3a412f7e5d248a7",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.9",
-                "size": 4046182,
-                "upload_time": "2023-12-08T13:01:20",
-                "upload_time_iso_8601": "2023-12-08T13:01:20.960934Z",
-                "url": "https://files.pythonhosted.org/packages/5f/de/e941c066dbd10320e686f25d8a5fafdebffd7511fa3ed771bab70625fc36/Orange3-Survival-Analysis-0.6.0.tar.gz",
+                "size": 4045526,
+                "upload_time": "2024-03-22T08:29:11",
+                "upload_time_iso_8601": "2024-03-22T08:29:11.002045Z",
+                "url": "https://files.pythonhosted.org/packages/36/0a/907a37e8bf306c15671b2d8d9585b2b0fc09dd05ba52083107e9c69b6607/Orange3-Survival-Analysis-0.6.1.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
