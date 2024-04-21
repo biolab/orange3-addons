@@ -7,6 +7,7 @@ Orange3-Geo
 Orange3-ImageAnalytics
 Orange3-Network
 Orange3-Prototypes
+Orange3-Pumice
 Orange3-SingleCell
 Orange-Spectroscopy
 Orange3-Survival-Analysis
