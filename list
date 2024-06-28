@@ -5928,7 +5928,7 @@
             "description": "Orange3 Fairness\n================\n\nOrange3 Fairness is an add-on for the [Orange3](http://orangedatamining.com/) data mining suite. \nIt provides extensions for fairness-aware AI, which includes algorithms for detecting and mitigating \ndifferent types of biases in the data and the predictions of machine learning models. \nSee [documentation](https://orange3-fairness.readthedocs.io/).\n\nFeatures\n--------\n#### Bias detection\n* detect bias present in the data\n* detect bias present in model predictions\n\n#### Bias mitigation\n* pre-processing, in-processing and post-processing methods for bias mitigation\n\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
-            "download_url": "",
+            "download_url": null,
             "downloads": {
                 "last_day": -1,
                 "last_month": -1,
@@ -5936,10 +5936,10 @@
             },
             "dynamic": null,
             "home_page": "https://github.com/biolab/orange3-fairness",
-            "keywords": "orange3 add-on,orange3 fairness",
+            "keywords": "orange3 add-on, orange3 fairness",
             "license": "GPL3+",
             "maintainer": "Zan Mervic",
-            "maintainer_email": "",
+            "maintainer_email": null,
             "name": "Orange3-Fairness",
             "package_url": "https://pypi.org/project/Orange3-Fairness/",
             "platform": null,
@@ -5947,23 +5947,25 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-fairness"
             },
-            "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Fairness/0.2.0/",
+            "provides_extra": [
+                "doc"
+            ],
+            "release_url": "https://pypi.org/project/Orange3-Fairness/0.2.1/",
             "requires_dist": [
                 "numpy",
                 "Orange3",
-                "aif360 >=0.6.0",
-                "sphinx ; extra == 'doc'",
-                "sphinx-rtd-theme ; extra == 'doc'",
-                "recommonmark ; extra == 'doc'"
+                "aif360>=0.6.0",
+                "sphinx; extra == \"doc\"",
+                "sphinx-rtd-theme; extra == \"doc\"",
+                "recommonmark; extra == \"doc\""
             ],
-            "requires_python": "",
+            "requires_python": null,
             "summary": "Orange3 add-on for fairness-aware machine learning.",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 22393526,
+        "last_serial": 23892382,
         "releases": {
             "0.1.0": [
                 {
@@ -6404,48 +6406,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.2.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "f2dd1599d4ecb73f91edd3f63eb1f7846b3bf8cfedb4a6e8223ff8b221b6be5d",
+                        "md5": "89e666d7e5245e20252acc46b52d5dac",
+                        "sha256": "cf9ba244c06e7a4084342d57ca00e4c513f41804421c7fa9f4733fdd63de6302"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Fairness-0.2.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "89e666d7e5245e20252acc46b52d5dac",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3540331,
+                    "upload_time": "2024-06-28T08:49:26",
+                    "upload_time_iso_8601": "2024-06-28T08:49:26.755294Z",
+                    "url": "https://files.pythonhosted.org/packages/f2/dd/1599d4ecb73f91edd3f63eb1f7846b3bf8cfedb4a6e8223ff8b221b6be5d/Orange3_Fairness-0.2.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "a58338d473e5a00ac59eefd609ad290c111d6c5124ff1bdc78482376122cf390",
+                        "md5": "5234cbd4341a000f941530c36429d42d",
+                        "sha256": "684c416d67063ed00e7fc94d8da38621d9a8621169f411624b4375aac76c3612"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_fairness-0.2.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "5234cbd4341a000f941530c36429d42d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 45121,
+                    "upload_time": "2024-06-28T08:49:28",
+                    "upload_time_iso_8601": "2024-06-28T08:49:28.575566Z",
+                    "url": "https://files.pythonhosted.org/packages/a5/83/38d473e5a00ac59eefd609ad290c111d6c5124ff1bdc78482376122cf390/orange3_fairness-0.2.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "27435ea8742d285d2672d1de2a00d977ffca8747a9adcfd79986546be9c50390",
-                    "md5": "445fa6b6ae7cf2616ded8efea281f63e",
-                    "sha256": "44e99da006a55f7f27df9abed0f54e5597808be80bac737ead132574c0b6519d"
+                    "blake2b_256": "f2dd1599d4ecb73f91edd3f63eb1f7846b3bf8cfedb4a6e8223ff8b221b6be5d",
+                    "md5": "89e666d7e5245e20252acc46b52d5dac",
+                    "sha256": "cf9ba244c06e7a4084342d57ca00e4c513f41804421c7fa9f4733fdd63de6302"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Fairness-0.2.0-py3-none-any.whl",
+                "filename": "Orange3_Fairness-0.2.1-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "445fa6b6ae7cf2616ded8efea281f63e",
+                "md5_digest": "89e666d7e5245e20252acc46b52d5dac",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 3534628,
-                "upload_time": "2024-03-19T18:25:09",
-                "upload_time_iso_8601": "2024-03-19T18:25:09.039327Z",
-                "url": "https://files.pythonhosted.org/packages/27/43/5ea8742d285d2672d1de2a00d977ffca8747a9adcfd79986546be9c50390/Orange3_Fairness-0.2.0-py3-none-any.whl",
+                "size": 3540331,
+                "upload_time": "2024-06-28T08:49:26",
+                "upload_time_iso_8601": "2024-06-28T08:49:26.755294Z",
+                "url": "https://files.pythonhosted.org/packages/f2/dd/1599d4ecb73f91edd3f63eb1f7846b3bf8cfedb4a6e8223ff8b221b6be5d/Orange3_Fairness-0.2.1-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "756a30cde6cb0c166a14ac2d2afa5f8dc1cff8b04e344e9cc93cba5e3d755af7",
-                    "md5": "f0797395d799ee80bab063587782fb37",
-                    "sha256": "53586b63f0e94d7c6884632a3d8ca179d065e0f17914656210883b6eae6a1156"
+                    "blake2b_256": "a58338d473e5a00ac59eefd609ad290c111d6c5124ff1bdc78482376122cf390",
+                    "md5": "5234cbd4341a000f941530c36429d42d",
+                    "sha256": "684c416d67063ed00e7fc94d8da38621d9a8621169f411624b4375aac76c3612"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Fairness-0.2.0.tar.gz",
+                "filename": "orange3_fairness-0.2.1.tar.gz",
                 "has_sig": false,
-                "md5_digest": "f0797395d799ee80bab063587782fb37",
+                "md5_digest": "5234cbd4341a000f941530c36429d42d",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 45755,
-                "upload_time": "2024-03-19T18:25:11",
-                "upload_time_iso_8601": "2024-03-19T18:25:11.288989Z",
-                "url": "https://files.pythonhosted.org/packages/75/6a/30cde6cb0c166a14ac2d2afa5f8dc1cff8b04e344e9cc93cba5e3d755af7/Orange3-Fairness-0.2.0.tar.gz",
+                "size": 45121,
+                "upload_time": "2024-06-28T08:49:28",
+                "upload_time_iso_8601": "2024-06-28T08:49:28.575566Z",
+                "url": "https://files.pythonhosted.org/packages/a5/83/38d473e5a00ac59eefd609ad290c111d6c5124ff1bdc78482376122cf390/orange3_fairness-0.2.1.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -13252,8 +13298,12 @@
                 "Homepage": "https://github.com/biolab/orange3-single-cell",
                 "Source Code": "https://github.com/biolab/orange3-single-cell"
             },
-            "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.7.1/",
+            "provides_extra": [
+                "doc",
+                "package",
+                "test"
+            ],
+            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.7.2/",
             "requires_dist": [
                 "Orange3>=3.34.0",
                 "orange3-bioinformatics>=4.0.0",
@@ -13275,11 +13325,11 @@
             ],
             "requires_python": ">=3.6",
             "summary": "Add-on for bioinformatics analysis of single cell data.",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 23429567,
+        "last_serial": 23892038,
         "releases": {
             "0.8.1": [
                 {
@@ -13749,48 +13799,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "1.7.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "1303b0ca0be1c9a5405de2546f3b85ee04ade001005d035a04711ff5f2d04760",
+                        "md5": "e0759ba681caf4dcbeaffbda28e8ebd0",
+                        "sha256": "8f017098ad671ba02bc89b97a4602fb07748a4485b6c38a6c4d0e0bb73e1c077"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_SingleCell-1.7.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "e0759ba681caf4dcbeaffbda28e8ebd0",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 798819,
+                    "upload_time": "2024-06-28T08:18:59",
+                    "upload_time_iso_8601": "2024-06-28T08:18:59.786303Z",
+                    "url": "https://files.pythonhosted.org/packages/13/03/b0ca0be1c9a5405de2546f3b85ee04ade001005d035a04711ff5f2d04760/Orange3_SingleCell-1.7.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "72850f6f5b459853b3755f25c82b519f313235de010730c1550abd40e5d585cc",
+                        "md5": "d207e4ee0f4e9750830c7bbfb160072d",
+                        "sha256": "77ade57665dc5c14f41945a228640e2cbd00620abbf3ea6e52a198962e7f30db"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_singlecell-1.7.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d207e4ee0f4e9750830c7bbfb160072d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 2608497,
+                    "upload_time": "2024-06-28T08:19:03",
+                    "upload_time_iso_8601": "2024-06-28T08:19:03.159853Z",
+                    "url": "https://files.pythonhosted.org/packages/72/85/0f6f5b459853b3755f25c82b519f313235de010730c1550abd40e5d585cc/orange3_singlecell-1.7.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "c473eb9681758ee2937d3f153179f862d995b576197f4c807e3cc79b9e90b218",
-                    "md5": "44804f43e5a730e2325f29d9e5eaa5df",
-                    "sha256": "399c03506770f100375ada39327647879512c28d0fbffecb9e9cfd4ec63d6dec"
+                    "blake2b_256": "1303b0ca0be1c9a5405de2546f3b85ee04ade001005d035a04711ff5f2d04760",
+                    "md5": "e0759ba681caf4dcbeaffbda28e8ebd0",
+                    "sha256": "8f017098ad671ba02bc89b97a4602fb07748a4485b6c38a6c4d0e0bb73e1c077"
                 },
                 "downloads": -1,
-                "filename": "Orange3_SingleCell-1.7.1-py3-none-any.whl",
+                "filename": "Orange3_SingleCell-1.7.2-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "44804f43e5a730e2325f29d9e5eaa5df",
+                "md5_digest": "e0759ba681caf4dcbeaffbda28e8ebd0",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.6",
-                "size": 798821,
-                "upload_time": "2024-05-29T12:25:57",
-                "upload_time_iso_8601": "2024-05-29T12:25:57.109745Z",
-                "url": "https://files.pythonhosted.org/packages/c4/73/eb9681758ee2937d3f153179f862d995b576197f4c807e3cc79b9e90b218/Orange3_SingleCell-1.7.1-py3-none-any.whl",
+                "size": 798819,
+                "upload_time": "2024-06-28T08:18:59",
+                "upload_time_iso_8601": "2024-06-28T08:18:59.786303Z",
+                "url": "https://files.pythonhosted.org/packages/13/03/b0ca0be1c9a5405de2546f3b85ee04ade001005d035a04711ff5f2d04760/Orange3_SingleCell-1.7.2-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "f21f43c56efa73dfd1e9c18ed46ef03ff24f00a1872a86d1d5cd8e9d9e009d7d",
-                    "md5": "198d8a05b5dae3bbe036c9a078c35f5d",
-                    "sha256": "841e4594d16455300d35cf85a824bf3b2cce060654e26c820b7d746b4f85c0c8"
+                    "blake2b_256": "72850f6f5b459853b3755f25c82b519f313235de010730c1550abd40e5d585cc",
+                    "md5": "d207e4ee0f4e9750830c7bbfb160072d",
+                    "sha256": "77ade57665dc5c14f41945a228640e2cbd00620abbf3ea6e52a198962e7f30db"
                 },
                 "downloads": -1,
-                "filename": "orange3_singlecell-1.7.1.tar.gz",
+                "filename": "orange3_singlecell-1.7.2.tar.gz",
                 "has_sig": false,
-                "md5_digest": "198d8a05b5dae3bbe036c9a078c35f5d",
+                "md5_digest": "d207e4ee0f4e9750830c7bbfb160072d",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.6",
-                "size": 2608516,
-                "upload_time": "2024-05-29T12:25:59",
-                "upload_time_iso_8601": "2024-05-29T12:25:59.370575Z",
-                "url": "https://files.pythonhosted.org/packages/f2/1f/43c56efa73dfd1e9c18ed46ef03ff24f00a1872a86d1d5cd8e9d9e009d7d/orange3_singlecell-1.7.1.tar.gz",
+                "size": 2608497,
+                "upload_time": "2024-06-28T08:19:03",
+                "upload_time_iso_8601": "2024-06-28T08:19:03.159853Z",
+                "url": "https://files.pythonhosted.org/packages/72/85/0f6f5b459853b3755f25c82b519f313235de010730c1550abd40e5d585cc/orange3_singlecell-1.7.2.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
