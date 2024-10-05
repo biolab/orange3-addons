@@ -14105,7 +14105,7 @@
                 "doc",
                 "test"
             ],
-            "release_url": "https://pypi.org/project/Orange-Spectroscopy/0.7.1/",
+            "release_url": "https://pypi.org/project/Orange-Spectroscopy/0.7.2/",
             "requires_dist": [
                 "setuptools>=36.3",
                 "pip>=9.0",
@@ -14134,11 +14134,11 @@
             ],
             "requires_python": ">3.8.0",
             "summary": "Extends Orange to handle spectral and hyperspectral analysis.",
-            "version": "0.7.1",
+            "version": "0.7.2",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 25325830,
+        "last_serial": 25337417,
         "releases": {
             "0.3.0": [
                 {
@@ -16259,48 +16259,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.7.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "af6bb2bc867f4f8d02d880483d32ecee1bf19e854c421cc312afed319f2ac410",
+                        "md5": "73cf3f982758e5e3f84fa4de63ec4049",
+                        "sha256": "dbebe66fa36f1c4bc3ee9d8c87eb151a3759b2f210e4847123c7cc59711210f5"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange_Spectroscopy-0.7.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "73cf3f982758e5e3f84fa4de63ec4049",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">3.8.0",
+                    "size": 2721223,
+                    "upload_time": "2024-10-05T14:11:31",
+                    "upload_time_iso_8601": "2024-10-05T14:11:31.794026Z",
+                    "url": "https://files.pythonhosted.org/packages/af/6b/b2bc867f4f8d02d880483d32ecee1bf19e854c421cc312afed319f2ac410/Orange_Spectroscopy-0.7.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "52e0f8525520f37477f4483c4538ff04f3d1461da635bf94ac51778daa71690d",
+                        "md5": "4345e40de66b04058a97955bf2543cee",
+                        "sha256": "697ce55a6aed2381dbbb22e5d37d1d2267c8b0d99bce59c411e4219744110ad9"
+                    },
+                    "downloads": -1,
+                    "filename": "orange_spectroscopy-0.7.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "4345e40de66b04058a97955bf2543cee",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">3.8.0",
+                    "size": 2556076,
+                    "upload_time": "2024-10-05T14:11:33",
+                    "upload_time_iso_8601": "2024-10-05T14:11:33.758181Z",
+                    "url": "https://files.pythonhosted.org/packages/52/e0/f8525520f37477f4483c4538ff04f3d1461da635bf94ac51778daa71690d/orange_spectroscopy-0.7.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "decdd678c889c8c268684265a504b790826bc9a0f2ef8453706a7bf8ff771516",
-                    "md5": "fdcc7e4f57501a01f788cd1757d17639",
-                    "sha256": "3bf7d9100bccbad260ecf55f456f5e36947538fda371a4ccbeb6c140c0e1cd23"
+                    "blake2b_256": "af6bb2bc867f4f8d02d880483d32ecee1bf19e854c421cc312afed319f2ac410",
+                    "md5": "73cf3f982758e5e3f84fa4de63ec4049",
+                    "sha256": "dbebe66fa36f1c4bc3ee9d8c87eb151a3759b2f210e4847123c7cc59711210f5"
                 },
                 "downloads": -1,
-                "filename": "Orange_Spectroscopy-0.7.1-py3-none-any.whl",
+                "filename": "Orange_Spectroscopy-0.7.2-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "fdcc7e4f57501a01f788cd1757d17639",
+                "md5_digest": "73cf3f982758e5e3f84fa4de63ec4049",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">3.8.0",
-                "size": 2721055,
-                "upload_time": "2024-10-04T14:32:18",
-                "upload_time_iso_8601": "2024-10-04T14:32:18.817852Z",
-                "url": "https://files.pythonhosted.org/packages/de/cd/d678c889c8c268684265a504b790826bc9a0f2ef8453706a7bf8ff771516/Orange_Spectroscopy-0.7.1-py3-none-any.whl",
+                "size": 2721223,
+                "upload_time": "2024-10-05T14:11:31",
+                "upload_time_iso_8601": "2024-10-05T14:11:31.794026Z",
+                "url": "https://files.pythonhosted.org/packages/af/6b/b2bc867f4f8d02d880483d32ecee1bf19e854c421cc312afed319f2ac410/Orange_Spectroscopy-0.7.2-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "8740db0519b73f35d1a86a673449836a92c646c6c4e96feb220b8f2824c04c6c",
-                    "md5": "6a539745093b42c02a88b0575151dbc5",
-                    "sha256": "f2c9bb9c28a9372d04008315f4cce46fa8c7e124c4a0c62a203d2b3e421a244e"
+                    "blake2b_256": "52e0f8525520f37477f4483c4538ff04f3d1461da635bf94ac51778daa71690d",
+                    "md5": "4345e40de66b04058a97955bf2543cee",
+                    "sha256": "697ce55a6aed2381dbbb22e5d37d1d2267c8b0d99bce59c411e4219744110ad9"
                 },
                 "downloads": -1,
-                "filename": "orange_spectroscopy-0.7.1.tar.gz",
+                "filename": "orange_spectroscopy-0.7.2.tar.gz",
                 "has_sig": false,
-                "md5_digest": "6a539745093b42c02a88b0575151dbc5",
+                "md5_digest": "4345e40de66b04058a97955bf2543cee",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">3.8.0",
-                "size": 2555856,
-                "upload_time": "2024-10-04T14:32:21",
-                "upload_time_iso_8601": "2024-10-04T14:32:21.947791Z",
-                "url": "https://files.pythonhosted.org/packages/87/40/db0519b73f35d1a86a673449836a92c646c6c4e96feb220b8f2824c04c6c/orange_spectroscopy-0.7.1.tar.gz",
+                "size": 2556076,
+                "upload_time": "2024-10-05T14:11:33",
+                "upload_time_iso_8601": "2024-10-05T14:11:33.758181Z",
+                "url": "https://files.pythonhosted.org/packages/52/e0/f8525520f37477f4483c4538ff04f3d1461da635bf94ac51778daa71690d/orange_spectroscopy-0.7.2.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -22202,10 +22246,10 @@
                 "doc",
                 "test"
             ],
-            "release_url": "https://pypi.org/project/Orange-SNOM/0.0.3/",
+            "release_url": "https://pypi.org/project/Orange-SNOM/0.0.4/",
             "requires_dist": [
                 "Orange3>=3.34.0",
-                "orange-spectroscopy>=0.7.1",
+                "orange-spectroscopy>=0.7.2",
                 "numpy<2.0.0,>=1.21.0",
                 "pySNOM>=0.1.0",
                 "sphinx; extra == \"doc\"",
@@ -22219,11 +22263,11 @@
             ],
             "requires_python": ">=3.10",
             "summary": "SNOM add-on for Orange data mining software package.",
-            "version": "0.0.3",
+            "version": "0.0.4",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 25328559,
+        "last_serial": 25337511,
         "releases": {
             "0.0.2": [
                 {
@@ -22312,48 +22356,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.0.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "11aa4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f",
+                        "md5": "c55c8cba9977ae2fa24d4ef517ae9430",
+                        "sha256": "eb4a46cb8c090ac90ee4ac7f32369ca49e592fc5f391edb751e62f100cba7a96"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange_SNOM-0.0.4-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "c55c8cba9977ae2fa24d4ef517ae9430",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.10",
+                    "size": 22076,
+                    "upload_time": "2024-10-05T14:24:53",
+                    "upload_time_iso_8601": "2024-10-05T14:24:53.774358Z",
+                    "url": "https://files.pythonhosted.org/packages/11/aa/4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f/Orange_SNOM-0.0.4-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "e7543ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7",
+                        "md5": "3747cda9c27128820bcde0bebb551978",
+                        "sha256": "1e850f7761e75be9ec1495215974cd214cb9117e911e5ad767518fef2b65cdc4"
+                    },
+                    "downloads": -1,
+                    "filename": "orange_snom-0.0.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "3747cda9c27128820bcde0bebb551978",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.10",
+                    "size": 17898,
+                    "upload_time": "2024-10-05T14:24:55",
+                    "upload_time_iso_8601": "2024-10-05T14:24:55.201186Z",
+                    "url": "https://files.pythonhosted.org/packages/e7/54/3ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7/orange_snom-0.0.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "d8cd122f1c2fba07cc688d9e021aa2f1e3238d051f323e65ea98fb5af4b3a60f",
-                    "md5": "db73a5470c056dfd7b84e2af108a9952",
-                    "sha256": "949575658eec51881ed239e58e4b6368f8c2cda3f198da3c83fac83193e380cf"
+                    "blake2b_256": "11aa4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f",
+                    "md5": "c55c8cba9977ae2fa24d4ef517ae9430",
+                    "sha256": "eb4a46cb8c090ac90ee4ac7f32369ca49e592fc5f391edb751e62f100cba7a96"
                 },
                 "downloads": -1,
-                "filename": "Orange_SNOM-0.0.3-py3-none-any.whl",
+                "filename": "Orange_SNOM-0.0.4-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "db73a5470c056dfd7b84e2af108a9952",
+                "md5_digest": "c55c8cba9977ae2fa24d4ef517ae9430",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.10",
-                "size": 22077,
-                "upload_time": "2024-10-04T17:17:55",
-                "upload_time_iso_8601": "2024-10-04T17:17:55.205313Z",
-                "url": "https://files.pythonhosted.org/packages/d8/cd/122f1c2fba07cc688d9e021aa2f1e3238d051f323e65ea98fb5af4b3a60f/Orange_SNOM-0.0.3-py3-none-any.whl",
+                "size": 22076,
+                "upload_time": "2024-10-05T14:24:53",
+                "upload_time_iso_8601": "2024-10-05T14:24:53.774358Z",
+                "url": "https://files.pythonhosted.org/packages/11/aa/4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f/Orange_SNOM-0.0.4-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "4e1f65b70d9e1349934828a9055e415f61a43bc19ca9a4adfaae8ca71a3a4577",
-                    "md5": "1fc2f668bbcfbe50e4de2f57c9b1c2dd",
-                    "sha256": "7ec557cca9951a0b3dfdb549f1e21f14aa766b2704e16815bfb758020443ec0a"
+                    "blake2b_256": "e7543ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7",
+                    "md5": "3747cda9c27128820bcde0bebb551978",
+                    "sha256": "1e850f7761e75be9ec1495215974cd214cb9117e911e5ad767518fef2b65cdc4"
                 },
                 "downloads": -1,
-                "filename": "orange_snom-0.0.3.tar.gz",
+                "filename": "orange_snom-0.0.4.tar.gz",
                 "has_sig": false,
-                "md5_digest": "1fc2f668bbcfbe50e4de2f57c9b1c2dd",
+                "md5_digest": "3747cda9c27128820bcde0bebb551978",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.10",
-                "size": 17858,
-                "upload_time": "2024-10-04T17:17:57",
-                "upload_time_iso_8601": "2024-10-04T17:17:57.555609Z",
-                "url": "https://files.pythonhosted.org/packages/4e/1f/65b70d9e1349934828a9055e415f61a43bc19ca9a4adfaae8ca71a3a4577/orange_snom-0.0.3.tar.gz",
+                "size": 17898,
+                "upload_time": "2024-10-05T14:24:55",
+                "upload_time_iso_8601": "2024-10-05T14:24:55.201186Z",
+                "url": "https://files.pythonhosted.org/packages/e7/54/3ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7/orange_snom-0.0.4.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
