@@ -13,6 +13,7 @@ Orange-Spectroscopy
 Orange3-Survival-Analysis
 Orange3-Text
 Orange3-Textable
+Orange3-Textable-Prototypes
 Orange3-Timeseries
 Orange3-WorldHappiness
 Orange-SNOM
