@@ -27,6 +27,8 @@
             "home_page": "https://github.com/biolab/orange3-associate",
             "keywords": "frequent itemset mining,frequent pattern mining,association rules,apriori,fp-growth,frequent patterns,FIM,FPM,orange3 add-on",
             "license": "",
+            "license_expression": null,
+            "license_files": null,
             "maintainer": "",
             "maintainer_email": "",
             "name": "Orange3-Associate",
