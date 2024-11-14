@@ -20471,6 +20471,8 @@
             "home_page": "https://github.com/biolab/orange3-timeseries",
             "keywords": "time series,sequence analysis,orange3 add-on,ARIMA,VAR model,forecast",
             "license": "GPLv3+",
+            "license_expression": null,
+            "license_files": null,
             "maintainer": "",
             "maintainer_email": "",
             "name": "Orange3-Timeseries",
