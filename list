@@ -14114,8 +14114,6 @@
             "home_page": "https://github.com/Quasars/orange-spectroscopy",
             "keywords": "orange3 add-on, spectroscopy, infrared",
             "license": "GPLv3+",
-            "license_expression": null,
-            "license_files": null,
             "maintainer": null,
             "maintainer_email": null,
             "name": "Orange-Spectroscopy",
