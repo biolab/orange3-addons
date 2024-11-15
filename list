@@ -19176,6 +19176,8 @@
             "home_page": "http://textable.io",
             "keywords": "text mining,text analysis,textable,orange3,orange3 add-on",
             "license": "GPLv3",
+            "license_expression": null,
+            "license_files": null,
             "maintainer": "",
             "maintainer_email": "",
             "name": "Orange3-Textable",
