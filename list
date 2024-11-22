@@ -13379,11 +13379,17 @@
             "project_urls": {
                 "Homepage": "https://github.com/biolab/orange3-pumice"
             },
-            "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Pumice/0.9.1/",
+            "provides_extra": [
+                "doc",
+                "test"
+            ],
+            "release_url": "https://pypi.org/project/Orange3-Pumice/1.0/",
             "requires_dist": [
-                "Orange3>=3.36",
+                "Orange3>=3.37",
                 "orange3-network",
+                "orange3-imageanalytics",
+                "orange-canvas-core>=0.2.2",
+                "orange-widget-base>=4.23.0",
                 "sphinx; extra == \"doc\"",
                 "recommonmark; extra == \"doc\"",
                 "sphinx_rtd_theme; extra == \"doc\"",
@@ -13391,11 +13397,11 @@
             ],
             "requires_python": null,
             "summary": "Educational widgets for project Pumice",
-            "version": "0.9.1",
+            "version": "1.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 22867125,
+        "last_serial": 26123947,
         "releases": {
             "0.9": [
                 {
@@ -13442,27 +13448,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "47c60fa4eb4cac443df3bf41bd6045f93bc576c7a6b207081ec3b289697c8efb",
+                        "md5": "aba38c6c6d12195c567e3710b41ff271",
+                        "sha256": "15176bc5150a2cbbcc68f31d9ee25509a906019edeb84bf70aebfc2135aeca0d"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Pumice-1.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "aba38c6c6d12195c567e3710b41ff271",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 20617,
+                    "upload_time": "2024-11-22T13:26:25",
+                    "upload_time_iso_8601": "2024-11-22T13:26:25.223968Z",
+                    "url": "https://files.pythonhosted.org/packages/47/c6/0fa4eb4cac443df3bf41bd6045f93bc576c7a6b207081ec3b289697c8efb/Orange3_Pumice-1.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "64c896da360f38ea448ce470a17693743edd25a9c0fa7cf16f08972bf9c0f1d7",
+                        "md5": "a872469296707ac98ca2e613fa75830e",
+                        "sha256": "f1f3cbde496837dbcefc748b61c4b1d41d68c420dd1da9a6309ee87f0e0be72e"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_pumice-1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "a872469296707ac98ca2e613fa75830e",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 20782,
+                    "upload_time": "2024-11-22T13:26:26",
+                    "upload_time_iso_8601": "2024-11-22T13:26:26.903274Z",
+                    "url": "https://files.pythonhosted.org/packages/64/c8/96da360f38ea448ce470a17693743edd25a9c0fa7cf16f08972bf9c0f1d7/orange3_pumice-1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "3f1c55e57e16922c74175e2fe146bf1714b15ba9935a08c573cacadd6b313460",
-                    "md5": "8ec5a44849982aa369c7c926de4a1a59",
-                    "sha256": "e3fe5dcebe2120c4df5635fb59b19b1fa957870059c10b0836ad6259cd702e5f"
+                    "blake2b_256": "47c60fa4eb4cac443df3bf41bd6045f93bc576c7a6b207081ec3b289697c8efb",
+                    "md5": "aba38c6c6d12195c567e3710b41ff271",
+                    "sha256": "15176bc5150a2cbbcc68f31d9ee25509a906019edeb84bf70aebfc2135aeca0d"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Pumice-0.9.1.tar.gz",
+                "filename": "Orange3_Pumice-1.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "8ec5a44849982aa369c7c926de4a1a59",
+                "md5_digest": "aba38c6c6d12195c567e3710b41ff271",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 20617,
+                "upload_time": "2024-11-22T13:26:25",
+                "upload_time_iso_8601": "2024-11-22T13:26:25.223968Z",
+                "url": "https://files.pythonhosted.org/packages/47/c6/0fa4eb4cac443df3bf41bd6045f93bc576c7a6b207081ec3b289697c8efb/Orange3_Pumice-1.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "64c896da360f38ea448ce470a17693743edd25a9c0fa7cf16f08972bf9c0f1d7",
+                    "md5": "a872469296707ac98ca2e613fa75830e",
+                    "sha256": "f1f3cbde496837dbcefc748b61c4b1d41d68c420dd1da9a6309ee87f0e0be72e"
+                },
+                "downloads": -1,
+                "filename": "orange3_pumice-1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a872469296707ac98ca2e613fa75830e",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 17643,
-                "upload_time": "2024-04-21T17:53:11",
-                "upload_time_iso_8601": "2024-04-21T17:53:11.038830Z",
-                "url": "https://files.pythonhosted.org/packages/3f/1c/55e57e16922c74175e2fe146bf1714b15ba9935a08c573cacadd6b313460/Orange3-Pumice-0.9.1.tar.gz",
+                "size": 20782,
+                "upload_time": "2024-11-22T13:26:26",
+                "upload_time_iso_8601": "2024-11-22T13:26:26.903274Z",
+                "url": "https://files.pythonhosted.org/packages/64/c8/96da360f38ea448ce470a17693743edd25a9c0fa7cf16f08972bf9c0f1d7/orange3_pumice-1.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
