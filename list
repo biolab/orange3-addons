@@ -14590,7 +14590,7 @@
                 "test",
                 "doc"
             ],
-            "release_url": "https://pypi.org/project/Orange-Spectroscopy/0.8.0/",
+            "release_url": "https://pypi.org/project/Orange-Spectroscopy/0.8.1/",
             "requires_dist": [
                 "setuptools>=51.0.0",
                 "pip>=19.3",
@@ -14619,11 +14619,11 @@
             ],
             "requires_python": ">3.8.0",
             "summary": "Extends Orange to handle spectral and hyperspectral analysis.",
-            "version": "0.8.0",
+            "version": "0.8.1",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 26718208,
+        "last_serial": 26815344,
         "releases": {
             "0.3.0": [
                 {
@@ -16832,48 +16832,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.8.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "6e3d6de403eefa51d13b16d64ed6d44b282a39d25da3dbb913c9a102726482a4",
+                        "md5": "3ffa3817b6d79d2c47d55ddc6679f14e",
+                        "sha256": "ecf35f30977753fa59dd15d749cea4d91ca7220be13a3c8d23afbf10a84c8db6"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange_Spectroscopy-0.8.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "3ffa3817b6d79d2c47d55ddc6679f14e",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">3.8.0",
+                    "size": 2917771,
+                    "upload_time": "2025-01-06T21:34:05",
+                    "upload_time_iso_8601": "2025-01-06T21:34:05.177057Z",
+                    "url": "https://files.pythonhosted.org/packages/6e/3d/6de403eefa51d13b16d64ed6d44b282a39d25da3dbb913c9a102726482a4/Orange_Spectroscopy-0.8.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "blake2b_256": "367e56283d772744d8a890edcc061f6acef50d8dadce58d2228f876c2d3aa3da",
+                        "md5": "b7c669dcbe3366b5da253764ea966a95",
+                        "sha256": "d45a26e91aeeecef19795630180a9e1a7f558c7e90607797b5e29235f3c8c141"
+                    },
+                    "downloads": -1,
+                    "filename": "orange_spectroscopy-0.8.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b7c669dcbe3366b5da253764ea966a95",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">3.8.0",
+                    "size": 2727914,
+                    "upload_time": "2025-01-06T21:34:08",
+                    "upload_time_iso_8601": "2025-01-06T21:34:08.088347Z",
+                    "url": "https://files.pythonhosted.org/packages/36/7e/56283d772744d8a890edcc061f6acef50d8dadce58d2228f876c2d3aa3da/orange_spectroscopy-0.8.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "f483129f514b78c77f046af437d52603a1b2f7ad7f6c5ad6cc7481c4c4dc75eb",
-                    "md5": "8305dc5a3b9452ba7a5def2edb631868",
-                    "sha256": "91e774b1977f1e00f2bafcda696a671d7ba3e98e50443f87fd980802531525dd"
+                    "blake2b_256": "6e3d6de403eefa51d13b16d64ed6d44b282a39d25da3dbb913c9a102726482a4",
+                    "md5": "3ffa3817b6d79d2c47d55ddc6679f14e",
+                    "sha256": "ecf35f30977753fa59dd15d749cea4d91ca7220be13a3c8d23afbf10a84c8db6"
                 },
                 "downloads": -1,
-                "filename": "Orange_Spectroscopy-0.8.0-py3-none-any.whl",
+                "filename": "Orange_Spectroscopy-0.8.1-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "8305dc5a3b9452ba7a5def2edb631868",
+                "md5_digest": "3ffa3817b6d79d2c47d55ddc6679f14e",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">3.8.0",
-                "size": 2917703,
-                "upload_time": "2024-12-30T07:07:20",
-                "upload_time_iso_8601": "2024-12-30T07:07:20.426429Z",
-                "url": "https://files.pythonhosted.org/packages/f4/83/129f514b78c77f046af437d52603a1b2f7ad7f6c5ad6cc7481c4c4dc75eb/Orange_Spectroscopy-0.8.0-py3-none-any.whl",
+                "size": 2917771,
+                "upload_time": "2025-01-06T21:34:05",
+                "upload_time_iso_8601": "2025-01-06T21:34:05.177057Z",
+                "url": "https://files.pythonhosted.org/packages/6e/3d/6de403eefa51d13b16d64ed6d44b282a39d25da3dbb913c9a102726482a4/Orange_Spectroscopy-0.8.1-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": "",
                 "digests": {
-                    "blake2b_256": "dfe7ff0b1cbcf4981f036c0abbf8b468e4d9afd6b3c2ec4c70c9b6d7c8ce605a",
-                    "md5": "b8cf220e45218f0eaad42a0e300b46f9",
-                    "sha256": "82de5c8d4f4a1fc94c80f308e5c84ada332d133e0da1272805fc050c8bc6665f"
+                    "blake2b_256": "367e56283d772744d8a890edcc061f6acef50d8dadce58d2228f876c2d3aa3da",
+                    "md5": "b7c669dcbe3366b5da253764ea966a95",
+                    "sha256": "d45a26e91aeeecef19795630180a9e1a7f558c7e90607797b5e29235f3c8c141"
                 },
                 "downloads": -1,
-                "filename": "orange_spectroscopy-0.8.0.tar.gz",
+                "filename": "orange_spectroscopy-0.8.1.tar.gz",
                 "has_sig": false,
-                "md5_digest": "b8cf220e45218f0eaad42a0e300b46f9",
+                "md5_digest": "b7c669dcbe3366b5da253764ea966a95",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">3.8.0",
-                "size": 2727866,
-                "upload_time": "2024-12-30T07:07:23",
-                "upload_time_iso_8601": "2024-12-30T07:07:23.339658Z",
-                "url": "https://files.pythonhosted.org/packages/df/e7/ff0b1cbcf4981f036c0abbf8b468e4d9afd6b3c2ec4c70c9b6d7c8ce605a/orange_spectroscopy-0.8.0.tar.gz",
+                "size": 2727914,
+                "upload_time": "2025-01-06T21:34:08",
+                "upload_time_iso_8601": "2025-01-06T21:34:08.088347Z",
+                "url": "https://files.pythonhosted.org/packages/36/7e/56283d772744d8a890edcc061f6acef50d8dadce58d2228f876c2d3aa3da/orange_spectroscopy-0.8.1.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
