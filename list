@@ -19767,8 +19767,8 @@
                 "Topic :: Text Processing :: General",
                 "Topic :: Text Processing :: Linguistic"
             ],
-            "description": "Textable\n========\n\nTextable is an open source add-on bringing advanced text-analytical\nfunctionalities to the `Orange Canvas <http://orange.biolab.si/>`_ data mining\nsoftware package (itself open source). Look at the following `example\n<http://orange-textable.readthedocs.io/en/latest/illustration.html>`_ to see\nit in typical action.\n\nThe project's website is http://textable.io. It hosts a repository of\n`recipes <http://textable.io/find-recipes>`_ to help you get started with\nTextable.\n\nDocumentation is hosted at http://orange3-textable.readthedocs.io/ and\nyou can get further support at https://textable.freshdesk.com/ or by e-mail\nto `support@textable.io <mailto:support@textable.io>`_\n\nOrange Textable was designed and implemented by `LangTech Sarl\n<http://langtech.ch>`_ on behalf of the `department of language and\ninformation sciences (SLI) <http://www.unil.ch/sli>`_ at the `University of\nLausanne <http://www.unil.ch>`_ (see `Credits\n<http://orange-textable.readthedocs.io/en/latest/credits.html>`_ and\n`How to cite Orange Textable\n<http://orange-textable.readthedocs.io/en/latest/citing.html>`_).\n\nFeatures\n--------\n\nBasic text analysis\n~~~~~~~~~~~~~~~~~~~\n\n* use regular expressions to segment letters, words, sentences, etc. or full-text query\n* use regexes to extract annotations from many input formats\n* import in-line XML markup (e.g. TEI)\n* include/exclude segments based on user-defined lists (stoplists)\n* filter segments based on frequency\n* easily generate random text samples\n\nAdvanced text analysis\n~~~~~~~~~~~~~~~~~~~~~~\n\n* concordances and collocations, also based on annotations\n* segment distribution, document-term matrix, transition matrix, etc.\n* co-occurrence tables, also between different types of segments\n* lemmatization and POS-tagging via Treetagger\n* robust linguistic complexity measures, incl. mean length of word, lexical diversity, etc.\n* many advanced data mining algorithms: clustering, classification, factor analyses, etc.\n\nText recoding\n~~~~~~~~~~~~~\n\n* Unicode-aware preprocessing functions, e.g. remove accents from Ancient Greek text\n* recode and restructure texts using regexes, e.g. rewrite CSV as XML\n\nExtensibility\n~~~~~~~~~~~~~\n\n* handles hundreds of text files\n* use Python script for custom text processing or to access external tools: NLTK, Pattern, GenSim, etc.\n\nInteroperability\n~~~~~~~~~~~~~~~~\n\n* import text from keyboard, files, or URLs\n* process any kind of raw text format: TXT, HTML, XML, CSV, etc.\n* supports many text encodings, incl. Unicode\n* export results in text files or copy-paste\n* easy interfacing with Orange's Text Mining add-on\n\nEase of access\n~~~~~~~~~~~~~~\n\n* user-friendly visual interface\n* ready-made recipes for a range of frequent use cases\n* extensive documentation\n* support and community forums\n\n\n",
-            "description_content_type": "",
+            "description": "Textable\r\n========\r\n\r\nTextable is an open source add-on bringing advanced text-analytical\r\nfunctionalities to the `Orange Canvas <http://orange.biolab.si/>`_ data mining\r\nsoftware package (itself open source). Look at the following `example\r\n<http://orange-textable.readthedocs.io/en/latest/illustration.html>`_ to see\r\nit in typical action.\r\n\r\nThe project's website is http://textable.io. It hosts a repository of\r\n`recipes <http://textable.io/find-recipes>`_ to help you get started with\r\nTextable.\r\n\r\nDocumentation is hosted at http://orange3-textable.readthedocs.io/ and\r\nyou can get further support at https://textable.freshdesk.com/ or by e-mail\r\nto `support@textable.io <mailto:support@textable.io>`_\r\n\r\nOrange Textable was designed and implemented by `LangTech Sarl\r\n<http://langtech.ch>`_ on behalf of the `department of language and\r\ninformation sciences (SLI) <http://www.unil.ch/sli>`_ at the `University of\r\nLausanne <http://www.unil.ch>`_ (see `Credits\r\n<http://orange-textable.readthedocs.io/en/latest/credits.html>`_ and\r\n`How to cite Orange Textable\r\n<http://orange-textable.readthedocs.io/en/latest/citing.html>`_).\r\n\r\nFeatures\r\n--------\r\n\r\nBasic text analysis\r\n~~~~~~~~~~~~~~~~~~~\r\n\r\n* use regular expressions to segment letters, words, sentences, etc. or full-text query\r\n* use regexes to extract annotations from many input formats\r\n* import in-line XML markup (e.g. TEI)\r\n* include/exclude segments based on user-defined lists (stoplists)\r\n* filter segments based on frequency\r\n* easily generate random text samples\r\n\r\nAdvanced text analysis\r\n~~~~~~~~~~~~~~~~~~~~~~\r\n\r\n* concordances and collocations, also based on annotations\r\n* segment distribution, document-term matrix, transition matrix, etc.\r\n* co-occurrence tables, also between different types of segments\r\n* lemmatization and POS-tagging via Treetagger\r\n* robust linguistic complexity measures, incl. mean length of word, lexical diversity, etc.\r\n* many advanced data mining algorithms: clustering, classification, factor analyses, etc.\r\n\r\nText recoding\r\n~~~~~~~~~~~~~\r\n\r\n* Unicode-aware preprocessing functions, e.g. remove accents from Ancient Greek text\r\n* recode and restructure texts using regexes, e.g. rewrite CSV as XML\r\n\r\nExtensibility\r\n~~~~~~~~~~~~~\r\n\r\n* handles hundreds of text files\r\n* use Python script for custom text processing or to access external tools: NLTK, Pattern, GenSim, etc.\r\n\r\nInteroperability\r\n~~~~~~~~~~~~~~~~\r\n\r\n* import text from keyboard, files, or URLs\r\n* process any kind of raw text format: TXT, HTML, XML, CSV, etc.\r\n* supports many text encodings, incl. Unicode\r\n* export results in text files or copy-paste\r\n* easy interfacing with Orange's Text Mining add-on\r\n\r\nEase of access\r\n~~~~~~~~~~~~~~\r\n\r\n* user-friendly visual interface\r\n* ready-made recipes for a range of frequent use cases\r\n* extensive documentation\r\n* support and community forums\r\n",
+            "description_content_type": null,
             "docs_url": null,
             "download_url": "https://github.com/axanthos/orange3-textable/archive/master.zip",
             "downloads": {
@@ -19776,41 +19776,52 @@
                 "last_month": -1,
                 "last_week": -1
             },
-            "dynamic": null,
+            "dynamic": [
+                "Author",
+                "Author-Email",
+                "Classifier",
+                "Description",
+                "Download-Url",
+                "Home-Page",
+                "Keywords",
+                "License",
+                "Requires-Dist",
+                "Summary"
+            ],
             "home_page": "http://textable.io",
-            "keywords": "text mining,text analysis,textable,orange3,orange3 add-on",
+            "keywords": "text mining, text analysis, textable, orange3, orange3 add-on",
             "license": "GPLv3",
             "license_expression": null,
             "license_files": null,
-            "maintainer": "",
-            "maintainer_email": "",
+            "maintainer": null,
+            "maintainer_email": null,
             "name": "Orange3-Textable",
             "package_url": "https://pypi.org/project/Orange3-Textable/",
-            "platform": "",
+            "platform": null,
             "project_url": "https://pypi.org/project/Orange3-Textable/",
             "project_urls": {
                 "Download": "https://github.com/axanthos/orange3-textable/archive/master.zip",
                 "Homepage": "http://textable.io"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Textable/3.1.11/",
+            "release_url": "https://pypi.org/project/Orange3-Textable/3.2.0/",
             "requires_dist": [
-                "Orange3 (>=3.14.0)",
+                "Orange3",
                 "setuptools",
                 "future",
-                "LTTL (>=2.0.12)",
+                "LTTL>=2.1.0",
                 "chardet",
                 "treetaggerwrapper",
                 "appdirs",
                 "pycountry"
             ],
-            "requires_python": "",
+            "requires_python": null,
             "summary": "Textable add-on for Orange 3 data mining software package.",
-            "version": "3.1.11",
+            "version": "3.2.0",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 10653605,
+        "last_serial": 27246483,
         "releases": {
             "3.0.0": [
                 {
@@ -21023,48 +21034,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "3.2.0": [
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "7b258daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b",
+                        "md5": "0dbd3409fb96e9f19c8c165dd1ba54cf",
+                        "sha256": "cea4c3a3f387dde40f88fa25da9be659c8e8ddc3a3edb37372af0b6f51ffd25d"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Textable-3.2.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "0dbd3409fb96e9f19c8c165dd1ba54cf",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 220345,
+                    "upload_time": "2025-02-02T10:33:23",
+                    "upload_time_iso_8601": "2025-02-02T10:33:23.042161Z",
+                    "url": "https://files.pythonhosted.org/packages/7b/25/8daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b/Orange3_Textable-3.2.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "85a7d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53",
+                        "md5": "079d863b90603cce659dd08848fcf5c4",
+                        "sha256": "3c3fca80fdc634fbb650cf01d55a1fe1a9fb448d0630d2c873ca807e18f2cf9c"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Textable-3.2.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "079d863b90603cce659dd08848fcf5c4",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 7036575,
+                    "upload_time": "2025-02-02T10:34:23",
+                    "upload_time_iso_8601": "2025-02-02T10:34:23.184846Z",
+                    "url": "https://files.pythonhosted.org/packages/85/a7/d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53/Orange3_Textable-3.2.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "28d8ad39845ba0701922212d9daea4c7823a1d146bc5737c5e06782f8acb8ffb",
-                    "md5": "9dde74d10849a135c3611e2708b23e5b",
-                    "sha256": "345a28bb62d5756f19ea674f06f6d9afefb25c61fc3d2b29f45467a79c873e94"
+                    "blake2b_256": "7b258daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b",
+                    "md5": "0dbd3409fb96e9f19c8c165dd1ba54cf",
+                    "sha256": "cea4c3a3f387dde40f88fa25da9be659c8e8ddc3a3edb37372af0b6f51ffd25d"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Textable-3.1.11-py3-none-any.whl",
+                "filename": "Orange3_Textable-3.2.0-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "9dde74d10849a135c3611e2708b23e5b",
+                "md5_digest": "0dbd3409fb96e9f19c8c165dd1ba54cf",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 198190,
-                "upload_time": "2021-06-15T15:11:37",
-                "upload_time_iso_8601": "2021-06-15T15:11:37.526032Z",
-                "url": "https://files.pythonhosted.org/packages/28/d8/ad39845ba0701922212d9daea4c7823a1d146bc5737c5e06782f8acb8ffb/Orange3_Textable-3.1.11-py3-none-any.whl",
+                "size": 220345,
+                "upload_time": "2025-02-02T10:33:23",
+                "upload_time_iso_8601": "2025-02-02T10:33:23.042161Z",
+                "url": "https://files.pythonhosted.org/packages/7b/25/8daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b/Orange3_Textable-3.2.0-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "ef98e6f250fd71388510622124b162a1158458c9d688673fb64bf3d73d77ea52",
-                    "md5": "91d774fa909f7d681505058a92ab20d5",
-                    "sha256": "87b070592d6f36bc31f6ae25812ce1b41d058b2a7bd974ef7c66d71319f8bf3a"
+                    "blake2b_256": "85a7d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53",
+                    "md5": "079d863b90603cce659dd08848fcf5c4",
+                    "sha256": "3c3fca80fdc634fbb650cf01d55a1fe1a9fb448d0630d2c873ca807e18f2cf9c"
                 },
                 "downloads": -1,
-                "filename": "Orange3-Textable-3.1.11.tar.gz",
+                "filename": "Orange3_Textable-3.2.0.tar.gz",
                 "has_sig": false,
-                "md5_digest": "91d774fa909f7d681505058a92ab20d5",
+                "md5_digest": "079d863b90603cce659dd08848fcf5c4",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 6412366,
-                "upload_time": "2021-06-15T15:11:42",
-                "upload_time_iso_8601": "2021-06-15T15:11:42.848051Z",
-                "url": "https://files.pythonhosted.org/packages/ef/98/e6f250fd71388510622124b162a1158458c9d688673fb64bf3d73d77ea52/Orange3-Textable-3.1.11.tar.gz",
+                "size": 7036575,
+                "upload_time": "2025-02-02T10:34:23",
+                "upload_time_iso_8601": "2025-02-02T10:34:23.184846Z",
+                "url": "https://files.pythonhosted.org/packages/85/a7/d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53/Orange3_Textable-3.2.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
