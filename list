@@ -19804,7 +19804,7 @@
                 "Homepage": "http://textable.io"
             },
             "provides_extra": null,
-            "release_url": "https://pypi.org/project/Orange3-Textable/3.2.0/",
+            "release_url": "https://pypi.org/project/Orange3-Textable/3.2.1/",
             "requires_dist": [
                 "Orange3",
                 "setuptools",
@@ -19817,11 +19817,11 @@
             ],
             "requires_python": null,
             "summary": "Textable add-on for Orange 3 data mining software package.",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 27246483,
+        "last_serial": 27264369,
         "releases": {
             "3.0.0": [
                 {
@@ -21078,48 +21078,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "3.2.1": [
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "283b94a65fd035d48a2b753e54bdf8a32184e0a973f24ca0871b7c77cbf5262d",
+                        "md5": "7410ebebadc7278c141be8818a42e68d",
+                        "sha256": "3180cdf066c74f76af161c9f611076ea992bf8288f6db08435682002f319f5dc"
+                    },
+                    "downloads": -1,
+                    "filename": "Orange3_Textable-3.2.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "7410ebebadc7278c141be8818a42e68d",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 204085,
+                    "upload_time": "2025-02-03T17:27:33",
+                    "upload_time_iso_8601": "2025-02-03T17:27:33.750933Z",
+                    "url": "https://files.pythonhosted.org/packages/28/3b/94a65fd035d48a2b753e54bdf8a32184e0a973f24ca0871b7c77cbf5262d/Orange3_Textable-3.2.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "bd6c2acbe414dfb601789c3e9d7b14d60fe2f47687264dee1553999a2d890485",
+                        "md5": "f239459e2504a8d1d555f88c7462a2c6",
+                        "sha256": "b7d0a9092acec2212f8c1574272c6b3a9412e6a0a292b719f1b4923400e56041"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_textable-3.2.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "f239459e2504a8d1d555f88c7462a2c6",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 7025514,
+                    "upload_time": "2025-02-03T17:28:39",
+                    "upload_time_iso_8601": "2025-02-03T17:28:39.558223Z",
+                    "url": "https://files.pythonhosted.org/packages/bd/6c/2acbe414dfb601789c3e9d7b14d60fe2f47687264dee1553999a2d890485/orange3_textable-3.2.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": null,
                 "digests": {
-                    "blake2b_256": "7b258daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b",
-                    "md5": "0dbd3409fb96e9f19c8c165dd1ba54cf",
-                    "sha256": "cea4c3a3f387dde40f88fa25da9be659c8e8ddc3a3edb37372af0b6f51ffd25d"
+                    "blake2b_256": "283b94a65fd035d48a2b753e54bdf8a32184e0a973f24ca0871b7c77cbf5262d",
+                    "md5": "7410ebebadc7278c141be8818a42e68d",
+                    "sha256": "3180cdf066c74f76af161c9f611076ea992bf8288f6db08435682002f319f5dc"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Textable-3.2.0-py3-none-any.whl",
+                "filename": "Orange3_Textable-3.2.1-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "0dbd3409fb96e9f19c8c165dd1ba54cf",
+                "md5_digest": "7410ebebadc7278c141be8818a42e68d",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": null,
-                "size": 220345,
-                "upload_time": "2025-02-02T10:33:23",
-                "upload_time_iso_8601": "2025-02-02T10:33:23.042161Z",
-                "url": "https://files.pythonhosted.org/packages/7b/25/8daad4e23b0cb7a18e806e003557b5e30d2ff4a84f636331dceea023447b/Orange3_Textable-3.2.0-py3-none-any.whl",
+                "size": 204085,
+                "upload_time": "2025-02-03T17:27:33",
+                "upload_time_iso_8601": "2025-02-03T17:27:33.750933Z",
+                "url": "https://files.pythonhosted.org/packages/28/3b/94a65fd035d48a2b753e54bdf8a32184e0a973f24ca0871b7c77cbf5262d/Orange3_Textable-3.2.1-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": null,
                 "digests": {
-                    "blake2b_256": "85a7d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53",
-                    "md5": "079d863b90603cce659dd08848fcf5c4",
-                    "sha256": "3c3fca80fdc634fbb650cf01d55a1fe1a9fb448d0630d2c873ca807e18f2cf9c"
+                    "blake2b_256": "bd6c2acbe414dfb601789c3e9d7b14d60fe2f47687264dee1553999a2d890485",
+                    "md5": "f239459e2504a8d1d555f88c7462a2c6",
+                    "sha256": "b7d0a9092acec2212f8c1574272c6b3a9412e6a0a292b719f1b4923400e56041"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Textable-3.2.0.tar.gz",
+                "filename": "orange3_textable-3.2.1.tar.gz",
                 "has_sig": false,
-                "md5_digest": "079d863b90603cce659dd08848fcf5c4",
+                "md5_digest": "f239459e2504a8d1d555f88c7462a2c6",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": null,
-                "size": 7036575,
-                "upload_time": "2025-02-02T10:34:23",
-                "upload_time_iso_8601": "2025-02-02T10:34:23.184846Z",
-                "url": "https://files.pythonhosted.org/packages/85/a7/d298999e5324ae2bad74c2ea12c79ac912a4386759b281aa90ea85c5bf53/Orange3_Textable-3.2.0.tar.gz",
+                "size": 7025514,
+                "upload_time": "2025-02-03T17:28:39",
+                "upload_time_iso_8601": "2025-02-03T17:28:39.558223Z",
+                "url": "https://files.pythonhosted.org/packages/bd/6c/2acbe414dfb601789c3e9d7b14d60fe2f47687264dee1553999a2d890485/orange3_textable-3.2.1.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
