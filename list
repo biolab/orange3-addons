@@ -23656,7 +23656,7 @@
             "author_email": "info@biolab.si",
             "bugtrack_url": null,
             "classifiers": [],
-            "description": "Orange toolbox for SNOM\n=======================\n\nThis is an add-on for [Orange3](http://orange.biolab.si) for SNOM.\n",
+            "description": "Orange toolbox for SNOM\n=======================\n\nThis is an add-on for [Orange3](http://orange.biolab.si) for scanning near-field optical microscopy.\n",
             "description_content_type": "text/markdown",
             "docs_url": null,
             "download_url": null,
@@ -23686,15 +23686,15 @@
                 "doc",
                 "test"
             ],
-            "release_url": "https://pypi.org/project/Orange-SNOM/0.0.4/",
+            "release_url": "https://pypi.org/project/Orange-SNOM/0.0.5/",
             "requires_dist": [
                 "Orange3>=3.34.0",
                 "orange-spectroscopy>=0.7.2",
-                "numpy<2.0.0,>=1.21.0",
+                "numpy<2.0.0,>=1.24.0",
                 "pySNOM>=0.1.0",
                 "sphinx; extra == \"doc\"",
                 "recommonmark; extra == \"doc\"",
-                "sphinx-rtd-theme; extra == \"doc\"",
+                "sphinx_rtd_theme; extra == \"doc\"",
                 "pytest; extra == \"test\"",
                 "coverage; extra == \"test\"",
                 "flake8; extra == \"test\"",
@@ -23703,11 +23703,11 @@
             ],
             "requires_python": ">=3.10",
             "summary": "SNOM add-on for Orange data mining software package.",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 25337511,
+        "last_serial": 29666823,
         "releases": {
             "0.0.2": [
                 {
@@ -23840,48 +23840,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "0.0.5": [
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "30553e6716ae0f181f6e2a0b98a0da4cde013f01abfcf8afdc8feab1fa517f62",
+                        "md5": "04c559b635cf35adc0ee70f2c68cc17a",
+                        "sha256": "74b4fe58dcd19c25a899654e6c9c042e2f2e26b5e1687f4be421d57d597417a4"
+                    },
+                    "downloads": -1,
+                    "filename": "orange_snom-0.0.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "04c559b635cf35adc0ee70f2c68cc17a",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.10",
+                    "size": 22321,
+                    "upload_time": "2025-06-17T15:26:13",
+                    "upload_time_iso_8601": "2025-06-17T15:26:13.041035Z",
+                    "url": "https://files.pythonhosted.org/packages/30/55/3e6716ae0f181f6e2a0b98a0da4cde013f01abfcf8afdc8feab1fa517f62/orange_snom-0.0.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "451613e1cc8a024f2c46ce1b82d53960f773e974ee93a15f0c3b611cc36cb7fd",
+                        "md5": "bc21e85fd96048522d4c6b24604aeb80",
+                        "sha256": "6dbc32cca190bb6e6e61af8dfd35fedc8b917f36baedd6c026d6eefedfbfdc1e"
+                    },
+                    "downloads": -1,
+                    "filename": "orange_snom-0.0.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "bc21e85fd96048522d4c6b24604aeb80",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.10",
+                    "size": 18459,
+                    "upload_time": "2025-06-17T15:26:14",
+                    "upload_time_iso_8601": "2025-06-17T15:26:14.456648Z",
+                    "url": "https://files.pythonhosted.org/packages/45/16/13e1cc8a024f2c46ce1b82d53960f773e974ee93a15f0c3b611cc36cb7fd/orange_snom-0.0.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "11aa4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f",
-                    "md5": "c55c8cba9977ae2fa24d4ef517ae9430",
-                    "sha256": "eb4a46cb8c090ac90ee4ac7f32369ca49e592fc5f391edb751e62f100cba7a96"
+                    "blake2b_256": "30553e6716ae0f181f6e2a0b98a0da4cde013f01abfcf8afdc8feab1fa517f62",
+                    "md5": "04c559b635cf35adc0ee70f2c68cc17a",
+                    "sha256": "74b4fe58dcd19c25a899654e6c9c042e2f2e26b5e1687f4be421d57d597417a4"
                 },
                 "downloads": -1,
-                "filename": "Orange_SNOM-0.0.4-py3-none-any.whl",
+                "filename": "orange_snom-0.0.5-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "c55c8cba9977ae2fa24d4ef517ae9430",
+                "md5_digest": "04c559b635cf35adc0ee70f2c68cc17a",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.10",
-                "size": 22076,
-                "upload_time": "2024-10-05T14:24:53",
-                "upload_time_iso_8601": "2024-10-05T14:24:53.774358Z",
-                "url": "https://files.pythonhosted.org/packages/11/aa/4a61517650f9c443d9f7c2c87a91863801d684ff1110c39313bc8d7d6c5f/Orange_SNOM-0.0.4-py3-none-any.whl",
+                "size": 22321,
+                "upload_time": "2025-06-17T15:26:13",
+                "upload_time_iso_8601": "2025-06-17T15:26:13.041035Z",
+                "url": "https://files.pythonhosted.org/packages/30/55/3e6716ae0f181f6e2a0b98a0da4cde013f01abfcf8afdc8feab1fa517f62/orange_snom-0.0.5-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "e7543ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7",
-                    "md5": "3747cda9c27128820bcde0bebb551978",
-                    "sha256": "1e850f7761e75be9ec1495215974cd214cb9117e911e5ad767518fef2b65cdc4"
+                    "blake2b_256": "451613e1cc8a024f2c46ce1b82d53960f773e974ee93a15f0c3b611cc36cb7fd",
+                    "md5": "bc21e85fd96048522d4c6b24604aeb80",
+                    "sha256": "6dbc32cca190bb6e6e61af8dfd35fedc8b917f36baedd6c026d6eefedfbfdc1e"
                 },
                 "downloads": -1,
-                "filename": "orange_snom-0.0.4.tar.gz",
+                "filename": "orange_snom-0.0.5.tar.gz",
                 "has_sig": false,
-                "md5_digest": "3747cda9c27128820bcde0bebb551978",
+                "md5_digest": "bc21e85fd96048522d4c6b24604aeb80",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.10",
-                "size": 17898,
-                "upload_time": "2024-10-05T14:24:55",
-                "upload_time_iso_8601": "2024-10-05T14:24:55.201186Z",
-                "url": "https://files.pythonhosted.org/packages/e7/54/3ada0d6a075a386f5b44357e095efbbe66074ca247e686930018a6d57af7/orange_snom-0.0.4.tar.gz",
+                "size": 18459,
+                "upload_time": "2025-06-17T15:26:14",
+                "upload_time_iso_8601": "2025-06-17T15:26:14.456648Z",
+                "url": "https://files.pythonhosted.org/packages/45/16/13e1cc8a024f2c46ce1b82d53960f773e974ee93a15f0c3b611cc36cb7fd/orange_snom-0.0.5.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
