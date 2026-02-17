@@ -3319,12 +3319,18 @@
                 "last_month": -1,
                 "last_week": -1
             },
-            "dynamic": null,
+            "dynamic": [
+                "License-File",
+                "Provides-Extra",
+                "Requires-Dist"
+            ],
             "home_page": "https://github.com/biolab/orange3-bioinformatics",
             "keywords": "'orange3 add-on'",
             "license": "GPL3+",
             "license_expression": null,
-            "license_files": null,
+            "license_files": [
+                "LICENSE"
+            ],
             "maintainer": "Jaka Kokosar",
             "maintainer_email": null,
             "name": "Orange3-Bioinformatics",
@@ -3341,7 +3347,7 @@
                 "doc",
                 "test"
             ],
-            "release_url": "https://pypi.org/project/Orange3-Bioinformatics/4.8.4/",
+            "release_url": "https://pypi.org/project/Orange3-Bioinformatics/4.8.5/",
             "requires_dist": [
                 "Orange3>=3.34.0",
                 "orange-widget-base>=4.19.0",
@@ -3351,13 +3357,13 @@
                 "requests-cache>=0.8.0",
                 "resdk>=20.0.0",
                 "genesis-pyapi",
-                "single-sample-gsea>=0.2.0",
+                "single_sample_gsea>=0.2.0",
                 "numpy",
                 "scipy",
                 "serverfiles",
                 "sphinx; extra == \"doc\"",
                 "recommonmark; extra == \"doc\"",
-                "sphinx-rtd-theme; extra == \"doc\"",
+                "sphinx_rtd_theme; extra == \"doc\"",
                 "docutils<0.17; extra == \"doc\"",
                 "flake8; extra == \"test\"",
                 "flake8-comprehensions; extra == \"test\"",
@@ -3371,11 +3377,11 @@
             ],
             "requires_python": ">=3.6",
             "summary": "Orange Bioinformatics add-on for Orange data mining software package.",
-            "version": "4.8.4",
+            "version": "4.8.5",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 25260566,
+        "last_serial": 34394037,
         "ownership": {
             "organization": null,
             "roles": [
@@ -4676,48 +4682,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "4.8.5": [
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "bd7b4be00ebf9a24c7187310b251742577ed2fd61d6e5b3dbf8c77155ed2fc36",
+                        "md5": "0611bc555fc25d7d5525b8dca69e9fc6",
+                        "sha256": "c272a3cb0ab3efa01350fb245e08dd1372be929d737b7fb792144039a78723a2"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_bioinformatics-4.8.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "0611bc555fc25d7d5525b8dca69e9fc6",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 339995,
+                    "upload_time": "2026-02-17T20:04:29",
+                    "upload_time_iso_8601": "2026-02-17T20:04:29.309099Z",
+                    "url": "https://files.pythonhosted.org/packages/bd/7b/4be00ebf9a24c7187310b251742577ed2fd61d6e5b3dbf8c77155ed2fc36/orange3_bioinformatics-4.8.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "ebf5dd245e379a165fd2dd249017b8670977a9512b45105fd21c8dd8193368c6",
+                        "md5": "00fc502ada01b2d0f242c578a1c44c9c",
+                        "sha256": "55ff15e2a5155cf360322d82ff6361451d87501b58dccc050048dcf902fa4ff2"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_bioinformatics-4.8.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "00fc502ada01b2d0f242c578a1c44c9c",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 3737076,
+                    "upload_time": "2026-02-17T20:04:30",
+                    "upload_time_iso_8601": "2026-02-17T20:04:30.968307Z",
+                    "url": "https://files.pythonhosted.org/packages/eb/f5/dd245e379a165fd2dd249017b8670977a9512b45105fd21c8dd8193368c6/orange3_bioinformatics-4.8.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "040c7f438a977c08c022554ecb28baed4d334454a519811780de67cb6bc3fc0d",
-                    "md5": "aa55ab48bfb720a9be6ce16eb5ba2cc8",
-                    "sha256": "4de47813318674b5332ecc0edd3c80367c21c02a1c757ee7e4b7a210c371f3db"
+                    "blake2b_256": "bd7b4be00ebf9a24c7187310b251742577ed2fd61d6e5b3dbf8c77155ed2fc36",
+                    "md5": "0611bc555fc25d7d5525b8dca69e9fc6",
+                    "sha256": "c272a3cb0ab3efa01350fb245e08dd1372be929d737b7fb792144039a78723a2"
                 },
                 "downloads": -1,
-                "filename": "Orange3_Bioinformatics-4.8.4-py3-none-any.whl",
+                "filename": "orange3_bioinformatics-4.8.5-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "aa55ab48bfb720a9be6ce16eb5ba2cc8",
+                "md5_digest": "0611bc555fc25d7d5525b8dca69e9fc6",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.6",
-                "size": 339700,
-                "upload_time": "2024-09-30T17:50:34",
-                "upload_time_iso_8601": "2024-09-30T17:50:34.525743Z",
-                "url": "https://files.pythonhosted.org/packages/04/0c/7f438a977c08c022554ecb28baed4d334454a519811780de67cb6bc3fc0d/Orange3_Bioinformatics-4.8.4-py3-none-any.whl",
+                "size": 339995,
+                "upload_time": "2026-02-17T20:04:29",
+                "upload_time_iso_8601": "2026-02-17T20:04:29.309099Z",
+                "url": "https://files.pythonhosted.org/packages/bd/7b/4be00ebf9a24c7187310b251742577ed2fd61d6e5b3dbf8c77155ed2fc36/orange3_bioinformatics-4.8.5-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
-                "comment_text": "",
+                "comment_text": null,
                 "digests": {
-                    "blake2b_256": "981c3566dd92e4ef3bc863a63601af351420560b971e0f9f2ca90b0b52b880e8",
-                    "md5": "72b5e00d9a4ab6760c8b8da3800d36fc",
-                    "sha256": "275a32d3948df5294350c25bb430336b5d4109afaf71edd7ccc76591cb9eeb8b"
+                    "blake2b_256": "ebf5dd245e379a165fd2dd249017b8670977a9512b45105fd21c8dd8193368c6",
+                    "md5": "00fc502ada01b2d0f242c578a1c44c9c",
+                    "sha256": "55ff15e2a5155cf360322d82ff6361451d87501b58dccc050048dcf902fa4ff2"
                 },
                 "downloads": -1,
-                "filename": "orange3_bioinformatics-4.8.4.tar.gz",
+                "filename": "orange3_bioinformatics-4.8.5.tar.gz",
                 "has_sig": false,
-                "md5_digest": "72b5e00d9a4ab6760c8b8da3800d36fc",
+                "md5_digest": "00fc502ada01b2d0f242c578a1c44c9c",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.6",
-                "size": 3736720,
-                "upload_time": "2024-09-30T17:50:36",
-                "upload_time_iso_8601": "2024-09-30T17:50:36.355659Z",
-                "url": "https://files.pythonhosted.org/packages/98/1c/3566dd92e4ef3bc863a63601af351420560b971e0f9f2ca90b0b52b880e8/orange3_bioinformatics-4.8.4.tar.gz",
+                "size": 3737076,
+                "upload_time": "2026-02-17T20:04:30",
+                "upload_time_iso_8601": "2026-02-17T20:04:30.968307Z",
+                "url": "https://files.pythonhosted.org/packages/eb/f5/dd245e379a165fd2dd249017b8670977a9512b45105fd21c8dd8193368c6/orange3_bioinformatics-4.8.5.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -5986,6 +6036,27 @@
             "yanked_reason": null
         },
         "last_serial": 23674156,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "markotoplak"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -7031,6 +7102,19 @@
             "yanked_reason": null
         },
         "last_serial": 30150780,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "ZanMervic"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -14424,6 +14508,47 @@
             "yanked_reason": null
         },
         "last_serial": 22338596,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "apretnar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "blaz.zupan"
+                },
+                {
+                    "role": "Owner",
+                    "user": "janezdemsar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "jkokosar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -16783,6 +16908,23 @@
             "yanked_reason": null
         },
         "last_serial": 33601992,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "quasar.codes"
+                },
+                {
+                    "role": "Owner",
+                    "user": "stuart-cls"
+                }
+            ]
+        },
         "releases": {
             "0.3.0": [
                 {
@@ -19320,6 +19462,19 @@
             "yanked_reason": null
         },
         "last_serial": 31900243,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "jkokosar"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -19992,6 +20147,35 @@
             "yanked_reason": null
         },
         "last_serial": 28880708,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "apretnar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "janezdemsar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "nikicc"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "primozgodec"
+                }
+            ]
+        },
         "releases": {
             "0.1.1": [],
             "0.1.10": [
@@ -23982,6 +24166,43 @@
             "yanked_reason": null
         },
         "last_serial": 22338591,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "apretnar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "janezdemsar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "lanzagar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "rokgomiscek"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
