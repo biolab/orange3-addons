@@ -4789,6 +4789,35 @@
             "yanked_reason": null
         },
         "last_serial": 33133398,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "Anze.Staric"
+                },
+                {
+                    "role": "Owner",
+                    "user": "kernc"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "rokgomiscek"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.0.1": [
                 {
@@ -16751,6 +16780,23 @@
             "yanked_reason": null
         },
         "last_serial": 33601992,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "quasar.codes"
+                },
+                {
+                    "role": "Owner",
+                    "user": "stuart-cls"
+                }
+            ]
+        },
         "releases": {
             "0.3.0": [
                 {
