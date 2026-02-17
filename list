@@ -16219,6 +16219,35 @@
             "yanked_reason": null
         },
         "last_serial": 28718542,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "Anze.Staric"
+                },
+                {
+                    "role": "Owner",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Owner",
+                    "user": "jkokosar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "lanzagar"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "lenatr99"
+                }
+            ]
+        },
         "releases": {
             "0.8.1": [
                 {
@@ -22486,6 +22515,15 @@
             "yanked_reason": null
         },
         "last_serial": 31903055,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "axanthos"
+                }
+            ]
+        },
         "releases": {
             "3.0.0": [
                 {
