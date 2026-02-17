@@ -24985,6 +24985,23 @@
             "yanked_reason": null
         },
         "last_serial": 23393114,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "nejchirci"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.1.1": [
                 {
