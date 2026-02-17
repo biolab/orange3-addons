@@ -3376,6 +3376,31 @@
             "yanked_reason": null
         },
         "last_serial": 25260566,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "Anze.Staric"
+                },
+                {
+                    "role": "Owner",
+                    "user": "jkokosar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "lenatr99"
+                }
+            ]
+        },
         "releases": {
             "3.0.2": [
                 {
@@ -5932,6 +5957,27 @@
             "yanked_reason": null
         },
         "last_serial": 23674156,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "markotoplak"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -6977,6 +7023,19 @@
             "yanked_reason": null
         },
         "last_serial": 30150780,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "ZanMervic"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.1.0": [
                 {
@@ -7709,6 +7768,47 @@
             "yanked_reason": null
         },
         "last_serial": 26127303,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Owner",
+                    "user": "apretnar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "janezdemsar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "blaz.zupan"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "jkokosar"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "rokgomiscek"
+                }
+            ]
+        },
         "releases": {
             "0.1.3": [
                 {
@@ -19860,6 +19960,35 @@
             "yanked_reason": null
         },
         "last_serial": 28880708,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "apretnar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "janezdemsar"
+                },
+                {
+                    "role": "Owner",
+                    "user": "nikicc"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "primozgodec"
+                }
+            ]
+        },
         "releases": {
             "0.1.1": [],
             "0.1.10": [
