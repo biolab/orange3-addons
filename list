@@ -26111,6 +26111,19 @@
             "yanked_reason": null
         },
         "last_serial": 33165542,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "quasar.codes"
+                }
+            ]
+        },
         "releases": {
             "0.0.2": [
                 {
