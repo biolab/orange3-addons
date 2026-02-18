@@ -8654,6 +8654,39 @@
             "yanked_reason": null
         },
         "last_serial": 24845556,
+        "ownership": {
+            "organization": null,
+            "roles": [
+                {
+                    "role": "Owner",
+                    "user": "AlesErjavec"
+                },
+                {
+                    "role": "Owner",
+                    "user": "Anze.Staric"
+                },
+                {
+                    "role": "Owner",
+                    "user": "VesnaT"
+                },
+                {
+                    "role": "Owner",
+                    "user": "blaz.zupan"
+                },
+                {
+                    "role": "Owner",
+                    "user": "markotoplak"
+                },
+                {
+                    "role": "Owner",
+                    "user": "primozgodec"
+                },
+                {
+                    "role": "Maintainer",
+                    "user": "biolab-helper"
+                }
+            ]
+        },
         "releases": {
             "0.0.1": [],
             "0.0.2": [
