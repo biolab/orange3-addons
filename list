@@ -16337,7 +16337,7 @@
                 "package",
                 "test"
             ],
-            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.7.4/",
+            "release_url": "https://pypi.org/project/Orange3-SingleCell/1.7.5/",
             "requires_dist": [
                 "Orange3>=3.34.0",
                 "orange3-bioinformatics>=4.0.0",
@@ -16359,11 +16359,11 @@
             ],
             "requires_python": ">=3.6",
             "summary": "Add-on for bioinformatics analysis of single cell data.",
-            "version": "1.7.4",
+            "version": "1.7.5",
             "yanked": false,
             "yanked_reason": null
         },
-        "last_serial": 34779309,
+        "last_serial": 36420401,
         "ownership": {
             "organization": null,
             "roles": [
@@ -16994,48 +16994,92 @@
                     "yanked": false,
                     "yanked_reason": null
                 }
+            ],
+            "1.7.5": [
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "a0067f4b2a83e7ebe0157b56f26a52eb4cce98e53999924faf5aa701bdabed10",
+                        "md5": "78d0f262c9890074db4e05c3c9833111",
+                        "sha256": "7e6e6f85b5b549504b709439cbb54238c6994ac428b26f2d71d47f431c9a4e42"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_singlecell-1.7.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "78d0f262c9890074db4e05c3c9833111",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 805194,
+                    "upload_time": "2026-04-24T09:43:48",
+                    "upload_time_iso_8601": "2026-04-24T09:43:48.646349Z",
+                    "url": "https://files.pythonhosted.org/packages/a0/06/7f4b2a83e7ebe0157b56f26a52eb4cce98e53999924faf5aa701bdabed10/orange3_singlecell-1.7.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": null,
+                    "digests": {
+                        "blake2b_256": "8b7bb72156f42e8de670c12e05482491a82a409682b5fb6f3513f1a5edfc0ba4",
+                        "md5": "31266f51bcc6be46e8be67de75719b71",
+                        "sha256": "4bb9d24b2d0312a8e0c5148d4e1a3d8fb7f5cc1e815f1d50ba1935457c76b272"
+                    },
+                    "downloads": -1,
+                    "filename": "orange3_singlecell-1.7.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "31266f51bcc6be46e8be67de75719b71",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 2613973,
+                    "upload_time": "2026-04-24T09:43:50",
+                    "upload_time_iso_8601": "2026-04-24T09:43:50.314662Z",
+                    "url": "https://files.pythonhosted.org/packages/8b/7b/b72156f42e8de670c12e05482491a82a409682b5fb6f3513f1a5edfc0ba4/orange3_singlecell-1.7.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
             ]
         },
         "urls": [
             {
                 "comment_text": null,
                 "digests": {
-                    "blake2b_256": "ad6ab6c584062e51e4c3fbfc1d183c5e5a75d54e099db9300bc39f5b24d9c943",
-                    "md5": "f99e3fea8a45291e92a1c28cd8530c16",
-                    "sha256": "ae3ec216bc265671d3bae11c9bdfa1e32c36674f4068f56558f26a745b3befc6"
+                    "blake2b_256": "a0067f4b2a83e7ebe0157b56f26a52eb4cce98e53999924faf5aa701bdabed10",
+                    "md5": "78d0f262c9890074db4e05c3c9833111",
+                    "sha256": "7e6e6f85b5b549504b709439cbb54238c6994ac428b26f2d71d47f431c9a4e42"
                 },
                 "downloads": -1,
-                "filename": "orange3_singlecell-1.7.4-py3-none-any.whl",
+                "filename": "orange3_singlecell-1.7.5-py3-none-any.whl",
                 "has_sig": false,
-                "md5_digest": "f99e3fea8a45291e92a1c28cd8530c16",
+                "md5_digest": "78d0f262c9890074db4e05c3c9833111",
                 "packagetype": "bdist_wheel",
                 "python_version": "py3",
                 "requires_python": ">=3.6",
-                "size": 805318,
-                "upload_time": "2026-03-03T12:47:37",
-                "upload_time_iso_8601": "2026-03-03T12:47:37.366507Z",
-                "url": "https://files.pythonhosted.org/packages/ad/6a/b6c584062e51e4c3fbfc1d183c5e5a75d54e099db9300bc39f5b24d9c943/orange3_singlecell-1.7.4-py3-none-any.whl",
+                "size": 805194,
+                "upload_time": "2026-04-24T09:43:48",
+                "upload_time_iso_8601": "2026-04-24T09:43:48.646349Z",
+                "url": "https://files.pythonhosted.org/packages/a0/06/7f4b2a83e7ebe0157b56f26a52eb4cce98e53999924faf5aa701bdabed10/orange3_singlecell-1.7.5-py3-none-any.whl",
                 "yanked": false,
                 "yanked_reason": null
             },
             {
                 "comment_text": null,
                 "digests": {
-                    "blake2b_256": "ec715eb827fa62ac413a9b3af817083fcd8ed0e391b0d07cb73a4bd2d05f7a66",
-                    "md5": "a6b91c2d05832ef91fa93f0c0a83a87d",
-                    "sha256": "9f8fa2bc16b548fc05d95c8fe272ba8ff4db98ed6b622a6a1befa52796616f2a"
+                    "blake2b_256": "8b7bb72156f42e8de670c12e05482491a82a409682b5fb6f3513f1a5edfc0ba4",
+                    "md5": "31266f51bcc6be46e8be67de75719b71",
+                    "sha256": "4bb9d24b2d0312a8e0c5148d4e1a3d8fb7f5cc1e815f1d50ba1935457c76b272"
                 },
                 "downloads": -1,
-                "filename": "orange3_singlecell-1.7.4.tar.gz",
+                "filename": "orange3_singlecell-1.7.5.tar.gz",
                 "has_sig": false,
-                "md5_digest": "a6b91c2d05832ef91fa93f0c0a83a87d",
+                "md5_digest": "31266f51bcc6be46e8be67de75719b71",
                 "packagetype": "sdist",
                 "python_version": "source",
                 "requires_python": ">=3.6",
-                "size": 2614091,
-                "upload_time": "2026-03-03T12:47:38",
-                "upload_time_iso_8601": "2026-03-03T12:47:38.879028Z",
-                "url": "https://files.pythonhosted.org/packages/ec/71/5eb827fa62ac413a9b3af817083fcd8ed0e391b0d07cb73a4bd2d05f7a66/orange3_singlecell-1.7.4.tar.gz",
+                "size": 2613973,
+                "upload_time": "2026-04-24T09:43:50",
+                "upload_time_iso_8601": "2026-04-24T09:43:50.314662Z",
+                "url": "https://files.pythonhosted.org/packages/8b/7b/b72156f42e8de670c12e05482491a82a409682b5fb6f3513f1a5edfc0ba4/orange3_singlecell-1.7.5.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
